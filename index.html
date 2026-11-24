@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <title>VECTOR 84 // Radar de IA, Extrusión FDM y Emprendimiento</title>
+  <meta name="description" content="Radar editorial automatizado en español sobre Inteligencia Artificial, Impresión 3D por extrusión de filamento (FDM/FFF), Emprendimiento y Papers Científicos descargables.">
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="VECTOR 84 RSS" href="./feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="retro-fx-on">
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
+  <!-- Hero Synthwave Editorial -->
+  <header class="site-header">
+    <div class="horizon-grid" aria-hidden="true"></div>
+    <div class="container header-inner">
+      <div class="telemetry-bar" aria-label="Estado de actualización del radar">
+        <span class="telemetry-pill">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          <span>AUTO-SYNC ACTIVO</span>
+        </span>
+        <span class="telemetry-meta" id="meta-edition">EDICIÓN —</span>
+        <span class="telemetry-meta" id="meta-updated">Actualizado —</span>
+        <div class="telemetry-actions">
+          <button type="button" class="chip-toggle" id="toggle-retro-fx" aria-pressed="true" title="Activar o suavizar los efectos retro visuales">
+            <span aria-hidden="true">◈</span>
+            <span>Efectos 80s: ON</span>
+          </button>
+          <a class="chip-link" href="./feed.xml" target="_blank" rel="noopener noreferrer">
+            <span aria-hidden="true">⌁</span>
+            <span>RSS</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="brand-row">
+        <div class="brand-block">
+          <div class="brand-kicker">TRANSMISIÓN DIARIA EN ESPAÑOL · FUENTES GLOBALES</div>
+          <h1 class="brand-title">
+            <span class="brand-word">VECTOR</span><span class="brand-num">84</span>
+          </h1>
+          <p class="brand-subtitle">
+            Radar personal de <strong>Inteligencia Artificial</strong>, <strong>Fabricación Aditiva FDM</strong> (extrusión de filamento) y <strong>Emprendimiento</strong> — noticias resumidas + papers científicos con PDF directo.
+          </p>
+        </div>
+
+        <nav class="section-nav" aria-label="Secciones principales">
+          <button type="button" class="nav-tab is-active" data-view="all" aria-pressed="true">
+            <span aria-hidden="true">◉</span>
+            <span>Portada</span>
+            <span class="tab-count" id="count-all">0</span>
+          </button>
+          <button type="button" class="nav-tab" data-view="news" aria-pressed="false">
+            <span aria-hidden="true">⚡</span>
+            <span>Noticias</span>
+            <span class="tab-count" id="count-news">0</span>
+          </button>
+          <button type="button" class="nav-tab" data-view="papers" aria-pressed="false">
+            <span aria-hidden="true">⬡</span>
+            <span>Papers PDF</span>
+            <span class="tab-count" id="count-papers">0</span>
+          </button>
+          <button type="button" class="nav-tab" data-view="saved" aria-pressed="false">
+            <span aria-hidden="true">★</span>
+            <span>Guardados</span>
+            <span class="tab-count" id="count-saved">0</span>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" class="container main-shell">
+    <!-- EL PARTE DIARIO -->
+    <section class="briefing-panel" id="briefing-section" aria-labelledby="briefing-heading">
+      <div class="briefing-head">
+        <div>
+          <div class="briefing-kicker">
+            <span aria-hidden="true">▸</span>
+            <span>EL PARTE DIARIO // LECTURA EN 30 SEGUNDOS</span>
+          </div>
+          <h2 id="briefing-heading" class="briefing-title">Cargando claves del día…</h2>
+          <p id="briefing-intro" class="briefing-intro"></p>
+        </div>
+        <button type="button" class="btn-ghost" id="toggle-briefing" aria-expanded="true" aria-controls="briefing-list">
+          Ocultar parte
+        </button>
+      </div>
+      <ol id="briefing-list" class="briefing-list"></ol>
+    </section>
+
+    <!-- BARRA DE FILTROS Y BÚSQUEDA -->
+    <section class="controls-bar" aria-label="Filtros y búsqueda">
+      <div class="filter-pills" role="group" aria-label="Filtrar por temática">
+        <button type="button" class="filter-pill is-active" data-cat="all" aria-pressed="true">
+          <span aria-hidden="true">❖</span>
+          <span>Todo</span>
+          <span class="pill-badge" id="cat-count-all">0</span>
+        </button>
+        <button type="button" class="filter-pill cat-fdm" data-cat="fdm" aria-pressed="false">
+          <span aria-hidden="true">▲</span>
+          <span>Extrusión FDM / 3D</span>
+          <span class="pill-badge" id="cat-count-fdm">0</span>
+        </button>
+        <button type="button" class="filter-pill cat-ia" data-cat="ia" aria-pressed="false">
+          <span aria-hidden="true">◆</span>
+          <span>IA</span>
+          <span class="pill-badge" id="cat-count-ia">0</span>
+        </button>
+        <button type="button" class="filter-pill cat-emprendimiento" data-cat="emprendimiento" aria-pressed="false">
+          <span aria-hidden="true">●</span>
+          <span>Emprendimiento</span>
+          <span class="pill-badge" id="cat-count-emprendimiento">0</span>
+        </button>
+        <button type="button" class="filter-pill cat-cruce" data-cat="crossover" aria-pressed="false">
+          <span aria-hidden="true">✦</span>
+          <span>Cruces</span>
+          <span class="pill-badge" id="cat-count-crossover">0</span>
+        </button>
+      </div>
+
+      <div class="search-and-sort">
+        <label class="search-box" for="search-input">
+          <span class="sr-only">Buscar noticias y papers</span>
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input
+            id="search-input"
+            type="search"
+            placeholder="Buscar: Klipper, PEEK, agentes, G-code, boquilla..."
+            autocomplete="off"
+          >
+        </label>
+
+        <div class="utility-controls">
+          <label class="sort-control" for="sort-select">
+            <span class="sr-only">Ordenar por</span>
+            <select id="sort-select">
+              <option value="importance">Orden: Relevancia</option>
+              <option value="recent">Orden: Más recientes</option>
+            </select>
+          </label>
+
+          <label class="check-toggle">
+            <input type="checkbox" id="hide-read-checkbox">
+            <span>Ocultar leídos</span>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- ESTADO DE CARGA / ERROR -->
+    <div id="status-banner" class="status-banner" hidden role="status" aria-live="polite"></div>
+
+    <!-- SECCIÓN 1: NOTICIAS DE ACTUALIDAD -->
+    <section id="news-section" class="feed-section" aria-labelledby="news-heading">
+      <div class="section-header">
+        <div>
+          <span class="section-code">CANAL 01 // ACTUALIDAD</span>
+          <h2 id="news-heading" class="section-title">Noticias Importantes</h2>
+        </div>
+        <p class="section-note" id="news-counter"></p>
+      </div>
+      <div id="news-grid" class="news-grid"></div>
+    </section>
+
+    <!-- SECCIÓN 2: PAPERS CIENTÍFICOS -->
+    <section id="papers-section" class="feed-section" aria-labelledby="papers-heading">
+      <div class="section-header">
+        <div>
+          <span class="section-code">CANAL 02 // ARCHIVO CIENTÍFICO</span>
+          <h2 id="papers-heading" class="section-title">Papers Científicos con Descarga Directa</h2>
+        </div>
+        <p class="section-note" id="papers-counter"></p>
+      </div>
+      <div id="papers-grid" class="papers-grid"></div>
+    </section>
+
+    <!-- ESTADO VACÍO -->
+    <section id="empty-state" class="empty-state" hidden>
+      <div class="empty-glyph" aria-hidden="true">⌁</div>
+      <h2>Sin señales en esta frecuencia</h2>
+      <p>No hay noticias ni papers que coincidan con tus filtros actuales.</p>
+      <button type="button" class="btn-primary" id="reset-filters-btn">Restablecer filtros</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong class="footer-brand">VECTOR 84</strong>
+        <p class="footer-text">
+          Curación automática diaria vía GitHub Actions + arXiv + OpenAlex + RSS + Gemini API. Alojado en GitHub Pages.
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="./feed.xml" target="_blank" rel="noopener noreferrer">Feed RSS</a>
+        <a href="./data/feed.json" target="_blank" rel="noopener noreferrer">JSON de datos</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL LECTOR NATIVO (<dialog>) — sin role="dialog" ni aria-modal -->
+  <dialog id="reader-dialog" class="reader-dialog" closedby="any" aria-labelledby="dialog-title">
+    <div class="dialog-shell">
+      <div class="dialog-topbar">
+        <div id="dialog-badges" class="badge-row"></div>
+        <form method="dialog">
+          <button type="submit" class="dialog-close" value="close" aria-label="Cerrar lector" autofocus>
+            ✕
+          </button>
+        </form>
+      </div>
+
+      <div id="dialog-media-wrap" class="dialog-media-wrap" hidden>
+        <img id="dialog-image" src="" alt="" width="800" height="450">
+      </div>
+
+      <h1 id="dialog-title" class="dialog-title"></h1>
+      <p id="dialog-original-title" class="dialog-original-title"></p>
+      <div id="dialog-meta" class="dialog-meta"></div>
+
+      <div class="dialog-body">
+        <p id="dialog-summary" class="dialog-summary"></p>
+        <p id="dialog-deep" class="dialog-deep" hidden></p>
+
+        <dl id="dialog-paper-breakdown" class="paper-breakdown" hidden>
+          <div>
+            <dt>Problema que aborda</dt>
+            <dd id="dialog-problem"></dd>
+          </div>
+          <div>
+            <dt>Método / Enfoque</dt>
+            <dd id="dialog-method"></dd>
+          </div>
+          <div>
+            <dt>Aplicación práctica</dt>
+            <dd id="dialog-takeaway"></dd>
+          </div>
+        </dl>
+
+        <div id="dialog-tags" class="tag-row"></div>
+      </div>
+
+      <div class="dialog-actions">
+        <a id="dialog-pdf-link" class="btn-pdf" href="#" target="_blank" rel="noopener noreferrer" hidden>
+          <span aria-hidden="true">⬇</span>
+          <span>Descargar PDF</span>
+        </a>
+        <a id="dialog-source-link" class="btn-primary" href="#" target="_blank" rel="noopener noreferrer">
+          <span>Abrir artículo original</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+        <button type="button" id="dialog-save-btn" class="btn-ghost">
+          <span aria-hidden="true">★</span>
+          <span>Guardar</span>
+        </button>
+        <button type="button" id="dialog-share-btn" class="btn-ghost">
+          <span aria-hidden="true">⧉</span>
+          <span>Copiar enlace</span>
+        </button>
+      </div>
+    </div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

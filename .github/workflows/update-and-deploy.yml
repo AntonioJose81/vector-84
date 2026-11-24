@@ -1,0 +1,75 @@
+name: Actualizar Radar y Desplegar en GitHub Pages
+
+on:
+  schedule:
+    # Se ejecuta automáticamente todos los días a las 06:30 UTC (07:30/08:30 hora España)
+    - cron: "30 6 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: ["main"]
+    paths-ignore:
+      - "README.md"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "vector84-pages"
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    # Solo ejecuta el scraper en schedule o ejecución manual (o si aún no existe feed.json)
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Recopilar noticias, papers y resumir con Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: "gemini-3.1-flash-lite"
+        run: python3 scripts/update_feed.py
+
+      - name: Guardar cambios en data/feed.json y feed.xml
+        run: |
+          git config user.name "vector84-bot"
+          git config user.email "vector84-bot@users.noreply.github.com"
+          git add data/feed.json feed.xml
+          if git diff --cached --quiet; then
+            echo "Sin cambios nuevos en el feed."
+          else
+            git commit -m "chore(feed): actualización automática $(date -u +'%Y-%m-%d')"
+            git push
+          fi
+
+  deploy-pages:
+    needs: [update-data]
+    if: always() && (needs.update-data.result == 'success' || needs.update-data.result == 'skipped')
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout versión actualizada
+        uses: actions/checkout@v4
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Empaquetar sitio estático
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name: Publicar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,134 @@
+{
+  "site": {
+    "title": "VECTOR 84 // Radar de IA, FDM y Emprendimiento",
+    "description": "Noticias curadas en español y papers científicos descargables sobre Inteligencia Artificial, Impresión 3D por extrusión de filamento (FDM/FFF) y Emprendimiento.",
+    "base_url": "https://antoniojose81.github.io/vector-84/"
+  },
+  "limits": {
+    "max_news": 24,
+    "max_papers": 14,
+    "candidate_news_for_llm": 38,
+    "candidate_papers_for_llm": 20,
+    "per_feed_items": 6
+  },
+  "news_feeds": [
+    {
+      "name": "3D Printing Industry",
+      "url": "https://3dprintingindustry.com/feed/",
+      "default_category": "fdm",
+      "priority": 10
+    },
+    {
+      "name": "Hackaday 3D Printing",
+      "url": "https://hackaday.com/category/3d-printer-hacks/feed/",
+      "default_category": "fdm",
+      "priority": 10
+    },
+    {
+      "name": "Prusa Research Blog",
+      "url": "https://blog.prusa3d.com/feed/",
+      "default_category": "fdm",
+      "priority": 10
+    },
+    {
+      "name": "3DNatives",
+      "url": "https://www.3dnatives.com/en/feed/",
+      "default_category": "fdm",
+      "priority": 9
+    },
+    {
+      "name": "VoxelMatters",
+      "url": "https://www.voxelmatters.com/feed/",
+      "default_category": "fdm",
+      "priority": 9
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "default_category": "ia",
+      "priority": 10
+    },
+    {
+      "name": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "default_category": "ia",
+      "priority": 10
+    },
+    {
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "default_category": "ia",
+      "priority": 9
+    },
+    {
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "default_category": "ia",
+      "priority": 9
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "default_category": "ia",
+      "priority": 9
+    },
+    {
+      "name": "TechCrunch Startups",
+      "url": "https://techcrunch.com/category/startups/feed/",
+      "default_category": "emprendimiento",
+      "priority": 8
+    },
+    {
+      "name": "Y Combinator Blog",
+      "url": "https://www.ycombinator.com/blog/rss/",
+      "default_category": "emprendimiento",
+      "priority": 8
+    },
+    {
+      "name": "EU-Startups",
+      "url": "https://www.eu-startups.com/feed/",
+      "default_category": "emprendimiento",
+      "priority": 7
+    }
+  ],
+  "arxiv_queries": [
+    {
+      "label": "FDM y Fabricación Aditiva",
+      "query": "all:\"fused filament fabrication\" OR all:\"fused deposition modeling\" OR all:\"filament extrusion\" OR all:\"additive manufacturing\" OR all:\"3d printing\"",
+      "default_category": "fdm",
+      "max_results": 10
+    },
+    {
+      "label": "Inteligencia Artificial y Agentes",
+      "query": "(cat:cs.AI OR cat:cs.LG) AND (ti:agent OR ti:reasoning OR ti:multimodal OR ti:efficient OR ti:model OR ti:diffusion)",
+      "default_category": "ia",
+      "max_results": 10
+    },
+    {
+      "label": "Emprendimiento e Innovación IA",
+      "query": "all:entrepreneurship OR all:startup AND (cat:cs.AI OR cat:cs.CY OR cat:econ.GN)",
+      "default_category": "emprendimiento",
+      "max_results": 5
+    }
+  ],
+  "openalex_queries": [
+    {
+      "label": "Extrusión de filamento FDM/FFF",
+      "search": "\"fused filament fabrication\" OR \"fused deposition modeling\" OR \"material extrusion\" filament",
+      "default_category": "fdm",
+      "per_page": 10
+    },
+    {
+      "label": "IA aplicada a fabricación aditiva",
+      "search": "\"additive manufacturing\" \"machine learning\" OR \"deep learning\" extrusion",
+      "default_category": "fdm",
+      "per_page": 6
+    },
+    {
+      "label": "Emprendimiento tecnológico e IA",
+      "search": "\"artificial intelligence\" startup entrepreneurship innovation",
+      "default_category": "emprendimiento",
+      "per_page": 5
+    }
+  ]
+}

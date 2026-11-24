@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>VECTOR 84 // Radar de IA, FDM y Emprendimiento</title>
+    <link>https://antoniojose81.github.io/vector-84/</link>
+    <description>Noticias curadas en español y papers científicos descargables sobre Inteligencia Artificial, Impresión 3D por extrusión de filamento (FDM/FFF) y Emprendimiento.</description>
+    <language>es</language>
+    <lastBuildDate>Tue, 24 Nov 2026 22:29:33 +0000</lastBuildDate>
+    <item>
+      <title>[EMPRENDIMIENTO] El desplome de Anthropic y el mercado de IA</title>
+      <link>https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/</link>
+      <guid isPermaLink="false">news-754f867302</guid>
+      <description>Las acciones de Anthropic han caído por debajo de su precio de salida a bolsa, generando incertidumbre sobre las valoraciones de las startups de IA. El mercado comienza a cuestionar la rentabilidad a largo plazo.</description>
+    </item>
+    <item>
+      <title>[IA] Isaac Lab: Flujo Sim2Real para robótica</title>
+      <link>https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance</link>
+      <guid isPermaLink="false">news-16565a3f5d</guid>
+      <description>Hugging Face detalla un flujo de trabajo para entrenamiento de robots en simulación (Isaac Lab) y su despliegue en el mundo real. Se centra en la evitación de obstáculos mediante aprendizaje por refuerzo.</description>
+    </item>
+    <item>
+      <title>[FDM] Bambu Lab lanza la P3C multi-material</title>
+      <link>https://www.voxelmatters.com/bambu-lab-launches-p3c-multi-material-3d-printer/</link>
+      <guid isPermaLink="false">news-d4181656a6</guid>
+      <description>Bambu Lab expande su catálogo con la P3C, una impresora multi-herramienta enfocada en la accesibilidad y el valor para el creador cotidiano. Se posiciona como una opción competitiva en el mercado de consumo.</description>
+    </item>
+    <item>
+      <title>[FDM] Robot blando impreso en 3D alcanza velocidades récord</title>
+      <link>https://3dprintingindustry.com/news/a-3d-printed-robot-borrows-a-steam-engine-trick-to-become-100-times-faster-257120/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=a-3d-printed-robot-borrows-a-steam-engine-trick-to-become-100-times-faster</link>
+      <guid isPermaLink="false">news-a6b7cabfad</guid>
+      <description>Ingenieros de la UC San Diego han creado un robot blando impreso en 3D que se mueve a 4.72 m/s. Utiliza aire presurizado y principios de motores de vapor sin electrónica interna.</description>
+    </item>
+    <item>
+      <title>[FDM] Ladrillos impresos en 3D para bases lunares</title>
+      <link>https://3dprintingindustry.com/news/3d-printed-bricks-that-snap-together-for-lunar-bases-257130/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=3d-printed-bricks-that-snap-together-for-lunar-bases</link>
+      <guid isPermaLink="false">news-d6878c3a49</guid>
+      <description>Investigadores de la Universidad de Arkansas han creado bloques de construcción apilables utilizando regolito lunar simulado. Mediante sinterizado láser sin aglutinantes, han logrado piezas reconfigurables para futuras construcciones espaciales.</description>
+    </item>
+    <item>
+      <title>[FDM] Nikon MACHX: Metal para producción industrial</title>
+      <link>https://3dprintingindustry.com/news/more-parts-less-floor-nikons-machx-redefines-metal-3d-printing-productivity-257123/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=more-parts-less-floor-nikons-machx-redefines-metal-3d-printing-productivity</link>
+      <guid isPermaLink="false">news-44e8975bd2</guid>
+      <description>Nikon SLM Solutions lanza la serie MACHX, sistemas de fusión por láser en lecho de polvo diseñados para la producción continua de alto volumen. Buscan desplazar a la fabricación tradicional.</description>
+    </item>
+    <item>
+      <title>[IA] Poda de modelos VLA de conducción autónoma: Qué preservar para el razonamiento y la acción</title>
+      <link>https://arxiv.org/pdf/2611.31240v1.pdf</link>
+      <guid isPermaLink="false">paper-96ca0e1871</guid>
+      <description>Estudia cómo reducir el tamaño de modelos de visión-lenguaje-acción (VLA) sin perder capacidad de razonamiento. Propone un método de poda estructurada para optimizar el despliegue en vehículos.</description>
+    </item>
+    <item>
+      <title>[IA] Buscando en el espacio: Evaluación de la exploración activa de modelos de lenguaje-visión para razonamiento espacial</title>
+      <link>https://arxiv.org/pdf/2611.31215v1.pdf</link>
+      <guid isPermaLink="false">paper-5125c53088</guid>
+      <description>Evalúa si los modelos de visión-lenguaje pueden explorar entornos de forma autónoma y con propósito. Introduce un benchmark para medir la capacidad de razonamiento espacial en escenarios 3D.</description>
+    </item>
+    <item>
+      <title>[IA] ToolSmith: Framework de generación automática de herramientas para agentes de búsqueda multimodal</title>
+      <link>https://arxiv.org/pdf/2611.31198v1.pdf</link>
+      <guid isPermaLink="false">paper-f0e17500f0</guid>
+      <description>Propone un sistema donde los agentes de IA crean sus propias herramientas de software para resolver tareas, reduciendo la dependencia de librerías pre-programadas.</description>
+    </item>
+    <item>
+      <title>[IA] RoboTrack: Seguimiento de puntos para manipulación</title>
+      <link>https://huggingface.co/blog/allenai/robotrack</link>
+      <guid isPermaLink="false">news-ca38829e73</guid>
+      <description>Hugging Face presenta RoboTrack, un modelo diseñado para el seguimiento preciso de puntos en tareas de manipulación robótica en el mundo real.</description>
+    </item>
+    <item>
+      <title>[FDM] Aprendizaje de políticas para el control en tiempo real de gemelos digitales en fabricación aditiva mediante control predictivo diferenciable</title>
+      <link>https://iopscience.iop.org/article/10.1088/3049-4761/aec0a2/pdf</link>
+      <guid isPermaLink="false">paper-f18f406816</guid>
+      <description>El estudio propone un marco de control predictivo basado en redes neuronales profundas para optimizar la fabricación aditiva en tiempo real. Utiliza gemelos digitales para ajustar dinámicamente los parámetros de impresión y mejorar la precisión del proceso.</description>
+    </item>
+    <item>
+      <title>[FDM] Adaptación de la cinética de liberación de fármacos en mezclas PLA-PCL impresas en 3D</title>
+      <link>https://journals.femington.com/ijcrms/article/download/810/204</link>
+      <guid isPermaLink="false">paper-acea480152</guid>
+      <description>Investiga cómo la composición de mezclas de polímeros PLA y PCL afecta la microestructura y la liberación de fármacos en piezas impresas por FDM. Establece ventanas de imprimibilidad para optimizar dispositivos médicos personalizados.</description>
+    </item>
+    <item>
+      <title>[FDM] Comportamiento a tracción dependiente de la tasa de deformación en compuestos Onyx reforzados con fibra de carbono continua</title>
+      <link>https://link.springer.com/content/pdf/10.1007/s10409-026-60416-x.pdf</link>
+      <guid isPermaLink="false">paper-b973695d1c</guid>
+      <description>Analiza cómo la velocidad de carga y la fracción de fibra afectan las propiedades mecánicas de piezas impresas con refuerzo de fibra de carbono. Es fundamental para aplicaciones estructurales donde la resistencia dinámica es crítica.</description>
+    </item>
+    <item>
+      <title>[FDM] Plataformas electroquímicas impresas en 3D para el diagnóstico temprano de cáncer y monitoreo de terapia</title>
+      <link>https://www.sciencedirect.com/science/article/pii/S0165993626006527/pdf</link>
+      <guid isPermaLink="false">paper-d05ee2178f</guid>
+      <description>Revisa el uso de FDM y otras técnicas de fabricación aditiva para crear biosensores electroquímicos. Destaca la versatilidad de la impresión 3D para integrar sistemas de diagnóstico en dispositivos portátiles.</description>
+    </item>
+    <item>
+      <title>[FDM] Arcadian: Ecosistema humanoide de código abierto para investigación y educación accesible</title>
+      <link>https://arxiv.org/pdf/2611.29868v1.pdf</link>
+      <guid isPermaLink="false">paper-0ea85c1890</guid>
+      <description>Arcadian es una plataforma humanoide que utiliza impresión 3D con refuerzo metálico para lograr alta resistencia a bajo costo. Facilita la investigación robótica al eliminar la necesidad de mecanizado CNC complejo.</description>
+    </item>
+    <item>
+      <title>[EMPRENDIMIENTO] Daniel Ek invierte en Europa Fusion</title>
+      <link>https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/</link>
+      <guid isPermaLink="false">news-340614cb1d</guid>
+      <description>El fundador de Spotify respalda Europa Fusion, una startup de energía de fusión fundada por un investigador de IA. Buscan aplicar modelos de IA para optimizar el confinamiento del plasma.</description>
+    </item>
+    <item>
+      <title>[IA] El rendimiento de la IA: Verificable vs. Juicio</title>
+      <link>https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/</link>
+      <guid isPermaLink="false">news-01449c61c8</guid>
+      <description>Un informe de METR revela que los modelos de IA duplican su rendimiento en tareas verificables cada cuatro meses, pero siguen fallando en tareas que requieren juicio humano o razonamiento filosófico.</description>
+    </item>
+    <item>
+      <title>[IA] DaisyRose-27B: Eficiencia en post-entrenamiento</title>
+      <link>https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin</link>
+      <guid isPermaLink="false">news-f689168723</guid>
+      <description>Hugging Face presenta DaisyRose-27B, un modelo que optimiza la eficiencia tras el entrenamiento. Ofrece un rendimiento de frontera con una arquitectura más ligera y optimizada.</description>
+    </item>
+    <item>
+      <title>[FDM] Prusa Connect añade control local</title>
+      <link>https://hackaday.com/2026/11/18/local-prusa-connect-cuts-out-the-cloud/</link>
+      <guid isPermaLink="false">news-088051c143</guid>
+      <description>Prusa ha actualizado su ecosistema para permitir el control local de impresoras, reduciendo la dependencia exclusiva de la nube. Esto mejora la privacidad y la resiliencia ante caídas de internet.</description>
+    </item>
+    <item>
+      <title>[IA] Osmo: La startup que dota a la IA de sentido del olfato</title>
+      <link>https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/</link>
+      <guid isPermaLink="false">news-d1dd49b4f8</guid>
+      <description>La startup Osmo afirma haber alcanzado una inteligencia olfativa a nivel humano tras entrenar sus modelos con un dataset masivo de 10 millones de etiquetas. Buscan digitalizar el sentido del olfato para aplicaciones industriales y de consumo.</description>
+    </item>
+  </channel>
+</rss>

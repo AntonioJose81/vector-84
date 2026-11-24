@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <linearGradient id="sky-fdm" x1="0" y1="0" x2="0" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0b091a"/>
+      <stop offset="55%" stop-color="#1c112b"/>
+      <stop offset="100%" stop-color="#2b1420"/>
+    </linearGradient>
+    <linearGradient id="nozzle" x1="400" y1="70" x2="400" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffca5c"/>
+      <stop offset="100%" stop-color="#ff6b2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky-fdm)"/>
+  <g stroke="#ff9138" stroke-opacity="0.3" stroke-width="1.2">
+    <line x1="0" y1="300" x2="800" y2="300" stroke-opacity="0.8" stroke-width="2"/>
+    <line x1="0" y1="326" x2="800" y2="326"/>
+    <line x1="0" y1="360" x2="800" y2="360"/>
+    <line x1="0" y1="402" x2="800" y2="402"/>
+    <line x1="400" y1="300" x2="400" y2="450"/>
+    <line x1="310" y1="300" x2="170" y2="450"/>
+    <line x1="490" y1="300" x2="630" y2="450"/>
+    <line x1="220" y1="300" x2="-10" y2="450"/>
+    <line x1="580" y1="300" x2="810" y2="450"/>
+  </g>
+  <!-- Gantry rail -->
+  <rect x="110" y="96" width="580" height="12" rx="4" fill="#181b36" stroke="#26e8ff" stroke-width="1.5"/>
+  <!-- Extruder head -->
+  <rect x="356" y="74" width="88" height="72" rx="8" fill="#131630" stroke="#ff9138" stroke-width="2.5"/>
+  <rect x="372" y="146" width="56" height="30" rx="3" fill="#211938" stroke="#ff9138" stroke-width="2"/>
+  <polygon points="382,176 418,176 404,212 396,212" fill="url(#nozzle)"/>
+  <!-- Deposited glowing filament layers -->
+  <g stroke-linecap="round">
+    <path d="M270 300 H530" stroke="#ff9138" stroke-width="8"/>
+    <path d="M282 288 H518" stroke="#ff7a38" stroke-width="7"/>
+    <path d="M294 277 H506" stroke="#ff5e7e" stroke-width="7"/>
+    <path d="M306 266 H494" stroke="#ff9138" stroke-width="6"/>
+    <path d="M318 256 H482" stroke="#ffca5c" stroke-width="6"/>
+    <path d="M330 246 H400" stroke="#26e8ff" stroke-width="5"/>
+  </g>
+  <line x1="400" y1="212" x2="400" y2="246" stroke="#ffca5c" stroke-width="4" stroke-dasharray="4 3"/>
+  <circle cx="400" cy="246" r="8" fill="#26e8ff" opacity="0.45"/>
+  <circle cx="400" cy="246" r="3.5" fill="#ffffff"/>
+  <text x="36" y="48" fill="#ff9138" font-family="monospace" font-size="16" letter-spacing="4">EXT // FABRICACIÓN ADITIVA FDM</text>
+</svg>

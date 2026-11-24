@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <linearGradient id="sky-biz" x1="0" y1="0" x2="0" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0b081b"/>
+      <stop offset="55%" stop-color="#220e35"/>
+      <stop offset="100%" stop-color="#130f2b"/>
+    </linearGradient>
+    <linearGradient id="curve" x1="120" y1="330" x2="680" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#26e8ff"/>
+      <stop offset="55%" stop-color="#ff4fd8"/>
+      <stop offset="100%" stop-color="#ff9138"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky-biz)"/>
+  <g stroke="#ff4fd8" stroke-opacity="0.22" stroke-width="1">
+    <line x1="80" y1="100" x2="720" y2="100"/>
+    <line x1="80" y1="170" x2="720" y2="170"/>
+    <line x1="80" y1="240" x2="720" y2="240"/>
+    <line x1="80" y1="310" x2="720" y2="310"/>
+    <line x1="80" y1="380" x2="720" y2="380"/>
+    <line x1="160" y1="80" x2="160" y2="395"/>
+    <line x1="300" y1="80" x2="300" y2="395"/>
+    <line x1="440" y1="80" x2="440" y2="395"/>
+    <line x1="580" y1="80" x2="580" y2="395"/>
+  </g>
+  <path d="M110 352 L240 315 L345 270 L465 215 L575 152 L680 96" stroke="url(#curve)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M110 352 L240 315 L345 270 L465 215 L575 152 L680 96 L680 380 L110 380 Z" fill="url(#curve)" opacity="0.14"/>
+  <circle cx="240" cy="315" r="6" fill="#26e8ff"/>
+  <circle cx="345" cy="270" r="6" fill="#a875ff"/>
+  <circle cx="465" cy="215" r="7" fill="#ff4fd8"/>
+  <circle cx="575" cy="152" r="7" fill="#ff6b7d"/>
+  <circle cx="680" cy="96" r="10" fill="#ff9138"/>
+  <text x="36" y="48" fill="#ff4fd8" font-family="monospace" font-size="16" letter-spacing="4">BIZ // EMPRENDIMIENTO &amp; STARTUPS</text>
+</svg>
