@@ -51,25 +51,31 @@ jobs:
             git push
           fi
 
-  deploy-pages:
+  build-pages:
     needs: [update-data]
     if: always() && (needs.update-data.result == 'success' || needs.update-data.result == 'skipped')
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout versión actualizada
+      - name: Checkout última versión de main
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
 
       - name: Empaquetar sitio estático
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: "."
 
+  deploy-pages:
+    needs: [build-pages]
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Publicar en GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
