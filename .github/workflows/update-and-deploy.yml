@@ -2,8 +2,9 @@ name: Actualizar Radar y Desplegar en GitHub Pages
 
 on:
   schedule:
-    # Se ejecuta automáticamente todos los días a las 06:30 UTC (07:30/08:30 hora España)
-    - cron: "30 6 * * *"
+    # Dos ventanas diarias fuera de hora en punto para evitar congestión (06:17 UTC y 17:47 UTC)
+    - cron: "17 6 * * *"
+    - cron: "47 17 * * *"
   workflow_dispatch: {}
   push:
     branches: ["main"]

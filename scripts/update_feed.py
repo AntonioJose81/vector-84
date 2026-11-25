@@ -22,6 +22,7 @@ import os
 import re
 import ssl
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -304,11 +305,21 @@ def fetch_arxiv_papers(query_cfg: dict[str, Any]) -> list[dict[str, Any]]:
     })
     url = f"https://export.arxiv.org/api/query?{params}"
 
+    data = None
+    for attempt in range(2):
+        try:
+            data = http_get(url, timeout=30)
+            break
+        except Exception as exc:
+            if attempt == 0:
+                time.sleep(3)
+            else:
+                print(f"[WARN] arXiv falló ({query_cfg.get('label')}): {exc}", file=sys.stderr)
+                return []
     try:
-        data = http_get(url, timeout=15)
         root = ET.fromstring(data)
     except Exception as exc:
-        print(f"[WARN] arXiv falló ({query_cfg.get('label')}): {exc}", file=sys.stderr)
+        print(f"[WARN] arXiv XML inválido ({query_cfg.get('label')}): {exc}", file=sys.stderr)
         return []
 
     papers: list[dict[str, Any]] = []
@@ -462,39 +473,47 @@ def call_gemini_json(prompt: str, api_key: str, model: str = DEFAULT_GEMINI_MODE
     encoded_body = json.dumps(body).encode("utf-8")
     ctx = ssl.create_default_context()
     last_err: Exception | None = None
+    retry_delays = (0, 12, 30)
 
-    for candidate_model in models_to_try:
-        endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{urllib.parse.quote(candidate_model)}:generateContent?key={urllib.parse.quote(api_key)}"
-        req = urllib.request.Request(
-            endpoint,
-            data=encoded_body,
-            headers={"Content-Type": "application/json"},
-            method="POST",
-        )
-        try:
-            with urllib.request.urlopen(req, timeout=120, context=ctx) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-            candidates = data.get("candidates") or []
-            if not candidates:
-                raise RuntimeError(f"Gemini no devolvió candidatos: {data}")
-            parts = (candidates[0].get("content") or {}).get("parts") or []
-            text = "".join(p.get("text", "") for p in parts if not p.get("thought")).strip()
-            if not text:
-                text = "".join(p.get("text", "") for p in parts).strip()
-            text = re.sub(r"^```(?:json)?\s*", "", text)
-            text = re.sub(r"\s*```$", "", text)
-            return json.loads(text)
-        except urllib.error.HTTPError as exc:
-            err_body = exc.read().decode("utf-8", errors="ignore")[:300]
-            print(f"[WARN] Modelo {candidate_model} devolvió HTTP {exc.code}: {err_body}", file=sys.stderr)
-            last_err = exc
-            if exc.code in (400, 401, 403):
-                raise
-        except Exception as exc:
-            print(f"[WARN] Modelo {candidate_model} falló: {exc}", file=sys.stderr)
-            last_err = exc
+    for round_idx, delay in enumerate(retry_delays, start=1):
+        if delay > 0:
+            print(f"[INFO] Reintentando Gemini (ronda {round_idx}/{len(retry_delays)}) tras esperar {delay}s...", file=sys.stderr)
+            time.sleep(delay)
 
-    raise RuntimeError(f"Ningún modelo Gemini respondió correctamente: {last_err}")
+        for candidate_model in models_to_try:
+            endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{urllib.parse.quote(candidate_model)}:generateContent?key={urllib.parse.quote(api_key)}"
+            req = urllib.request.Request(
+                endpoint,
+                data=encoded_body,
+                headers={"Content-Type": "application/json"},
+                method="POST",
+            )
+            try:
+                with urllib.request.urlopen(req, timeout=120, context=ctx) as resp:
+                    data = json.loads(resp.read().decode("utf-8"))
+                candidates = data.get("candidates") or []
+                if not candidates:
+                    raise RuntimeError(f"Gemini no devolvió candidatos: {data}")
+                parts = (candidates[0].get("content") or {}).get("parts") or []
+                text = "".join(p.get("text", "") for p in parts if not p.get("thought")).strip()
+                if not text:
+                    text = "".join(p.get("text", "") for p in parts).strip()
+                text = re.sub(r"^```(?:json)?\s*", "", text)
+                text = re.sub(r"\s*```$", "", text)
+                return json.loads(text)
+            except urllib.error.HTTPError as exc:
+                err_body = exc.read().decode("utf-8", errors="ignore")[:300]
+                print(f"[WARN] Ronda {round_idx} · {candidate_model} devolvió HTTP {exc.code}: {err_body}", file=sys.stderr)
+                last_err = exc
+                if exc.code in (400, 401, 403):
+                    raise
+                time.sleep(2)
+            except Exception as exc:
+                print(f"[WARN] Ronda {round_idx} · {candidate_model} falló: {exc}", file=sys.stderr)
+                last_err = exc
+                time.sleep(2)
+
+    raise RuntimeError(f"Ningún modelo Gemini respondió correctamente tras {len(retry_delays)} rondas: {last_err}")
 
 
 def curate_news_with_gemini(candidates: list[dict[str, Any]], max_items: int, api_key: str) -> list[dict[str, Any]]:
