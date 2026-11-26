@@ -2,9 +2,12 @@ name: Actualizar Radar y Desplegar en GitHub Pages
 
 on:
   schedule:
-    # Dos ventanas diarias fuera de hora en punto para evitar congestión (06:17 UTC y 17:47 UTC)
-    - cron: "17 6 * * *"
-    - cron: "47 17 * * *"
+    # 4 ventanas diarias fuera de hora en punto para compensar posibles retrasos de GitHub Actions
+    # UTC: 05:17, 09:23, 14:41, 19:19 (España invierno: 06:17, 10:23, 15:41, 20:19)
+    - cron: "17 5 * * *"
+    - cron: "23 9 * * *"
+    - cron: "41 14 * * *"
+    - cron: "19 19 * * *"
   workflow_dispatch: {}
   push:
     branches: ["main"]
