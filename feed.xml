@@ -5,126 +5,126 @@
     <link>https://antoniojose81.github.io/vector-84/</link>
     <description>Noticias curadas en español y papers científicos descargables sobre Inteligencia Artificial, Impresión 3D por extrusión de filamento (FDM/FFF) y Emprendimiento.</description>
     <language>es</language>
-    <lastBuildDate>Thu, 26 Nov 2026 19:08:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 23:15:50 +0000</lastBuildDate>
     <item>
-      <title>[EMPRENDIMIENTO] Fabri revoluciona la fundición de metal con patrones impresos en 3D y FoundryOS</title>
+      <title>[FDM] Un robot blando y ultrarrápido que funciona sin electrónica y se imprime de una sola pieza</title>
+      <link>https://www.3dnatives.com/en/3d-printed-robot-uc-san-diego-27112026/</link>
+      <guid isPermaLink="false">news-aab55a11c2</guid>
+      <description>Investigadores de la Universidad de California en San Diego han publicado un proyecto en Science Robotics sobre un robot blando impreso en 3D que se desplaza impulsado únicamente por aire comprimido, sin componentes electrónicos. Este avance demuestra el gran potencial de la fabricación aditiva para crear mecanismos complejos y autónomos en un solo paso de impresión.</description>
+    </item>
+    <item>
+      <title>[EMPRENDIMIENTO] Fabri elimina las herramientas rígidas en la fundición de inversión mediante patrones impresos en 3D</title>
       <link>https://www.voxelmatters.com/fabri-uses-3d-printed-patterns-to-remove-hard-tooling-from-investment-casting/</link>
       <guid isPermaLink="false">news-367b9459d6</guid>
-      <description>La startup Fabri, fundada por antiguos alumnos del MIT, utiliza resinas impresas en 3D para sustituir los moldes de acero tradicionales en la fundición a la cera perdida. Su software FoundryOS permite pasar del diseño a la pieza final en tiempo récord.</description>
+      <description>Fundada por exalumnos del MIT, la compañía Fabri ha sustituido los moldes de acero y los patrones de cera tradicionales por piezas de resina impresas en 3D y su propio software, FoundryOS. El sistema permite acelerar drásticamente el paso desde el diseño digital hasta la obtención del componente metálico fundido.</description>
     </item>
     <item>
-      <title>[FDM] Snapmaker U1: Cambio de herramientas CoreXY por menos de 900 dólares</title>
+      <title>[FDM] Snapmaker U1 lleva el cambio de cabezales sin purgas a la gama de escritorio por menos de 900 dólares</title>
       <link>https://3dprintingindustry.com/news/snapmaker-u1-brings-purge-free-four-toolhead-printing-to-the-desktop-for-under-900-257284/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=snapmaker-u1-brings-purge-free-four-toolhead-printing-to-the-desktop-for-under-900</link>
       <guid isPermaLink="false">news-2e7d4a516c</guid>
-      <description>La nueva Snapmaker U1 introduce un sistema de cuatro cabezales intercambiables que elimina la necesidad de purgar filamento en impresiones multicolores. Esta arquitectura CoreXY busca llevar la tecnología de cambio de herramientas profesional al mercado de consumo.</description>
+      <description>Se ha analizado la Snapmaker U1, una impresora CoreXY FFF con cuatro cabezales intercambiables que evita el desperdicio de purgar filamento por una única boquilla. Esta arquitectura acerca la tecnología de cambio de herramientas multicolor, antes reservada a equipos industriales caros, al mercado generalista.</description>
     </item>
     <item>
-      <title>[FDM] El filamento de Xenia reduce el peso de drones en un 30% mediante PA11-CF</title>
+      <title>[FDM] El filamento Xenia reduce en más de un 30 % el peso de las piezas en un dron universitario</title>
       <link>https://www.voxelmatters.com/xenia-filament-cuts-part-weight-by-over-30-on-a-frankfurt-student-drone/</link>
       <guid isPermaLink="false">news-6e09f6aaa2</guid>
-      <description>El equipo FRoST de la Universidad de Frankfurt ha logrado aligerar componentes estructurales de su dron DAEDALUS utilizando el filamento XECARB PA11-CF-SL. La sustitución del ASA convencional por este compuesto de poliamida 11 reforzada con carbono permite una mayor eficiencia de vuelo.</description>
+      <description>El equipo estudiantil FRoST de la Universidad de Ciencias Aplicadas de Fráncfort logró aligerar significativamente su dron DAEDALUS sustituyendo el ASA por el filamento XECARB PA11-CF-SL de Xenia Materials. Esta mejora demuestra cómo los materiales técnicos avanzados con fibra de carbono optimizan la relación peso-resistencia en aplicaciones aeroespaciales.</description>
     </item>
     <item>
-      <title>[FDM] OctoPrint 2.0.0 añade soporte para impresoras Bambu Lab y nuevos protocolos</title>
+      <title>[FDM] WAAM3D actualiza la MiniWAAM con alimentación de doble hilo de serie para piezas metálicas multimaterial</title>
+      <link>https://3dprintingindustry.com/news/waam3d-upgrades-miniwaam-with-dual-wire-feeding-as-standard-for-multi-material-metal-parts-257404/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=waam3d-upgrades-miniwaam-with-dual-wire-feeding-as-standard-for-multi-material-metal-parts</link>
+      <guid isPermaLink="false">news-028462410a</guid>
+      <description>El fabricante de sistemas de fabricación aditiva por arco de alambre (WAAM) ha anunciado una importante actualización de su plataforma MiniWAAM. La integración de serie de un sistema de doble hilo permite realizar aleaciones in situ y fabricar componentes complejos combinando distintos metales.</description>
+    </item>
+    <item>
+      <title>[FDM] OctoPrint 2.0.0 añade soporte de plugins para impresoras Bambu Lab tras años de conexión exclusivamente serie</title>
       <link>https://3dprintingindustry.com/news/octoprint-2-0-0-adds-plugin-route-to-bambu-lab-printers-after-years-of-serial-only-connections-257408/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=octoprint-2-0-0-adds-plugin-route-to-bambu-lab-printers-after-years-of-serial-only-connections</link>
       <guid isPermaLink="false">news-43db84a93e</guid>
-      <description>La versión 2.0.0 de OctoPrint marca un hito al permitir conexiones más allá del puerto serie tradicional mediante plugins. Esto abre la puerta a la integración oficial con ecosistemas cerrados como el de Bambu Lab.</description>
+      <description>La popular plataforma de control de impresión OctoPrint ha lanzado su versión 2.0.0, rompiendo la limitación histórica de depender únicamente de conexiones por puerto serie. Su creadora, Gina Häußge, confirma que esta actualización abre la puerta a integrar mediante plugins otros ecosistemas de impresión cerrados, como las máquinas de Bambu Lab.</description>
     </item>
     <item>
-      <title>[IA] Nuevo dashboard de benchmarks para llama.cpp en hardware AMD</title>
+      <title>[IA] Hugging Face presenta el panel de rendimiento de llama.cpp optimizado para AMD Ryzen y Radeon</title>
       <link>https://huggingface.co/blog/ggml-org/llamacpp-amd-bench</link>
       <guid isPermaLink="false">news-02a0884347</guid>
-      <description>Hugging Face ha introducido una herramienta para medir el rendimiento de llama.cpp en procesadores Ryzen y GPUs Radeon. Esto facilita la optimización de modelos de lenguaje locales en hardware de consumo no-Nvidia.</description>
+      <description>Se ha lanzado un nuevo panel de control y pruebas de rendimiento enfocado en la ejecución de modelos de lenguaje mediante llama.cpp sobre hardware AMD Ryzen y Radeon. La herramienta facilita la optimización de inferencia local en equipos de consumo con arquitecturas de este fabricante.</description>
     </item>
     <item>
-      <title>[IA] Nemotron 3.5: Datos abiertos y optimización de inferencia</title>
-      <link>https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin</link>
-      <guid isPermaLink="false">news-d3aa48daa6</guid>
-      <description>Se han presentado mejoras en la familia de modelos Nemotron 3.5, enfocadas en el ajuste fino con datos abiertos y una inferencia más rápida. El modelo destaca por su capacidad de procesamiento de datos estructurados.</description>
-    </item>
-    <item>
-      <title>[IA] Guía de Hugging Face para construir y evaluar sistemas multi-agente</title>
+      <title>[IA] Guía técnica para construir, entrenar y evaluar sistemas multiagente de inteligencia artificial</title>
       <link>https://huggingface.co/blog/training-swarms</link>
       <guid isPermaLink="false">news-c01600d416</guid>
-      <description>Hugging Face ha publicado un análisis profundo sobre cómo entrenar y coordinar enjambres de agentes de IA para tareas complejas. El enfoque se centra en la interoperabilidad y la evaluación del rendimiento en sistemas distribuidos.</description>
+      <description>Hugging Face ha publicado una exhaustiva guía orientada a desarrolladores sobre cómo orquestar arquitecturas de múltiples agentes de IA trabajando en colaboración. El documento aborda las complejidades de la coordinación, la asignación de tareas y métricas de evaluación para evitar conflictos entre agentes autónomos.</description>
     </item>
     <item>
-      <title>[FDM] SnowX presenta SnowPod: Impresión 3D de metal de escritorio con integración de Meshy AI</title>
+      <title>[EMPRENDIMIENTO] SnowX lleva la impresión 3D metálica fuera de la fábrica con SnowPod y alianzas estratégicas</title>
       <link>https://www.3dnatives.com/en/snowpod-formnext-2026-23112026/</link>
       <guid isPermaLink="false">news-d7f50b55b9</guid>
-      <description>SnowX ha lanzado SnowPod, una impresora de metal compacta, y ha anunciado colaboraciones estratégicas con Autodesk y Meshy AI. El objetivo es democratizar la fabricación metálica fuera de las grandes factorías industriales.</description>
+      <description>En la feria Formnext 2026, la startup SnowX presentó su impresora 3D metálica de sobremesa SnowPod y anunció colaboraciones con Autodesk y Meshy AI. El proyecto busca democratizar la fabricación de metal a escala de escritorio mediante flujos de trabajo asistidos por software avanzado.</description>
     </item>
     <item>
-      <title>[FDM] OTAN y Ucrania impulsan la impresión 3D para la reparación de drones en combate</title>
-      <link>https://3dprintingindustry.com/news/jatec-project-targets-3d-printing-for-drone-repair-and-component-supply-257213/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=jatec-project-targets-3d-printing-for-drone-repair-and-component-supply</link>
-      <guid isPermaLink="false">news-5ee529baf2</guid>
-      <description>El centro JATEC está desarrollando sistemas de fabricación aditiva para el mantenimiento de vehículos aéreos no tripulados (UAV) en el frente. El objetivo es garantizar el suministro de componentes críticos mediante producción local rápida.</description>
-    </item>
-    <item>
-      <title>[FDM] Prometheus: Impresión robótica de PEEK y PEI a gran escala</title>
-      <link>https://3dprintingindustry.com/news/rapid-fusion-and-leam-co-design-heated-nozzle-to-print-certified-peek-and-pei-at-large-scale-257219/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rapid-fusion-and-leam-co-design-heated-nozzle-to-print-certified-peek-and-pei-at-large-scale</link>
-      <guid isPermaLink="false">news-8ec441c01c</guid>
-      <description>Rapid Fusion y LEAM han presentado Prometheus, una celda robótica diseñada para imprimir polímeros de alto rendimiento como PEEK y PEI. El sistema utiliza una boquilla calefactada especializada para garantizar la certificación de piezas en sectores como el aeroespacial.</description>
-    </item>
-    <item>
-      <title>[IA] Diversas trazas de razonamiento alternativo para problemas matemáticos complejos</title>
+      <title>[IA] Diversas trazas de razonamiento alternativo para problemas matemáticos difíciles</title>
       <link>https://arxiv.org/pdf/2611.34928v1.pdf</link>
       <guid isPermaLink="false">paper-5c2d7cee03</guid>
-      <description>Propone DART, un método de minería de trazas basado en la descomposición de razonamientos fallidos en modelos de lenguaje grande. El sistema reorienta los pasos con mayor incertidumbre posicional para generar candidatos alternativos válidos. Esto incrementa significativamente la tasa de resolución de problemas matemáticos difíciles con un coste computacional eficiente.</description>
-    </item>
-    <item>
-      <title>[IA] μ-Bench: Evaluando la finalización de tareas multiusuario en agentes de voz de interacción compartida</title>
-      <link>https://arxiv.org/pdf/2611.34920v1.pdf</link>
-      <guid isPermaLink="false">paper-73b692961d</guid>
-      <description>Se introduce un nuevo benchmark para evaluar asistentes de voz en entornos con múltiples usuarios simultáneos que emiten peticiones interdependientes. El sistema mide el éxito conjunto de tareas gestionando restricciones de privacidad y autoridad. Los resultados muestran las limitaciones de los modelos propietarios actuales bajo entornos acústicos complejos.</description>
+      <description>Introduce DART, un método de minería de trazas que descompone razonamientos descartados para generar alternativas dirigidas en problemas matemáticos complejos. Incrementa la tasa de resolución de problemas difíciles sin aumentar drásticamente el costo computacional.</description>
     </item>
     <item>
       <title>[IA] ¿Cuánto sobre-editan los agentes de programación y por qué? Un estudio empírico de ediciones innecesarias en parches de agentes a nivel de repositorio</title>
       <link>https://arxiv.org/pdf/2611.34875v1.pdf</link>
       <guid isPermaLink="false">paper-e7c17810ad</guid>
-      <description>Analiza la tendencia de los agentes de software autónomos a generar parches de código más largos que los de los desarrolladores humanos. Mediante una nueva técnica de atribución de residuos, se demuestra que la mayoría de las líneas extra escritas por la IA corresponden a pruebas y documentación necesaria. El estudio valida que el código generado por agentes es funcionalmente tan riguroso como el humano.</description>
+      <description>Analiza miles de trayectorias de agentes de programación para determinar si las modificaciones extensas en parches de código son realmente necesarias. Demuestra que una gran parte de las ediciones adicionales introducidas por agentes corresponden a pruebas y documentación.</description>
     </item>
     <item>
       <title>[IA] RePace: Razonamiento sobre la aceleración de demostraciones para políticas de visión-lenguaje-acción más rápidas</title>
       <link>https://arxiv.org/pdf/2611.34864v1.pdf</link>
       <guid isPermaLink="false">paper-3f52ae9fc3</guid>
-      <description>Presenta un marco de razonamiento offline para acelerar demostraciones humanas antes de entrenar políticas robóticas basadas en visión y lenguaje. En lugar de aplicar factores de velocidad uniformes, RePace analiza dinámicamente qué segmentos requieren menor precisión y ajusta el ritmo. Esto permite desplegar políticas de control más ágiles sin perder capacidad de alineación fina.</description>
+      <description>Propone RePace, un marco de razonamiento offline que determina de forma granular el factor de aceleración óptimo para diferentes segmentos de demostraciones humanas. Permite entrenar políticas robóticas más rápidas sin requerir módulos adicionales en tiempo de despliegue.</description>
     </item>
     <item>
-      <title>[IA] DRBench Pro: Un benchmark centrado en el conocimiento para agentes de investigación profunda profesional</title>
+      <title>[IA] DRBench Pro: Un benchmark centrado en el conocimiento para agentes profesionales de investigación profunda</title>
       <link>https://arxiv.org/pdf/2611.34852v1.pdf</link>
       <guid isPermaLink="false">paper-12c9bcf4e3</guid>
-      <description>Desarrolla un benchmark estricto para evaluar la capacidad de los agentes de investigación autónomos en la síntesis de informes complejos a partir de múltiples fuentes. La plataforma utiliza árboles de conocimiento locales extraídos de Wikipedia para medir de manera objetiva la amplitud y profundidad de la búsqueda. Esto permite auditar con precisión la calidad informativa de los resúmenes generados.</description>
+      <description>Desarrolla un benchmark estructurado para evaluar la amplitud y profundidad de la cobertura de información realizada por agentes autónomos de investigación profunda. Utiliza árboles de conocimiento locales derivados de Wikipedia para auditar rigurosamente las síntesis informativas.</description>
     </item>
     <item>
-      <title>[EMPRENDIMIENTO] La crisis de los centros de datos de IA: El suelo y la energía valen más que el software</title>
+      <title>[EMPRENDIMIENTO] Fiscales generales estatales desafían el plan de Character.AI de subastar chats privados de usuarios</title>
+      <link>https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/</link>
+      <guid isPermaLink="false">news-16ddaf7683</guid>
+      <description>El proceso de bancarrota y venta de activos de la plataforma Character.ai se ha complicado tras la oposición formal de varios fiscales generales de EE. UU. El motivo es la inclusión en el paquete de venta de historiales de chat privados correspondientes a más de 21 millones de cuentas, de las cuales una parte significativa pertenece a menores de edad.</description>
+    </item>
+    <item>
+      <title>[EMPRENDIMIENTO] Los centros de datos de IA se enfrentan a mayores trabas de construcción y encarecimiento de la deuda</title>
       <link>https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/</link>
       <guid isPermaLink="false">news-b47f021e12</guid>
-      <description>Las &#x27;neoclouds&#x27; están sufriendo retrasos debido a que Nvidia exige infraestructuras casi terminadas antes de suministrar chips. El acceso a terrenos con potencia eléctrica garantizada se ha convertido en el mayor cuello de botella para las startups de infraestructura.</description>
+      <description>Nvidia ha endurecido su postura al rechazar respaldar financieramente centros de datos de IA hasta que estén prácticamente operativos. Esta directriz coincide con retrasos en las obras y un incremento en los costes de financiación para los proveedores de infraestructura alternativa (&#x27;neoclouds&#x27;).</description>
     </item>
     <item>
-      <title>[IA] Predicciones de geometría basadas en aprendizaje automático para depósitos de una y múltiples capas y su optimización multiobjetivo mediante NSGA-II</title>
+      <title>[FDM] Predicciones de geometría basadas en aprendizaje automático para depósitos de una y múltiples capas y su optimización multiobjetivo mediante NSGA-II</title>
       <link>https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2026.1976911/pdf</link>
       <guid isPermaLink="false">paper-b44ecf88a0</guid>
-      <description>Este estudio emplea aprendizaje automático y profundo con cámaras de alta definición para predecir la geometría de depósitos en fabricación aditiva metálica. Se generan datasets a partir de vídeos reales para optimizar los parámetros de proceso mediante algoritmos avanzados. El enfoque demuestra una alta precisión en el control dimensional de piezas complejas.</description>
+      <description>Este estudio emplea aprendizaje automático y profundo para predecir la geometría de depósitos metálicos mediante el procesamiento de vídeos en tiempo real. Utiliza algoritmos avanzados y un enfoque de histograma para optimizar los parámetros del proceso con el algoritmo NSGA-II.</description>
     </item>
     <item>
-      <title>[FDM] Efecto del grosor de capa en la excentricidad radial y precisión dimensional de engranajes rectos de ácido poliláctico fabricados por modelado por deposición fundida</title>
+      <title>[FDM] Efecto del espesor de capa en la excentricidad radial y la precisión dimensional de engranajes rectos de ácido poliláctico fabricados por modelado por deposición fusionada: un estudio experimental Box-Behnken</title>
       <link>https://www.researchsquare.com/article/rs-11745561/latest.pdf</link>
       <guid isPermaLink="false">paper-ea65dcc7d6</guid>
-      <description>Investigación experimental mediante diseño Box-Behnken para evaluar el impacto de parámetros FDM en engranajes poliméricos impresos en 3D. Se demuestra que el grosor de capa es el factor crítico, explicando el 85% de la varianza en la excentricidad radial. Los resultados optimizan la fabricación de componentes de transmisión ligeros.</description>
+      <description>Cuantifica de forma rigurosa cómo el espesor de capa, la temperatura de boquilla y la velocidad de impresión afectan la precisión geométrica de engranajes poliméricos impresos en 3D. El espesor de capa demuestra ser el factor dominante en la variación de la excentricidad.</description>
     </item>
     <item>
-      <title>[FDM] INTAMSYS FUNMAT PRO 610HT NEO: PEEK industrial más accesible</title>
-      <link>https://www.3dnatives.com/en/intamsys-neo-peek-formnext-25112026/</link>
-      <guid isPermaLink="false">news-c59025245f</guid>
-      <description>La nueva impresora de INTAMSYS está diseñada para manejar PEEK con mayor facilidad gracias a una cámara calefactada de alta temperatura y boquillas de 500°C. El sistema busca reducir los fallos de impresión en polímeros de grado médico y aeroespacial.</description>
+      <title>[FDM] Optimización del efecto de los parámetros del proceso FDM sobre la rugosidad superficial interna de productos impresos en 3D de ABS</title>
+      <link>https://ojs.ummetro.ac.id/index.php/turbo/article/download/5682/3085</link>
+      <guid isPermaLink="false">paper-a28dbf674e</guid>
+      <description>Analiza la influencia de la altura de capa, la velocidad de impresión y la temperatura de la boquilla en la rugosidad interna de piezas cilíndricas de ABS. Aplica la metodología Taguchi con una matriz ortogonal L9 para identificar los ajustes óptimos.</description>
     </item>
     <item>
-      <title>[IA] AI Buckingham: Descubrimiento agéntico de leyes de escala adimensionales a través de regímenes físicos</title>
-      <link>https://arxiv.org/pdf/2611.33961v1.pdf</link>
-      <guid isPermaLink="false">paper-0a026389a9</guid>
-      <description>Introduce un marco de agentes autónomos impulsado por modelos de lenguaje grande para descubrir leyes físicas adimensionales a partir de datos observacionales. El sistema combina razonamiento, planificación y herramientas simbólicas para identificar grupos adimensionales dominantes. Su enfoque automatiza el análisis dimensional clásico superando las limitaciones de la intuición humana.</description>
+      <title>[EMPRENDIMIENTO] Maple levanta 5,3 millones de dólares para desarrollar productos de IA con cifrado extremo de datos</title>
+      <link>https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/</link>
+      <guid isPermaLink="false">news-724878a26e</guid>
+      <description>La startup Maple ha cerrado una ronda de financiación de 5,3 millones de dólares para impulsar su arquitectura de inteligencia artificial con cifrado avanzado. Su enfoque técnico busca garantizar que ni siquiera la propia empresa proveedora del servicio pueda acceder a la información privada de los usuarios.</description>
+    </item>
+    <item>
+      <title>[IA] DED-Agent: Un método de IA agéntica para el desarrollo autónomo y calibración de modelos de simulación térmica en deposición por energía dirigida por láser</title>
+      <link>https://arxiv.org/pdf/2611.32822v1.pdf</link>
+      <guid isPermaLink="false">paper-3adda7bd8c</guid>
+      <description>Se presenta DED-Agent, un sistema basado en agentes de IA que automatiza la configuración, mallado, resolución y calibración de modelos térmicos de elementos finitos. Reduce drásticamente el tiempo experto requerido para mapear el amplio espacio de diseño en la fabricación aditiva por láser.</description>
     </item>
   </channel>
 </rss>
