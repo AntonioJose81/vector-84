@@ -5,126 +5,126 @@
     <link>https://antoniojose81.github.io/vector-84/</link>
     <description>Noticias curadas en español y papers científicos descargables sobre Inteligencia Artificial, Impresión 3D por extrusión de filamento (FDM/FFF) y Emprendimiento.</description>
     <language>es</language>
-    <lastBuildDate>Thu, 26 Nov 2026 10:46:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:08:02 +0000</lastBuildDate>
     <item>
-      <title>[FDM] SnowX presenta SnowPod: Impresión 3D de metal de escritorio con IA</title>
-      <link>https://www.3dnatives.com/en/snowpod-formnext-2026-23112026/</link>
-      <guid isPermaLink="false">news-d7f50b55b9</guid>
-      <description>La startup SnowX ha presentado en Formnext su impresora SnowPod, diseñada para llevar la fabricación aditiva de metal fuera de las fábricas. El sistema integra colaboraciones con Autodesk y Meshy AI para optimizar el flujo de trabajo.</description>
+      <title>[EMPRENDIMIENTO] Fabri revoluciona la fundición de metal con patrones impresos en 3D y FoundryOS</title>
+      <link>https://www.voxelmatters.com/fabri-uses-3d-printed-patterns-to-remove-hard-tooling-from-investment-casting/</link>
+      <guid isPermaLink="false">news-367b9459d6</guid>
+      <description>La startup Fabri, fundada por antiguos alumnos del MIT, utiliza resinas impresas en 3D para sustituir los moldes de acero tradicionales en la fundición a la cera perdida. Su software FoundryOS permite pasar del diseño a la pieza final en tiempo récord.</description>
     </item>
     <item>
-      <title>[FDM] Proyecto JATEC: Impresión 3D para la reparación de drones en combate</title>
+      <title>[FDM] Snapmaker U1: Cambio de herramientas CoreXY por menos de 900 dólares</title>
+      <link>https://3dprintingindustry.com/news/snapmaker-u1-brings-purge-free-four-toolhead-printing-to-the-desktop-for-under-900-257284/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=snapmaker-u1-brings-purge-free-four-toolhead-printing-to-the-desktop-for-under-900</link>
+      <guid isPermaLink="false">news-2e7d4a516c</guid>
+      <description>La nueva Snapmaker U1 introduce un sistema de cuatro cabezales intercambiables que elimina la necesidad de purgar filamento en impresiones multicolores. Esta arquitectura CoreXY busca llevar la tecnología de cambio de herramientas profesional al mercado de consumo.</description>
+    </item>
+    <item>
+      <title>[FDM] El filamento de Xenia reduce el peso de drones en un 30% mediante PA11-CF</title>
+      <link>https://www.voxelmatters.com/xenia-filament-cuts-part-weight-by-over-30-on-a-frankfurt-student-drone/</link>
+      <guid isPermaLink="false">news-6e09f6aaa2</guid>
+      <description>El equipo FRoST de la Universidad de Frankfurt ha logrado aligerar componentes estructurales de su dron DAEDALUS utilizando el filamento XECARB PA11-CF-SL. La sustitución del ASA convencional por este compuesto de poliamida 11 reforzada con carbono permite una mayor eficiencia de vuelo.</description>
+    </item>
+    <item>
+      <title>[FDM] OctoPrint 2.0.0 añade soporte para impresoras Bambu Lab y nuevos protocolos</title>
+      <link>https://3dprintingindustry.com/news/octoprint-2-0-0-adds-plugin-route-to-bambu-lab-printers-after-years-of-serial-only-connections-257408/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=octoprint-2-0-0-adds-plugin-route-to-bambu-lab-printers-after-years-of-serial-only-connections</link>
+      <guid isPermaLink="false">news-43db84a93e</guid>
+      <description>La versión 2.0.0 de OctoPrint marca un hito al permitir conexiones más allá del puerto serie tradicional mediante plugins. Esto abre la puerta a la integración oficial con ecosistemas cerrados como el de Bambu Lab.</description>
+    </item>
+    <item>
+      <title>[IA] Nuevo dashboard de benchmarks para llama.cpp en hardware AMD</title>
+      <link>https://huggingface.co/blog/ggml-org/llamacpp-amd-bench</link>
+      <guid isPermaLink="false">news-02a0884347</guid>
+      <description>Hugging Face ha introducido una herramienta para medir el rendimiento de llama.cpp en procesadores Ryzen y GPUs Radeon. Esto facilita la optimización de modelos de lenguaje locales en hardware de consumo no-Nvidia.</description>
+    </item>
+    <item>
+      <title>[IA] Nemotron 3.5: Datos abiertos y optimización de inferencia</title>
+      <link>https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin</link>
+      <guid isPermaLink="false">news-d3aa48daa6</guid>
+      <description>Se han presentado mejoras en la familia de modelos Nemotron 3.5, enfocadas en el ajuste fino con datos abiertos y una inferencia más rápida. El modelo destaca por su capacidad de procesamiento de datos estructurados.</description>
+    </item>
+    <item>
+      <title>[IA] Guía de Hugging Face para construir y evaluar sistemas multi-agente</title>
+      <link>https://huggingface.co/blog/training-swarms</link>
+      <guid isPermaLink="false">news-c01600d416</guid>
+      <description>Hugging Face ha publicado un análisis profundo sobre cómo entrenar y coordinar enjambres de agentes de IA para tareas complejas. El enfoque se centra en la interoperabilidad y la evaluación del rendimiento en sistemas distribuidos.</description>
+    </item>
+    <item>
+      <title>[FDM] SnowX presenta SnowPod: Impresión 3D de metal de escritorio con integración de Meshy AI</title>
+      <link>https://www.3dnatives.com/en/snowpod-formnext-2026-23112026/</link>
+      <guid isPermaLink="false">news-d7f50b55b9</guid>
+      <description>SnowX ha lanzado SnowPod, una impresora de metal compacta, y ha anunciado colaboraciones estratégicas con Autodesk y Meshy AI. El objetivo es democratizar la fabricación metálica fuera de las grandes factorías industriales.</description>
+    </item>
+    <item>
+      <title>[FDM] OTAN y Ucrania impulsan la impresión 3D para la reparación de drones en combate</title>
       <link>https://3dprintingindustry.com/news/jatec-project-targets-3d-printing-for-drone-repair-and-component-supply-257213/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=jatec-project-targets-3d-printing-for-drone-repair-and-component-supply</link>
       <guid isPermaLink="false">news-5ee529baf2</guid>
-      <description>La OTAN y Ucrania colaboran en un proyecto para desplegar sistemas de fabricación aditiva que permitan reparar drones y suministrar componentes en el frente. El foco está en la rapidez de respuesta y la logística descentralizada.</description>
+      <description>El centro JATEC está desarrollando sistemas de fabricación aditiva para el mantenimiento de vehículos aéreos no tripulados (UAV) en el frente. El objetivo es garantizar el suministro de componentes críticos mediante producción local rápida.</description>
     </item>
     <item>
       <title>[FDM] Prometheus: Impresión robótica de PEEK y PEI a gran escala</title>
       <link>https://3dprintingindustry.com/news/rapid-fusion-and-leam-co-design-heated-nozzle-to-print-certified-peek-and-pei-at-large-scale-257219/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rapid-fusion-and-leam-co-design-heated-nozzle-to-print-certified-peek-and-pei-at-large-scale</link>
       <guid isPermaLink="false">news-8ec441c01c</guid>
-      <description>Rapid Fusion y LEAM han desarrollado una celda robótica con boquilla calefactada diseñada para imprimir polímeros de alto rendimiento como PEEK y PEI. El sistema está orientado a sectores exigentes como el aeroespacial y marítimo.</description>
+      <description>Rapid Fusion y LEAM han presentado Prometheus, una celda robótica diseñada para imprimir polímeros de alto rendimiento como PEEK y PEI. El sistema utiliza una boquilla calefactada especializada para garantizar la certificación de piezas en sectores como el aeroespacial.</description>
     </item>
     <item>
-      <title>[IA] Xometry conecta su plataforma IA con el software MJF de HP</title>
-      <link>https://3dprintingindustry.com/news/xometry-links-workcenter-to-hp-mjf-software-so-5000-partners-can-fill-half-empty-builds-257236/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=xometry-links-workcenter-to-hp-mjf-software-so-5000-partners-can-fill-half-empty-builds</link>
-      <guid isPermaLink="false">news-2a912075a7</guid>
-      <description>Xometry y HP han anunciado una integración que permite a más de 5,000 socios fabricantes llenar espacios vacíos en sus bandejas de impresión MJF con pedidos de Xometry. El sistema utiliza algoritmos de IA para optimizar la ocupación de las máquinas.</description>
+      <title>[IA] Diversas trazas de razonamiento alternativo para problemas matemáticos complejos</title>
+      <link>https://arxiv.org/pdf/2611.34928v1.pdf</link>
+      <guid isPermaLink="false">paper-5c2d7cee03</guid>
+      <description>Propone DART, un método de minería de trazas basado en la descomposición de razonamientos fallidos en modelos de lenguaje grande. El sistema reorienta los pasos con mayor incertidumbre posicional para generar candidatos alternativos válidos. Esto incrementa significativamente la tasa de resolución de problemas matemáticos difíciles con un coste computacional eficiente.</description>
     </item>
     <item>
-      <title>[IA] Detección de defectos por IA en fabricación aditiva de metal</title>
-      <link>https://3dprintingindustry.com/news/dn-solutions-and-addiguru-aim-to-catch-metal-am-defects-before-they-reach-the-cnc-257233/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dn-solutions-and-addiguru-aim-to-catch-metal-am-defects-before-they-reach-the-cnc</link>
-      <guid isPermaLink="false">news-84ff238cfd</guid>
-      <description>DN Solutions y Addiguru han presentado un software de monitoreo in-situ que utiliza IA para identificar defectos durante el proceso de impresión 3D de metal, antes de pasar al mecanizado CNC final.</description>
+      <title>[IA] μ-Bench: Evaluando la finalización de tareas multiusuario en agentes de voz de interacción compartida</title>
+      <link>https://arxiv.org/pdf/2611.34920v1.pdf</link>
+      <guid isPermaLink="false">paper-73b692961d</guid>
+      <description>Se introduce un nuevo benchmark para evaluar asistentes de voz en entornos con múltiples usuarios simultáneos que emiten peticiones interdependientes. El sistema mide el éxito conjunto de tareas gestionando restricciones de privacidad y autoridad. Los resultados muestran las limitaciones de los modelos propietarios actuales bajo entornos acústicos complejos.</description>
     </item>
     <item>
-      <title>[FDM] Guía de ofertas Black Friday 2026 en impresión 3D y materiales</title>
-      <link>https://3dprintingindustry.com/news/black-friday-2026-3d-printing-deals-printers-scanners-filament-and-upgrades-257275/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=black-friday-2026-3d-printing-deals-printers-scanners-filament-and-upgrades</link>
-      <guid isPermaLink="false">news-0844b91549</guid>
-      <description>Recopilación de los mejores descuentos en impresoras FDM, escáneres y filamentos de marcas líderes como Bambu Lab, Creality y Polymaker. Una oportunidad estratégica para renovar hardware y stock de materiales técnicos.</description>
+      <title>[IA] ¿Cuánto sobre-editan los agentes de programación y por qué? Un estudio empírico de ediciones innecesarias en parches de agentes a nivel de repositorio</title>
+      <link>https://arxiv.org/pdf/2611.34875v1.pdf</link>
+      <guid isPermaLink="false">paper-e7c17810ad</guid>
+      <description>Analiza la tendencia de los agentes de software autónomos a generar parches de código más largos que los de los desarrolladores humanos. Mediante una nueva técnica de atribución de residuos, se demuestra que la mayoría de las líneas extra escritas por la IA corresponden a pruebas y documentación necesaria. El estudio valida que el código generado por agentes es funcionalmente tan riguroso como el humano.</description>
     </item>
     <item>
-      <title>[EMPRENDIMIENTO] La crisis de infraestructura para centros de datos de IA</title>
+      <title>[IA] RePace: Razonamiento sobre la aceleración de demostraciones para políticas de visión-lenguaje-acción más rápidas</title>
+      <link>https://arxiv.org/pdf/2611.34864v1.pdf</link>
+      <guid isPermaLink="false">paper-3f52ae9fc3</guid>
+      <description>Presenta un marco de razonamiento offline para acelerar demostraciones humanas antes de entrenar políticas robóticas basadas en visión y lenguaje. En lugar de aplicar factores de velocidad uniformes, RePace analiza dinámicamente qué segmentos requieren menor precisión y ajusta el ritmo. Esto permite desplegar políticas de control más ágiles sin perder capacidad de alineación fina.</description>
+    </item>
+    <item>
+      <title>[IA] DRBench Pro: Un benchmark centrado en el conocimiento para agentes de investigación profunda profesional</title>
+      <link>https://arxiv.org/pdf/2611.34852v1.pdf</link>
+      <guid isPermaLink="false">paper-12c9bcf4e3</guid>
+      <description>Desarrolla un benchmark estricto para evaluar la capacidad de los agentes de investigación autónomos en la síntesis de informes complejos a partir de múltiples fuentes. La plataforma utiliza árboles de conocimiento locales extraídos de Wikipedia para medir de manera objetiva la amplitud y profundidad de la búsqueda. Esto permite auditar con precisión la calidad informativa de los resúmenes generados.</description>
+    </item>
+    <item>
+      <title>[EMPRENDIMIENTO] La crisis de los centros de datos de IA: El suelo y la energía valen más que el software</title>
       <link>https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/</link>
       <guid isPermaLink="false">news-b47f021e12</guid>
-      <description>La construcción de centros de datos para IA se enfrenta a retrasos críticos por falta de energía y terrenos. Las &#x27;neoclouds&#x27; están sufriendo para financiar sus proyectos ante la exigencia de Nvidia de tener instalaciones casi listas.</description>
+      <description>Las &#x27;neoclouds&#x27; están sufriendo retrasos debido a que Nvidia exige infraestructuras casi terminadas antes de suministrar chips. El acceso a terrenos con potencia eléctrica garantizada se ha convertido en el mayor cuello de botella para las startups de infraestructura.</description>
     </item>
     <item>
-      <title>[FDM] INTAMSYS facilita la impresión de PEEK con la nueva FUNMAT PRO 610HT NEO</title>
+      <title>[IA] Predicciones de geometría basadas en aprendizaje automático para depósitos de una y múltiples capas y su optimización multiobjetivo mediante NSGA-II</title>
+      <link>https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2026.1976911/pdf</link>
+      <guid isPermaLink="false">paper-b44ecf88a0</guid>
+      <description>Este estudio emplea aprendizaje automático y profundo con cámaras de alta definición para predecir la geometría de depósitos en fabricación aditiva metálica. Se generan datasets a partir de vídeos reales para optimizar los parámetros de proceso mediante algoritmos avanzados. El enfoque demuestra una alta precisión en el control dimensional de piezas complejas.</description>
+    </item>
+    <item>
+      <title>[FDM] Efecto del grosor de capa en la excentricidad radial y precisión dimensional de engranajes rectos de ácido poliláctico fabricados por modelado por deposición fundida</title>
+      <link>https://www.researchsquare.com/article/rs-11745561/latest.pdf</link>
+      <guid isPermaLink="false">paper-ea65dcc7d6</guid>
+      <description>Investigación experimental mediante diseño Box-Behnken para evaluar el impacto de parámetros FDM en engranajes poliméricos impresos en 3D. Se demuestra que el grosor de capa es el factor crítico, explicando el 85% de la varianza en la excentricidad radial. Los resultados optimizan la fabricación de componentes de transmisión ligeros.</description>
+    </item>
+    <item>
+      <title>[FDM] INTAMSYS FUNMAT PRO 610HT NEO: PEEK industrial más accesible</title>
       <link>https://www.3dnatives.com/en/intamsys-neo-peek-formnext-25112026/</link>
       <guid isPermaLink="false">news-c59025245f</guid>
-      <description>La nueva máquina de INTAMSYS cuenta con una boquilla de 500°C y cámara calefactada activa, eliminando las dificultades tradicionales de imprimir polímeros de ultra-alto rendimiento. Incluye sistemas de calibración automática mejorados.</description>
+      <description>La nueva impresora de INTAMSYS está diseñada para manejar PEEK con mayor facilidad gracias a una cámara calefactada de alta temperatura y boquillas de 500°C. El sistema busca reducir los fallos de impresión en polímeros de grado médico y aeroespacial.</description>
     </item>
     <item>
-      <title>[IA] AI Buckingham: Descubrimiento agéntico de leyes de escala adimensionales en regímenes físicos</title>
+      <title>[IA] AI Buckingham: Descubrimiento agéntico de leyes de escala adimensionales a través de regímenes físicos</title>
       <link>https://arxiv.org/pdf/2611.33961v1.pdf</link>
       <guid isPermaLink="false">paper-0a026389a9</guid>
-      <description>Presenta un marco de trabajo basado en agentes de IA para descubrir leyes físicas adimensionales a partir de datos y descripciones en lenguaje natural. Combina razonamiento de LLMs con herramientas simbólicas para identificar grupos dominantes en sistemas complejos como la dinámica de fluidos.</description>
-    </item>
-    <item>
-      <title>[IA] Maple recauda 5.3M$ para proteger datos privados en la IA</title>
-      <link>https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/</link>
-      <guid isPermaLink="false">news-724878a26e</guid>
-      <description>La startup Maple ha desarrollado una arquitectura de IA encriptada que impide que incluso la propia empresa acceda a los datos de los usuarios. Un enfoque de &#x27;privacidad por diseño&#x27; para el entrenamiento de modelos.</description>
-    </item>
-    <item>
-      <title>[EMPRENDIMIENTO] La caída de Anthropic por debajo del precio de salida: Alerta para startups de IA</title>
-      <link>https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/</link>
-      <guid isPermaLink="false">news-754f867302</guid>
-      <description>Las acciones de Anthropic han caído por debajo de su valoración inicial, lo que genera dudas sobre la sostenibilidad de las valoraciones astronómicas en el sector de la IA generativa.</description>
-    </item>
-    <item>
-      <title>[IA] Aqua2CAD: Corrección y completado de nubes de puntos guiado por observación para reconstrucción CAD</title>
-      <link>https://arxiv.org/pdf/2611.32835v1.pdf</link>
-      <guid isPermaLink="false">paper-f678a34faf</guid>
-      <description>Propone un método para generar modelos CAD editables a partir de imágenes estéreo, utilizando IA para corregir desplazamientos y completar regiones faltantes en nubes de puntos. Aunque se enfoca en entornos subacuáticos, la técnica de reconstrucción es altamente aplicable a la ingeniería inversa para fabricación.</description>
-    </item>
-    <item>
-      <title>[FDM] DED-Agent: Un método de IA agéntica para el desarrollo y calibración autónoma de modelos de simulación térmica en DED</title>
-      <link>https://arxiv.org/pdf/2611.32822v1.pdf</link>
-      <guid isPermaLink="false">paper-3adda7bd8c</guid>
-      <description>Presenta un sistema de agentes de IA que automatiza la creación y calibración de modelos de elementos finitos para la deposición de energía directa por láser. El sistema utiliza un agente supervisor y especialistas para transformar peticiones en lenguaje natural en simulaciones validadas, reduciendo semanas de trabajo experto a procesos autónomos.</description>
-    </item>
-    <item>
-      <title>[IA] IA explicable de grado de diseño como requisito previo para el diseño de ingeniería generativa en fabricación</title>
-      <link>https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2026.1989073/pdf</link>
-      <guid isPermaLink="false">paper-ca720a75c2</guid>
-      <description>Este artículo argumenta que para confiar en el diseño generativo en fabricación aditiva, la IA no solo debe predecir resultados, sino explicar los mecanismos físicos subyacentes. Se analiza cómo los defectos y microestructuras de la impresión 3D real deben integrarse en las explicaciones del modelo.</description>
-    </item>
-    <item>
-      <title>[FDM] Investigación de las propiedades mecánicas y el comportamiento del flujo de fusión de biocompuestos de PLA reciclado y agave impresos en 3D</title>
-      <link>https://link.springer.com/content/pdf/10.1007/s00289-026-06801-y.pdf</link>
-      <guid isPermaLink="false">paper-46e11fdab7</guid>
-      <description>Estudia la mejora de las propiedades del PLA reciclado (rPLA) mediante la adición de fibras naturales de Agave americana. Los resultados muestran que una concentración baja de fibra puede recuperar significativamente la resistencia a la tracción y flexión del material degradado.</description>
-    </item>
-    <item>
-      <title>[IA] Diseño guiado por IA de materiales de alta entropía desde la escala macro a la nano</title>
-      <link>https://pubs.rsc.org/na/article-pdf/doi/10.1039/D6NA00479B/14868552/d6na00479b.pdf</link>
-      <guid isPermaLink="false">paper-f1ace7dbab</guid>
-      <description>Explora cómo los modelos de IA permiten optimizar la composición y propiedades de materiales complejos, como las aleaciones de alta entropía. El enfoque permite un diseño de alto rendimiento y autónomo, superando las limitaciones de la falta de datos experimentales.</description>
-    </item>
-    <item>
-      <title>[IA] S³: Un protocolo de puntuación pre-despliegue para la selección de modelos de lenguaje pequeños en empresas</title>
-      <link>https://srcpublishers.com/engineering-jeast/article/download/6025/6248/22048</link>
-      <guid isPermaLink="false">paper-ea9790220a</guid>
-      <description>Introduce un marco de evaluación multicriterio para decidir qué tareas empresariales pueden delegarse de forma segura a modelos de lenguaje pequeños (SLM) locales. Evalúa dimensiones como complejidad, riesgo y sensibilidad de datos para optimizar el despliegue de IA.</description>
-    </item>
-    <item>
-      <title>[FDM] Arcadian: Ecosistema humanoide de código abierto para investigación y educación accesible</title>
-      <link>https://arxiv.org/pdf/2611.29868v1.pdf</link>
-      <guid isPermaLink="false">paper-0ea85c1890</guid>
-      <description>Describe el desarrollo de un robot humanoide de escala métrica que utiliza impresión 3D con refuerzos metálicos para reducir costes sin sacrificar durabilidad. El proyecto incluye un stack completo de software y hardware, validado mediante aprendizaje por refuerzo para la locomoción.</description>
-    </item>
-    <item>
-      <title>[IA] El rendimiento de la IA se duplica cada cuatro meses en tareas verificables</title>
-      <link>https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/</link>
-      <guid isPermaLink="false">news-01449c61c8</guid>
-      <description>Un nuevo informe de METR confirma que los modelos de IA de vanguardia están acelerando su capacidad para resolver tareas medibles, aunque todavía fallan en juicios filosóficos o evaluaciones complejas.</description>
-    </item>
-    <item>
-      <title>[IA] El índice del &#x27;Hype&#x27; de la IA: Omnipresencia y saturación</title>
-      <link>https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/</link>
-      <guid isPermaLink="false">news-bb3ee1cf50</guid>
-      <description>Un análisis crítico sobre cómo la IA se está integrando forzosamente en todos los productos de consumo, desde buscadores hasta electrodomésticos, y el impacto económico que esto genera en las empresas tecnológicas.</description>
+      <description>Introduce un marco de agentes autónomos impulsado por modelos de lenguaje grande para descubrir leyes físicas adimensionales a partir de datos observacionales. El sistema combina razonamiento, planificación y herramientas simbólicas para identificar grupos adimensionales dominantes. Su enfoque automatiza el análisis dimensional clásico superando las limitaciones de la intuición humana.</description>
     </item>
   </channel>
 </rss>
