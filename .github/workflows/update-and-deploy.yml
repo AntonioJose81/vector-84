@@ -40,7 +40,7 @@ jobs:
       - name: Recopilar noticias, papers y resumir con Gemini
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: "gemini-3.1-flash-lite"
+          GEMINI_MODEL: "gemini-flash-lite-latest"
         run: python3 scripts/update_feed.py
 
       - name: Guardar cambios en data/feed.json y feed.xml

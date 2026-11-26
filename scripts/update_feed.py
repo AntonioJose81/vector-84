@@ -36,8 +36,13 @@ FEED_JSON_PATH = ROOT_DIR / "data" / "feed.json"
 RSS_XML_PATH = ROOT_DIR / "feed.xml"
 
 USER_AGENT = "Vector84Radar/1.0 (+https://github.com/; Automated Personal Tech Digest)"
-DEFAULT_GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.1-flash-lite")
-FALLBACK_GEMINI_MODELS = ("gemini-3.1-flash-lite", "gemini-3-flash-preview", "gemini-flash-latest")
+DEFAULT_GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-lite-latest")
+FALLBACK_GEMINI_MODELS = (
+    "gemini-flash-lite-latest",
+    "gemini-3-flash-preview",
+    "gemini-flash-latest",
+    "gemini-3.1-flash-lite",
+)
 
 
 def load_local_dotenv() -> None:
@@ -885,10 +890,40 @@ def main() -> int:
             "bullets": [],
         }
     else:
-        print(f"==> 3/4 Curando y traduciendo al español con Gemini ({DEFAULT_GEMINI_MODEL})...")
-        curated_news = curate_news_with_gemini(candidate_news, int(limits["max_news"]), api_key)
-        curated_papers = curate_papers_with_gemini(candidate_papers, int(limits["max_papers"]), api_key)
-        briefing = generate_daily_briefing(curated_news, curated_papers, api_key)
+        print(f"==> 3/4 Curando y traduciendo al español con Gemini ({active_model})...")
+        previous_feed: dict[str, Any] = {}
+        if FEED_JSON_PATH.exists():
+            try:
+                previous_feed = json.loads(FEED_JSON_PATH.read_text(encoding="utf-8"))
+            except Exception:
+                previous_feed = {}
+
+        try:
+            curated_news = curate_news_with_gemini(candidate_news, int(limits["max_news"]), api_key)
+        except Exception as exc:
+            print(f"[WARN] Falló curación de noticias con Gemini ({exc}); se conservan noticias previas.", file=sys.stderr)
+            curated_news = previous_feed.get("news", [])
+
+        time.sleep(2)
+
+        try:
+            curated_papers = curate_papers_with_gemini(candidate_papers, int(limits["max_papers"]), api_key)
+        except Exception as exc:
+            print(f"[WARN] Falló curación de papers con Gemini ({exc}); se conservan papers previos.", file=sys.stderr)
+            curated_papers = previous_feed.get("papers", [])
+
+        time.sleep(2)
+
+        try:
+            briefing = generate_daily_briefing(curated_news, curated_papers, api_key)
+        except Exception as exc:
+            print(f"[WARN] Falló el Parte Diario con Gemini ({exc}); se conserva el anterior.", file=sys.stderr)
+            briefing = previous_feed.get("briefing", {
+                "date": now_utc().strftime("%Y-%m-%d"),
+                "headline": "Pulso diario de IA, FDM y emprendimiento",
+                "intro": "Selección actualizada de noticias y papers científicos.",
+                "bullets": [],
+            })
 
     print("==> 4/4 Completando imágenes OpenGraph y guardando data/feed.json + feed.xml...")
     enrich_images(curated_news)
