@@ -5,126 +5,126 @@
     <link>https://antoniojose81.github.io/vector-84/</link>
     <description>Noticias curadas en español y papers científicos descargables sobre Inteligencia Artificial, Impresión 3D por extrusión de filamento (FDM/FFF) y Emprendimiento.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 27 Nov 2026 02:15:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 15:03:04 +0000</lastBuildDate>
     <item>
-      <title>[FDM] Un robot blando ultrarrápido que funciona sin electrónica y ha sido impreso en una sola pieza</title>
-      <link>https://www.3dnatives.com/en/3d-printed-robot-uc-san-diego-27112026/</link>
-      <guid isPermaLink="false">news-aab55a11c2</guid>
-      <description>Investigadores de la Universidad de California en San Diego han publicado un proyecto en Science Robotics sobre un robot blando impreso en 3D que se desplaza mediante aire comprimido sin componentes electrónicos. Este avance demuestra cómo la fabricación aditiva permite crear estructuras complejas móviles de una sola vez.</description>
+      <title>[IA] Lanzamiento en Kickstarter del escáner 3D portátil MIRACO 2 con agentes de IA</title>
+      <link>https://www.voxelmatters.com/miraco-2-portable-3d-scanner-launches-on-kickstarter/</link>
+      <guid isPermaLink="false">news-90eff8b716</guid>
+      <description>Revopoint ha lanzado su nuevo escáner 3D todo en uno MIRACO 2 en Kickstarter, enfocado en la captura de alta precisión. La gran novedad es la integración de Revo Agents, herramientas impulsadas por inteligencia artificial para optimizar el flujo de trabajo de digitalización.</description>
     </item>
     <item>
-      <title>[IA] Hugging Face estrena un panel de rendimiento de llama.cpp optimizado para hardware AMD Ryzen y Radeon</title>
-      <link>https://huggingface.co/blog/ggml-org/llamacpp-amd-bench</link>
-      <guid isPermaLink="false">news-02a0884347</guid>
-      <description>Se ha publicado un nuevo cuadro de mandos para evaluar el rendimiento de inferencia de modelos locales mediante llama.cpp sobre procesadores y gráficas de AMD.</description>
+      <title>[EMPRENDIMIENTO] Fabri utiliza patrones impresos en 3D y FoundryOS para revolucionar la fundición</title>
+      <link>https://www.voxelmatters.com/fabri-uses-3d-printed-patterns-to-remove-hard-tooling-from-investment-casting/</link>
+      <guid isPermaLink="false">news-367b9459d6</guid>
+      <description>Fundada por exalumnos del MIT, Fabri elimina las costosas herramientas de acero en la fundición de inversión mediante patrones de resina impresos en 3D y su propio software de automatización.</description>
     </item>
     <item>
-      <title>[IA] Estrategias avanzadas para construir, entrenar y evaluar sistemas multi-agente de IA</title>
+      <title>[FDM] Estabilización de materiales con gradiente funcional impresos en 3D mediante procesamiento digital de luz en escala de grises y tratamiento de eliminación de radicales</title>
+      <link>https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/admt.71487</link>
+      <guid isPermaLink="false">paper-5de9cb55a7</guid>
+      <description>El procesamiento digital de luz en escala de grises permite fabricar materiales con gradiente funcional a partir de una única resina, pero las regiones de baja conversión siguen siendo químicamente reactivas. Para solucionar esto, se introduce un tratamiento posterior con eliminadores de radicales mediante difusión asistida por disolvente. Los resultados muestran que las muestras tratadas conservan su módulo elástico inicial incluso tras una intensa exposición a luz UV.</description>
+    </item>
+    <item>
+      <title>[FDM] Propiedades mecánicas, de absorción de agua y morfológicas de compuestos de acrilonitrilo butadieno estireno reforzados con fibra de carbono corta modificada con ácido nítrico</title>
+      <link>https://www.researchsquare.com/article/rs-11796758/latest.pdf</link>
+      <guid isPermaLink="false">paper-70f53296df</guid>
+      <description>Los compuestos termoplásticos reforzados con fibra de carbono son excelentes para estructuras ligeras, pero su degradación en entornos húmedos limita su uso. Este estudio analizó el efecto de oxidar fibra de carbono corta con ácido nítrico antes de integrarla en matrices de ABS mediante extrusión y microinyección. Los resultados demuestran mejoras sustanciales tanto en la resistencia a la tracción como en el comportamiento frente al agua.</description>
+    </item>
+    <item>
+      <title>[IA] Guía práctica para construir, entrenar y evaluar sistemas multi-agente de IA</title>
       <link>https://huggingface.co/blog/training-swarms</link>
       <guid isPermaLink="false">news-c01600d416</guid>
-      <description>Hugging Face ha publicado una guía detallada sobre cómo coordinar enjambres y flotas de agentes autónomos de inteligencia artificial. El artículo aborda los retos de escalabilidad, evaluación de rendimiento y mitigación de errores en arquitecturas colaborativas.</description>
+      <description>Hugging Face ha publicado una guía exhaustiva centrada en la arquitectura de enjambres y sistemas cooperativos formados por múltiples agentes de inteligencia artificial autónomos.</description>
     </item>
     <item>
-      <title>[FDM] La impresión 3D metálica de escritorio busca salir de la fábrica de la mano de SnowX y colaboraciones con IA</title>
+      <title>[EMPRENDIMIENTO] SnowX presenta su impresora 3D metálica de escritorio SnowPod en Formnext 2026</title>
       <link>https://www.3dnatives.com/en/snowpod-formnext-2026-23112026/</link>
       <guid isPermaLink="false">news-d7f50b55b9</guid>
-      <description>SnowX ha presentado su impresora SnowPod en Formnext 2026, apostando por llevar el metal al escritorio y anunciando alianzas estratégicas con Autodesk y Meshy AI. La integración de herramientas de diseño asistido por inteligencia artificial facilita la adopción de esta tecnología fuera de entornos industriales masivos.</description>
+      <description>La startup SnowX ha mostrado en Formnext 2026 su máquina SnowPod, diseñada para llevar la impresión 3D de metal fuera de las grandes fábricas. Además, han anunciado colaboraciones estratégicas con Autodesk y Meshy AI.</description>
     </item>
     <item>
-      <title>[IA] Diversas trazas de razonamiento alternativo para problemas matemáticos complejos</title>
+      <title>[IA] Trazas de razonamiento alternativo diverso para problemas matemáticos complejos</title>
       <link>https://arxiv.org/pdf/2611.34928v1.pdf</link>
       <guid isPermaLink="false">paper-5c2d7cee03</guid>
-      <description>El artículo propone DART, un método innovador de minería de trazas de razonamiento para mejorar el entrenamiento posterior de modelos de lenguaje en tareas matemáticas complejas. Partiendo de soluciones rechazadas y descomponiéndolas por incertidumbre, el sistema genera candidatos alternativos diversos que reducen drásticamente el coste computacional por muestra aceptada. Mejora sustancialmente la capacidad de resolución de problemas lógicos y numéricos en IAs.</description>
+      <description>El post-entrenamiento de modelos de lenguaje para el razonamiento matemático suele requerir trazas válidas que son muy escasas en problemas complejos mediante muestreo de Monte Carlo. Para superar esta limitación, proponen DART, un método de minería de trazas que descompone soluciones rechazadas y genera candidatos alternativos distintos guiados por incertidumbre. Esto incrementa notablemente la tasa de recuperación de problemas lógicos complejos.</description>
+    </item>
+    <item>
+      <title>[IA] ¿Cuánto sobre-editan los agentes de programación y por qué? Un estudio empírico de ediciones innecesarias en parches generados a nivel de repositorio</title>
+      <link>https://arxiv.org/pdf/2611.34875v1.pdf</link>
+      <guid isPermaLink="false">paper-e7c17810ad</guid>
+      <description>Los parches de código generados por agentes de IA suelen ser más extensos que los escritos por humanos, lo que se interpreta habitualmente como un exceso de edición innecesaria. Este estudio introduce la atribución de residuos delta para analizar y rastrear cada bloque de código en miles de trayectorias de agentes. Concluyen que la gran mayoría de las ediciones adicionales corresponden a la adición útil de pruebas y documentación.</description>
     </item>
     <item>
       <title>[IA] RePace: Razonamiento sobre la aceleración de demostraciones para políticas de visión-lenguaje-acción más rápidas</title>
       <link>https://arxiv.org/pdf/2611.34864v1.pdf</link>
       <guid isPermaLink="false">paper-3f52ae9fc3</guid>
-      <description>Este trabajo presenta RePace, un marco de razonamiento offline diseñado para acelerar dinámicamente demostraciones de movimiento humano antes de entrenar políticas de visión-lenguaje-acción (VLA). En lugar de aplicar un factor de velocidad fijo, el sistema analiza el contexto visual y la precisión requerida en cada segmento específico del movimiento. Permite que los robots controlados por IA ejecuten tareas de manera más fluida y rápida sin comprometer la precisión.</description>
+      <description>Las políticas basadas en visión-lenguaje-acción suelen heredar la lentitud de las demostraciones humanas originales. Aplicar un factor de aceleración global puede fallar cuando se requieren movimientos precisos. Por ello, presentan RePace, un marco de razonamiento fuera de línea que determina dinámicamente qué segmentos de una demostración requieren mayor velocidad sin comprometer la precisión.</description>
     </item>
     <item>
-      <title>[IA] Fiscales generales desafían el plan de Character.AI de subastar historiales de chat privados de usuarios</title>
+      <title>[EMPRENDIMIENTO] Fiscales estatales cuestionan la subasta de chats privados de usuarios en la quiebra de Character.AI</title>
       <link>https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/</link>
       <guid isPermaLink="false">news-16ddaf7683</guid>
-      <description>El proceso de bancarrota de Character.AI incluye la liquidación de datos sensibles de más de 21 millones de cuentas en EE. UU., incluyendo millones de menores de edad. Diversos fiscales estatales han presentado objeciones formales para frenar la venta.</description>
+      <description>Varios fiscales generales de EE. UU. han presentado objeciones al plan de liquidación de Character.AI, el cual incluye datos sensibles de más de 21 millones de cuentas, incluyendo menores de edad.</description>
     </item>
     <item>
-      <title>[EMPRENDIMIENTO] Las restricciones en centros de datos de IA complican el crecimiento de los proveedores neocloud</title>
+      <title>[EMPRENDIMIENTO] Las restricciones en centros de datos de IA complican la infraestructura para neoclubes</title>
       <link>https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/</link>
       <guid isPermaLink="false">news-b47f021e12</guid>
-      <description>Nvidia ha endurecido su postura al no respaldar proyectos de centros de datos de IA hasta que estén casi operativos. Esta medida coincide con retrasos en la construcción y costes de financiación más elevados para las empresas de infraestructura cloud.</description>
+      <description>Nvidia ha endurecido sus condiciones de respaldo financiero para centros de datos, coincidiendo con retrasos en la construcción y costes de endeudamiento más elevados para los proveedores emergentes de infraestructura en la nube.</description>
     </item>
     <item>
-      <title>[FDM] Predicciones de geometría basadas en aprendizaje automático para depósitos de una y múltiples capas y su optimización multiobjetivo mediante NSGA-II</title>
-      <link>https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2026.1976911/pdf</link>
-      <guid isPermaLink="false">paper-b44ecf88a0</guid>
-      <description>Este estudio emplea algoritmos de aprendizaje automático y profundo junto con análisis de video de alta definición para predecir la geometría de deposición en manufactura aditiva. Los modelos entrenados permiten optimizar los parámetros del proceso de manera simultánea para mejorar la calidad final de las piezas impresas. Demuestra el gran potencial de la visión artificial aplicada al control en procesos de adición capa por capa.</description>
+      <title>[EMPRENDIMIENTO] Emprendimiento impulsado por IA: Una revisión crítica de evidencias y marco unificado de aprendizaje automático explicable para la predicción del crecimiento y la toma de decisiones estratégicas</title>
+      <link>https://carijournals.org/journals/JBSM/article/download/4135/4734</link>
+      <guid isPermaLink="false">paper-55651a29f6</guid>
+      <description>La inteligencia artificial y el análisis predictivo están transformando la gestión empresarial, pero la literatura previa se mantiene fragmentada. Este estudio examina 917 registros bibliográficos de los últimos años para proponer un marco unificado de aprendizaje automático explicable enfocado en pymes. El objetivo es tender puentes entre la predicción de crecimiento, la interpretabilidad y el soporte a decisiones estratégicas.</description>
     </item>
     <item>
-      <title>[FDM] Efecto del espesor de capa en la excentricidad radial y precisión dimensional de engranajes rectos de ácido poliláctico fabricados por modelado por deposición fundida: un estudio experimental Box–Behnken</title>
-      <link>https://www.researchsquare.com/article/rs-11745561/latest.pdf</link>
-      <guid isPermaLink="false">paper-ea65dcc7d6</guid>
-      <description>Este trabajo cuantifica experimentalmente cómo el espesor de capa, la temperatura de la boquilla y la velocidad de impresión influyen en la precisión dimensional y la excentricidad radial de engranajes poliméricos impresos en 3D. Utilizando un diseño experimental Box–Behnken, determinaron que el espesor de capa es el factor dominante, explicando más del 85% de la variación en el comportamiento del engranaje. Los resultados ofrecen directrices claras de optimización de parámetros FDM para aplicaciones mecánicas ligeras.</description>
-    </item>
-    <item>
-      <title>[FDM] Optimización de la influencia de los parámetros de proceso FDM en la rugosidad superficial interna de productos impresos en 3D de ABS</title>
-      <link>https://ojs.ummetro.ac.id/index.php/turbo/article/download/5682/3085</link>
-      <guid isPermaLink="false">paper-a28dbf674e</guid>
-      <description>La investigación analiza el impacto de la altura de capa, la velocidad de impresión y la temperatura de la boquilla sobre la rugosidad en superficies internas cilíndricas de piezas de ABS fabricadas mediante FDM. Aplicando la metodología Taguchi con una matriz ortogonal L9, los autores identificaron la combinación óptima para minimizar las imperfecciones internas. Esto resulta fundamental para piezas con conductos o cavidades complejas.</description>
-    </item>
-    <item>
-      <title>[FDM] INTAMSYS presenta la FUNMAT PRO 610HT NEO para facilitar la impresión industrial de PEEK</title>
+      <title>[FDM] INTAMSYS simplifica la impresión 3D de PEEK industrial con la FUNMAT PRO 610HT NEO</title>
       <link>https://www.3dnatives.com/en/intamsys-neo-peek-formnext-25112026/</link>
       <guid isPermaLink="false">news-c59025245f</guid>
-      <description>Imprimir PEEK sigue siendo un reto debido a sus altas exigencias térmicas, requiriendo fusores a 500 °C y cámaras calefactadas. INTAMSYS busca simplificar este proceso con su nueva máquina enfocada en polímeros de altas prestaciones.</description>
+      <description>Imprimir polímeros de alto rendimiento como el PEEK requiere temperaturas de extrusión extremas y cámaras calefactadas. INTAMSYS ha presentado en Formnext soluciones optimizadas para hacer este proceso más fiable.</description>
     </item>
     <item>
       <title>[IA] AI Buckingham: Descubrimiento agéntico de leyes de escala adimensionales a través de regímenes físicos</title>
       <link>https://arxiv.org/pdf/2611.33961v1.pdf</link>
       <guid isPermaLink="false">paper-0a026389a9</guid>
-      <description>Se introduce AI Buckingham, un marco basado en agentes autónomos asistidos por modelos de lenguaje grande y herramientas numéricas para descubrir leyes físicas adimensionales a partir de datos observacionales. El sistema identifica automáticamente regímenes físicos y grupos adimensionales clave sin intervención humana directa. Esto abre la puerta a la automatización del descubrimiento científico en física y modelado de ingeniería.</description>
+      <description>El análisis dimensional clásico define representaciones válidas pero no determina qué combinaciones capturan la física dominante en distintos regímenes. Presentan AI Buckingham, un marco agéntico que automatiza el descubrimiento de leyes adimensionales combinando grandes modelos de lenguaje con herramientas numéricas y simbólicas. El sistema identifica de forma autónoma grupos adimensionales clave en múltiples sistemas físicos.</description>
     </item>
     <item>
-      <title>[IA] La startup Maple levanta 5,3 millones para desarrollar IA con arquitectura de datos cifrados</title>
+      <title>[EMPRENDIMIENTO] Maple levanta 5.3 millones de dólares para desarrollar IA con arquitectura cifrada</title>
       <link>https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/</link>
       <guid isPermaLink="false">news-724878a26e</guid>
-      <description>Maple ha asegurado financiación para crear productos de inteligencia artificial basados en un sistema de cifrado avanzado que impide incluso a la propia empresa acceder a la información privada de los usuarios.</description>
+      <description>La startup ha asegurado financiación para crear productos de inteligencia artificial diseñados con un sistema de cifrado avanzado que impide incluso a la propia empresa acceder a los datos privados del usuario.</description>
     </item>
     <item>
-      <title>[EMPRENDIMIENTO] La valoración de Anthropic cae por debajo del precio de salida, un aviso para las startups de IA</title>
+      <title>[EMPRENDIMIENTO] La caída de valoraciones de Anthropic genera preocupación en el ecosistema de startups de IA</title>
       <link>https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/</link>
       <guid isPermaLink="false">news-754f867302</guid>
-      <description>La corrección bursátil que atraviesa Anthropic tras su salida a bolsa refleja la presión a la que se enfrentan las valoraciones del sector de la inteligencia artificial generativa.</description>
+      <description>La cotización y valoración de Anthropic por debajo de su precio de salida a bolsa marca una señal de alerta sobre la sostenibilidad de las altas expectativas económicas en el sector de la inteligencia artificial.</description>
     </item>
     <item>
-      <title>[IA] DED-Agent: Un método de IA agéntica para el desarrollo y calibración autónoma de modelos de simulación térmica en deposición directa de energía por láser</title>
+      <title>[IA] DED-Agent: Un método de IA agéntica para el desarrollo y calibración autónoma de simulaciones térmicas en deposición directa de energía por láser</title>
       <link>https://arxiv.org/pdf/2611.32822v1.pdf</link>
       <guid isPermaLink="false">paper-3adda7bd8c</guid>
-      <description>Se presenta un sistema basado en agentes de IA que automatiza por completo la compleja configuración, mallado y calibración de modelos térmicos de elementos finitos en manufactura aditiva metálica. Un agente supervisor coordina subagentes especializados para traducir peticiones en lenguaje natural a simulaciones validadas. Esto reduce drásticamente el tiempo de ingeniería necesario para calibrar fuentes de calor y predecir defectos térmicos.</description>
+      <description>En la fabricación aditiva de metales, configurar y calibrar modelos de elementos finitos requiere semanas de trabajo experto debido al enorme espacio de diseño. Este estudio presenta DED-Agent, un marco de inteligencia artificial donde un agente supervisor coordina agentes especializados para automatizar la simulación térmica. El sistema traduce peticiones en lenguaje natural a especificaciones validadas y ejecuta herramientas de código abierto.</description>
     </item>
     <item>
-      <title>[EMPRENDIMIENTO] Inteligencia artificial, desarrollo de nuevos productos y diseño: Hacia un marco para la adopción de la inteligencia artificial en la investigación de la innovación</title>
-      <link>https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ijmr.70044</link>
-      <guid isPermaLink="false">paper-eed16b0718</guid>
-      <description>A través de una revisión sistemática de más de mil artículos, este trabajo analiza cómo la inteligencia artificial está rediseñando los procesos de desarrollo de nuevos productos y las actividades de diseño. Se evidencia que la IA actúa como un facilitador clave para gestionar la complejidad y superar limitaciones metodológicas tradicionales en entornos de innovación. El estudio establece bases teóricas sólidas para entender el impacto transformador de las máquinas autónomas en la I+D.</description>
-    </item>
-    <item>
-      <title>[FDM] Investigación de las propiedades mecánicas y el comportamiento de flujo de fusión de biocompuestos de PLA reciclado y agave impresos en 3D</title>
-      <link>https://link.springer.com/content/pdf/10.1007/s00289-026-06801-y.pdf</link>
-      <guid isPermaLink="false">paper-46e11fdab7</guid>
-      <description>El estudio aborda el reciclaje de residuos de ácido poliláctico (PLA) reforzándolos con concentraciones bajas de fibras naturales de Agave americana para mejorar sus propiedades de extrusión e impresión. Los biocompuestos fabricados demostraron una notable recuperación y mejora de la resistencia a la tracción y a la flexión con solo un 1% de carga de fibra. Representa una solución sostenible y técnica para la economía circular en la extrusión de filamentos poliméricos.</description>
-    </item>
-    <item>
-      <title>[EMPRENDIMIENTO] Supertake consigue 20 millones para que los agentes de IA conviertan predicciones en carteras de inversión</title>
+      <title>[EMPRENDIMIENTO] Supertake recauda 20 millones para agentes de IA que automatizan carteras bursátiles</title>
       <link>https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/</link>
       <guid isPermaLink="false">news-0d63fb1e6c</guid>
-      <description>La startup Supertake ha cerrado una ronda de financiación para desarrollar agentes autónomos capaces de traducir perspectivas de mercado en estrategias de inversión automatizadas sin requerir conocimientos bursátiles avanzados.</description>
+      <description>La startup Supertake ha obtenido una importante ronda de financiación para desplegar agentes inteligentes capaces de traducir predicciones de mercado en carteras de inversión diversificadas de forma automática.</description>
     </item>
     <item>
       <title>[FDM] Arcadian: Ecosistema humanoide de código abierto para investigación y educación accesible y personalizable</title>
       <link>https://arxiv.org/pdf/2611.29868v1.pdf</link>
       <guid isPermaLink="false">paper-0ea85c1890</guid>
-      <description>Se propone el desarrollo de un robot humanoide a escala de un metro utilizando técnicas de impresión 3D con metal embebido para maximizar la durabilidad sin necesidad de costosos mecanizados CNC. El hardware se valida mediante políticas de aprendizaje por refuerzo entrenadas en simulación y transferidas con éxito al mundo real. Destaca por reducir la barrera de entrada económica y técnica en robótica educativa y de investigación.</description>
+      <description>Construir robots humanoides sigue siendo un reto costoso y complejo para grupos con recursos limitados. Para resolverlo, se presenta Arcadian, un ecosistema de hardware y software de código abierto que utiliza impresión 3D con metal incrustado para lograr una alta relación resistencia-costo. Las pruebas validan que las políticas de aprendizaje por refuerzo entrenadas en simulación se transfieren eficazmente al hardware real.</description>
+    </item>
+    <item>
+      <title>[FDM] Evaluación del nuevo filamento PETG flexible e irrompible de Polymaker</title>
+      <link>https://hackaday.com/2026/11/20/how-would-you-break-this-flexible-petg/</link>
+      <guid isPermaLink="false">news-8a40d282df</guid>
+      <description>Polymaker ha introducido una nueva formulación de PETG denominada G-Flex, comercializada bajo la promesa de ser prácticamente irrompible. Las pruebas prácticas demuestran que mantiene la durabilidad característica sin sacrificar la facilidad de impresión.</description>
     </item>
   </channel>
 </rss>

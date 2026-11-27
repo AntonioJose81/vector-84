@@ -1,69 +1,46 @@
 {
-  "updated_at": "2026-11-27T02:15:23.369549+00:00",
+  "updated_at": "2026-11-27T15:03:04.736507+00:00",
   "edition": "2026.11.27",
   "ai_curated": true,
   "briefing": {
     "date": "2026-11-27",
-    "headline": "IA agéntica, hardware FDM de escritorio y realidades de mercado para startups",
-    "intro": "VECTOR 84 al día: La convergencia entre flotas de agentes autónomos y la optimización de procesos de fabricación aditiva redefine el desarrollo tecnológico actual.",
+    "headline": "IA aplicada a fabricación, hardware FDM de alta temperatura y nuevas startups",
+    "intro": "El pulso tecnológico de hoy combina la evolución de agentes de IA y hardware de extrusión extrema con movimientos clave en el ecosistema emprendedor.",
     "bullets": [
       {
         "category": "ia",
         "label": "AGENTES IA",
-        "text": "Hugging Face publica una guía técnica esencial para desplegar, escalar y coordinar sistemas multi-agente autónomos.",
-        "ref_id": "news-c01600d416"
+        "text": "Revopoint integra agentes de IA en su nuevo escáner MIRACO 2 para optimizar los flujos de trabajo de digitalización 3D en Kickstarter.",
+        "ref_id": "news-90eff8b716"
       },
       {
         "category": "fdm",
         "label": "EXTRUSIÓN FDM",
-        "text": "SnowX presenta su impresora SnowPod integrando IA y Autodesk para democratizar el metal de escritorio.",
-        "ref_id": "news-d7f50b55b9"
+        "text": "Prusa lanza un hotend capaz de alcanzar los 400°C para la serie CORE One, facilitando la impresión de materiales técnicos avanzados sin equipos industriales.",
+        "ref_id": "news-6881f127c6"
       },
       {
         "category": "emprendimiento",
-        "label": "MERCADO TECH",
-        "text": "La corrección bursátil de Anthropic y las restricciones en centros de datos exigen mayor eficiencia a las startups de infraestructura.",
-        "ref_id": "news-754f867302"
+        "label": "EMPRENDIMIENTO",
+        "text": "SnowX presenta la impresora 3D SnowPod en Formnext 2026, apostando por llevar la manufactura metálica fuera de las grandes factorías.",
+        "ref_id": "news-d7f50b55b9"
       },
       {
         "category": "cruce",
         "label": "PAPER DESTACADO",
-        "text": "Nuevos algoritmos combinan aprendizaje automático y optimización NSGA-II para perfeccionar la precisión geométrica en fabricación aditiva.",
-        "ref_id": "paper-b44ecf88a0"
+        "text": "DED-Agent introduce IA agéntica para calibrar simulaciones térmicas en fabricación aditiva, acelerando la optimización de parámetros de impresión.",
+        "ref_id": "paper-3adda7bd8c"
       }
     ]
   },
   "news": [
     {
-      "id": "news-c01600d416",
-      "type": "news",
-      "title_es": "Estrategias avanzadas para construir, entrenar y evaluar sistemas multi-agente de IA",
-      "original_title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
-      "summary_es": "Hugging Face ha publicado una guía detallada sobre cómo coordinar enjambres y flotas de agentes autónomos de inteligencia artificial. El artículo aborda los retos de escalabilidad, evaluación de rendimiento y mitigación de errores en arquitecturas colaborativas.",
-      "deep_summary_es": "A medida que los LLM pasan de tareas aisladas a flujos de trabajo en equipo, la orquestación multi-agente se convierte en el pilar fundamental para automatizar procesos complejos de ingeniería y gestión de datos.",
-      "url": "https://huggingface.co/blog/training-swarms",
-      "source": "Hugging Face Blog",
-      "published_at": "2026-11-26T00:00:00+00:00",
-      "image": "https://huggingface.co/blog/assets/training-swarms/thumbnail.png",
-      "categories": [
-        "ia"
-      ],
-      "primary_category": "ia",
-      "is_crossover": false,
-      "importance": 9,
-      "tags": [
-        "Multi-Agente",
-        "LLM",
-        "Hugging Face"
-      ]
-    },
-    {
       "id": "news-d7f50b55b9",
       "type": "news",
-      "title_es": "La impresión 3D metálica de escritorio busca salir de la fábrica de la mano de SnowX y colaboraciones con IA",
+      "title_es": "SnowX presenta su impresora 3D metálica de escritorio SnowPod en Formnext 2026",
       "original_title": "Can Metal 3D Printing Leave the Factory? SnowX Makes Its Case with SnowPod, Announces Partnerships with Autodesk and Meshy AI",
-      "summary_es": "SnowX ha presentado su impresora SnowPod en Formnext 2026, apostando por llevar el metal al escritorio y anunciando alianzas estratégicas con Autodesk y Meshy AI. La integración de herramientas de diseño asistido por inteligencia artificial facilita la adopción de esta tecnología fuera de entornos industriales masivos.",
-      "deep_summary_es": "",
+      "summary_es": "La startup SnowX ha mostrado en Formnext 2026 su máquina SnowPod, diseñada para llevar la impresión 3D de metal fuera de las grandes fábricas. Además, han anunciado colaboraciones estratégicas con Autodesk y Meshy AI.",
+      "deep_summary_es": "La descentralización de la fabricación aditiva metálica es uno de los campos de mayor crecimiento para nuevas empresas tecnológicas. El uso de herramientas de diseño asistido por IA acelera la adopción de estas soluciones compactas.",
       "url": "https://www.3dnatives.com/en/snowpod-formnext-2026-23112026/",
       "source": "3DNatives",
       "published_at": "2026-11-25T23:01:34+00:00",
@@ -73,77 +50,148 @@
         "ia",
         "emprendimiento"
       ],
-      "primary_category": "fdm",
+      "primary_category": "emprendimiento",
       "is_crossover": true,
       "importance": 9,
       "tags": [
-        "Metal FDM",
-        "Hardware",
-        "Autodesk"
+        "Metal",
+        "Startup",
+        "Formnext"
       ]
     },
     {
-      "id": "news-aab55a11c2",
+      "id": "news-6881f127c6",
       "type": "news",
-      "title_es": "Un robot blando ultrarrápido que funciona sin electrónica y ha sido impreso en una sola pieza",
-      "original_title": "A Super Fast Soft Robot that Runs without Electronics (and Was Printed in One Piece!)",
-      "summary_es": "Investigadores de la Universidad de California en San Diego han publicado un proyecto en Science Robotics sobre un robot blando impreso en 3D que se desplaza mediante aire comprimido sin componentes electrónicos. Este avance demuestra cómo la fabricación aditiva permite crear estructuras complejas móviles de una sola vez.",
-      "deep_summary_es": "El diseño aprovecha la flexibilidad del material para canalizar la presión neumática de forma autónoma. Esto abre nuevas vías para la robótica blanda en entornos delicados donde los circuitos tradicionales fallan.",
-      "url": "https://www.3dnatives.com/en/3d-printed-robot-uc-san-diego-27112026/",
-      "source": "3DNatives",
-      "published_at": "2026-11-26T23:01:50+00:00",
-      "image": "https://www.3dnatives.com/en/wp-content/uploads/sites/2/2026/11/robot-cover.jpg",
+      "title_es": "Prusa lanza su hotend de alta temperatura a 400°C para la serie CORE One",
+      "original_title": "400°C HT Hotend is out! Plus: New Materials and HighTemp Sheets for CORE One+/L+.",
+      "summary_es": "El nuevo cabezal calefactado permite imprimir materiales técnicos avanzados a temperaturas de hasta 400 °C en las impresoras CORE One+/L+ sin necesidad de adquirir costosas máquinas industriales.",
+      "deep_summary_es": "Democratizar el acceso a temperaturas de fusión elevadas abre la puerta al uso de polímeros técnicos avanzados para usuarios avanzados y pequeñas empresas de ingeniería.",
+      "url": "https://blog.prusa3d.com/ht-hotend-is-out-plus-we-offer-new-materials-and-hightemp-sheets-for-core-one-l_138625/",
+      "source": "Prusa Research Blog",
+      "published_at": "2026-10-21T10:00:25+00:00",
+      "image": "https://assets.prusa3d.com/cdn-cgi/image/width=1200,format=auto,quality=85,height=630,fit=cover/https%3A%2F%2Fstorage.googleapis.com%2Fprusa3d-content-prod-14e8-asset-manager-prod%2F1fe8c1fb-eb92-4a0d-bc3f-da6c93866a97.jpg",
       "categories": [
-        "fdm",
-        "ia"
+        "fdm"
       ],
       "primary_category": "fdm",
-      "is_crossover": true,
-      "importance": 8,
+      "is_crossover": false,
+      "importance": 9,
       "tags": [
-        "Robótica",
-        "Impresión 3D",
-        "Diseño"
+        "Hotend",
+        "Prusa",
+        "400C"
       ]
     },
     {
-      "id": "news-16ddaf7683",
+      "id": "news-90eff8b716",
       "type": "news",
-      "title_es": "Fiscales generales desafían el plan de Character.AI de subastar historiales de chat privados de usuarios",
-      "original_title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
-      "summary_es": "El proceso de bancarrota de Character.AI incluye la liquidación de datos sensibles de más de 21 millones de cuentas en EE. UU., incluyendo millones de menores de edad. Diversos fiscales estatales han presentado objeciones formales para frenar la venta.",
-      "deep_summary_es": "Este conflicto abre un debate crítico sobre la propiedad y la protección de datos personales cuando una startup tecnológica quiebra y sus activos digitales son monetizados.",
-      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-      "source": "TechCrunch Startups",
-      "published_at": "2026-11-25T17:35:58+00:00",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/06/Character-Calls-Image-feat.jpg?resize=1200,675",
+      "title_es": "Lanzamiento en Kickstarter del escáner 3D portátil MIRACO 2 con agentes de IA",
+      "original_title": "MIRACO 2 portable 3D scanner launches on Kickstarter",
+      "summary_es": "Revopoint ha lanzado su nuevo escáner 3D todo en uno MIRACO 2 en Kickstarter, enfocado en la captura de alta precisión. La gran novedad es la integración de Revo Agents, herramientas impulsadas por inteligencia artificial para optimizar el flujo de trabajo de digitalización.",
+      "deep_summary_es": "Este lanzamiento refleja la tendencia actual de fusionar hardware de medición 3D con software inteligente local o en la nube. Reduce drásticamente la curva de aprendizaje en el postprocesado de mallas y nubes de puntos para impresión FDM.",
+      "url": "https://www.voxelmatters.com/miraco-2-portable-3d-scanner-launches-on-kickstarter/",
+      "source": "VoxelMatters",
+      "published_at": "2026-11-27T12:00:47+00:00",
+      "image": "https://www.voxelmatters.com/wp-content/uploads/2026/11/revopoint-3.jpg",
       "categories": [
-        "emprendimiento",
-        "ia"
+        "ia",
+        "fdm",
+        "emprendimiento"
       ],
       "primary_category": "ia",
       "is_crossover": true,
       "importance": 8,
       "tags": [
-        "Startups",
+        "Escáner 3D",
+        "IA",
+        "Kickstarter"
+      ]
+    },
+    {
+      "id": "news-367b9459d6",
+      "type": "news",
+      "title_es": "Fabri utiliza patrones impresos en 3D y FoundryOS para revolucionar la fundición",
+      "original_title": "Fabri uses 3D printed patterns to remove hard tooling from investment casting",
+      "summary_es": "Fundada por exalumnos del MIT, Fabri elimina las costosas herramientas de acero en la fundición de inversión mediante patrones de resina impresos en 3D y su propio software de automatización.",
+      "deep_summary_es": "Un excelente ejemplo de cómo las startups combinan software propietario de control de procesos con impresión 3D para acortar drásticamente los tiempos de entrega en manufactura metálica.",
+      "url": "https://www.voxelmatters.com/fabri-uses-3d-printed-patterns-to-remove-hard-tooling-from-investment-casting/",
+      "source": "VoxelMatters",
+      "published_at": "2026-11-26T17:00:27+00:00",
+      "image": "https://www.voxelmatters.com/wp-content/uploads/2026/11/MIT-metal-AM.jpg",
+      "categories": [
+        "fdm",
+        "emprendimiento"
+      ],
+      "primary_category": "emprendimiento",
+      "is_crossover": true,
+      "importance": 8,
+      "tags": [
+        "Fundición",
+        "Software",
+        "Resina"
+      ]
+    },
+    {
+      "id": "news-c01600d416",
+      "type": "news",
+      "title_es": "Guía práctica para construir, entrenar y evaluar sistemas multi-agente de IA",
+      "original_title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "summary_es": "Hugging Face ha publicado una guía exhaustiva centrada en la arquitectura de enjambres y sistemas cooperativos formados por múltiples agentes de inteligencia artificial autónomos.",
+      "deep_summary_es": "A medida que los LLM evolucionan hacia la ejecución de tareas complejas, la coordinación multi-agente se consolida como la arquitectura estándar para resolver flujos de trabajo empresariales automatizados.",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "source": "Hugging Face Blog",
+      "published_at": "2026-11-26T00:00:00+00:00",
+      "image": "https://huggingface.co/blog/assets/training-swarms/thumbnail.png",
+      "categories": [
+        "ia"
+      ],
+      "primary_category": "ia",
+      "is_crossover": false,
+      "importance": 8,
+      "tags": [
+        "Multi-agente",
+        "LLM",
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "news-16ddaf7683",
+      "type": "news",
+      "title_es": "Fiscales estatales cuestionan la subasta de chats privados de usuarios en la quiebra de Character.AI",
+      "original_title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "summary_es": "Varios fiscales generales de EE. UU. han presentado objeciones al plan de liquidación de Character.AI, el cual incluye datos sensibles de más de 21 millones de cuentas, incluyendo menores de edad.",
+      "deep_summary_es": "Este caso pone sobre la mesa el vacío legal y los graves riesgos de privacidad asociados a la bancarrota de startups de IA que gestionan información altamente personal de sus usuarios.",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "source": "TechCrunch Startups",
+      "published_at": "2026-11-25T17:35:58+00:00",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/06/Character-Calls-Image-feat.jpg?resize=1200,675",
+      "categories": [
+        "ia",
+        "emprendimiento"
+      ],
+      "primary_category": "emprendimiento",
+      "is_crossover": true,
+      "importance": 8,
+      "tags": [
         "Privacidad",
-        "Legal"
+        "Startup",
+        "Regulación"
       ]
     },
     {
       "id": "news-b47f021e12",
       "type": "news",
-      "title_es": "Las restricciones en centros de datos de IA complican el crecimiento de los proveedores neocloud",
+      "title_es": "Las restricciones en centros de datos de IA complican la infraestructura para neoclubes",
       "original_title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
-      "summary_es": "Nvidia ha endurecido su postura al no respaldar proyectos de centros de datos de IA hasta que estén casi operativos. Esta medida coincide con retrasos en la construcción y costes de financiación más elevados para las empresas de infraestructura cloud.",
-      "deep_summary_es": "El mercado de las startups de IA está experimentando un cambio de paradigma: las promesas en diapositivas ya no bastan; el acceso físico a energía, suelo y refrigeración se ha convertido en el verdadero cuello de botella.",
+      "summary_es": "Nvidia ha endurecido sus condiciones de respaldo financiero para centros de datos, coincidiendo con retrasos en la construcción y costes de endeudamiento más elevados para los proveedores emergentes de infraestructura en la nube.",
+      "deep_summary_es": "El mercado de la IA está virando desde la simple especulación con modelos hacia la cruda realidad del suelo, la energía y la solidez financiera de los centros de cálculo.",
       "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
       "source": "TechCrunch Startups",
       "published_at": "2026-11-25T15:41:43+00:00",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Anita-Verma-Lallian-2.jpg?w=1024",
       "categories": [
-        "emprendimiento",
-        "ia"
+        "ia",
+        "emprendimiento"
       ],
       "primary_category": "emprendimiento",
       "is_crossover": true,
@@ -151,16 +199,16 @@
       "tags": [
         "Infraestructura",
         "Nvidia",
-        "Cloud"
+        "Centros de Datos"
       ]
     },
     {
       "id": "news-c59025245f",
       "type": "news",
-      "title_es": "INTAMSYS presenta la FUNMAT PRO 610HT NEO para facilitar la impresión industrial de PEEK",
+      "title_es": "INTAMSYS simplifica la impresión 3D de PEEK industrial con la FUNMAT PRO 610HT NEO",
       "original_title": "PEEK Printing Made Faster and Easier? INTAMSYS on the FUNMAT PRO 610HT NEO at Formnext",
-      "summary_es": "Imprimir PEEK sigue siendo un reto debido a sus altas exigencias térmicas, requiriendo fusores a 500 °C y cámaras calefactadas. INTAMSYS busca simplificar este proceso con su nueva máquina enfocada en polímeros de altas prestaciones.",
-      "deep_summary_es": "Facilitar el procesado de termoplásticos avanzados como el PEEK acerca materiales aeroespaciales y médicos a talleres de ingeniería de menor escala sin sacrificar tolerancias mecánicas.",
+      "summary_es": "Imprimir polímeros de alto rendimiento como el PEEK requiere temperaturas de extrusión extremas y cámaras calefactadas. INTAMSYS ha presentado en Formnext soluciones optimizadas para hacer este proceso más fiable.",
+      "deep_summary_es": "Superar las barreras térmicas del PEEK es esencial para fabricar piezas de reemplazo metálico en aeroespacial y medicina directamente mediante extrusión FFF de altas prestaciones.",
       "url": "https://www.3dnatives.com/en/intamsys-neo-peek-formnext-25112026/",
       "source": "3DNatives",
       "published_at": "2026-11-25T11:07:41+00:00",
@@ -173,17 +221,17 @@
       "importance": 8,
       "tags": [
         "PEEK",
-        "Industrial",
-        "Extrusión"
+        "INTAMSYS",
+        "Alta Temperatura"
       ]
     },
     {
       "id": "news-724878a26e",
       "type": "news",
-      "title_es": "La startup Maple levanta 5,3 millones para desarrollar IA con arquitectura de datos cifrados",
+      "title_es": "Maple levanta 5.3 millones de dólares para desarrollar IA con arquitectura cifrada",
       "original_title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
-      "summary_es": "Maple ha asegurado financiación para crear productos de inteligencia artificial basados en un sistema de cifrado avanzado que impide incluso a la propia empresa acceder a la información privada de los usuarios.",
-      "deep_summary_es": "Abordar la privacidad desde el núcleo de la arquitectura técnica ofrece una alternativa sólida frente a las preocupaciones de filtración de datos corporativos y personales en modelos alojados en la nube.",
+      "summary_es": "La startup ha asegurado financiación para crear productos de inteligencia artificial diseñados con un sistema de cifrado avanzado que impide incluso a la propia empresa acceder a los datos privados del usuario.",
+      "deep_summary_es": "La seguridad de extremo a extremo en modelos generativos corporativos se ha convertido en el principal reclamo comercial para empresas reacias a ceder información confidencial a terceros.",
       "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
       "source": "TechCrunch Startups",
       "published_at": "2026-11-24T21:19:52+00:00",
@@ -192,22 +240,22 @@
         "ia",
         "emprendimiento"
       ],
-      "primary_category": "ia",
+      "primary_category": "emprendimiento",
       "is_crossover": true,
       "importance": 8,
       "tags": [
-        "Financiación",
         "Cifrado",
+        "Financiación",
         "Privacidad"
       ]
     },
     {
       "id": "news-754f867302",
       "type": "news",
-      "title_es": "La valoración de Anthropic cae por debajo del precio de salida, un aviso para las startups de IA",
+      "title_es": "La caída de valoraciones de Anthropic genera preocupación en el ecosistema de startups de IA",
       "original_title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-      "summary_es": "La corrección bursátil que atraviesa Anthropic tras su salida a bolsa refleja la presión a la que se enfrentan las valoraciones del sector de la inteligencia artificial generativa.",
-      "deep_summary_es": "Los inversores están exigiendo rentabilidades reales y modelos de negocio sostenibles, enfriando el optimismo especulativo que ha caracterizado al ecosistema de IA en los últimos años.",
+      "summary_es": "La cotización y valoración de Anthropic por debajo de su precio de salida a bolsa marca una señal de alerta sobre la sostenibilidad de las altas expectativas económicas en el sector de la inteligencia artificial.",
+      "deep_summary_es": "Este ajuste de mercado podría enfriar el ritmo de inversiones masivas y obligar a las nuevas empresas a demostrar rentabilidad real frente a la quema de capital por inferencia.",
       "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
       "source": "TechCrunch Startups",
       "published_at": "2026-11-24T18:30:42+00:00",
@@ -221,17 +269,41 @@
       "importance": 8,
       "tags": [
         "Inversión",
-        "Mercados",
+        "Mercado",
         "Anthropic"
+      ]
+    },
+    {
+      "id": "news-0d63fb1e6c",
+      "type": "news",
+      "title_es": "Supertake recauda 20 millones para agentes de IA que automatizan carteras bursátiles",
+      "original_title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "summary_es": "La startup Supertake ha obtenido una importante ronda de financiación para desplegar agentes inteligentes capaces de traducir predicciones de mercado en carteras de inversión diversificadas de forma automática.",
+      "deep_summary_es": "La aplicación de agentes autónomos al sector fintech redefine la gestión patrimonial minorista, simplificando estrategias financieras complejas mediante interfaces conversacionales.",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "source": "TechCrunch Startups",
+      "published_at": "2026-11-23T22:02:05+00:00",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/supertake-header.jpg?resize=1200,675",
+      "categories": [
+        "ia",
+        "emprendimiento"
+      ],
+      "primary_category": "emprendimiento",
+      "is_crossover": true,
+      "importance": 8,
+      "tags": [
+        "Fintech",
+        "Agentes",
+        "Inversión"
       ]
     },
     {
       "id": "news-8a40d282df",
       "type": "news",
-      "title_es": "Polymaker lanza G-Flex, una nueva formulación de filamento PETG catalogada como 'irrompible'",
+      "title_es": "Evaluación del nuevo filamento PETG flexible e irrompible de Polymaker",
       "original_title": "How Would You Break This Flexible PETG?",
-      "summary_es": "Polymaker ha introducido un filamento PETG optimizado para ofrecer una flexibilidad extrema sin sacrificar la facilidad de impresión. Las primeras pruebas demuestran una durabilidad muy superior al PLA tradicional manteniendo una alta resistencia estructural.",
-      "deep_summary_es": "A diferencia de otros filamentos flexibles que sufren por problemas de extrusión o pandeo, este material equilibra elasticidad y rigidez de forma óptima para impresoras FDM cerradas o abiertas.",
+      "summary_es": "Polymaker ha introducido una nueva formulación de PETG denominada G-Flex, comercializada bajo la promesa de ser prácticamente irrompible. Las pruebas prácticas demuestran que mantiene la durabilidad característica sin sacrificar la facilidad de impresión.",
+      "deep_summary_es": "Mejorar la tenacidad de los materiales FDM estándar sin complicar la retracción o la adherencia a la cama caliente es clave para piezas mecánicas funcionales de uso final.",
       "url": "https://hackaday.com/2026/11/20/how-would-you-break-this-flexible-petg/",
       "source": "Hackaday 3D Printing",
       "published_at": "2026-11-20T19:30:21+00:00",
@@ -244,17 +316,17 @@
       "importance": 8,
       "tags": [
         "PETG",
-        "Filamento",
-        "Polymaker"
+        "Polymaker",
+        "Filamento"
       ]
     },
     {
       "id": "news-088051c143",
       "type": "news",
-      "title_es": "Prusa Connect añade control local total eliminando la dependencia obligatoria de la nube",
+      "title_es": "Prusa Connect se actualiza para permitir control local sin depender de la nube",
       "original_title": "Local Prusa Connect Cuts Out the Cloud",
-      "summary_es": "Prusa ha dado un paso importante hacia la soberanía del usuario al permitir gestionar sus impresoras de forma estrictamente local mediante Prusa Connect. Esto evita la obligatoriedad de enrutar los trabajos a través de servidores externos.",
-      "deep_summary_es": "En un sector donde la telemetría en la nube y el bloqueo de ecosistemas son norma, ofrecer una alternativa descentralizada y privada garantiza mayor seguridad industrial y tranquilidad al usuario final.",
+      "summary_es": "Prusa ha implementado opciones para desconectar sus servicios de gestión de la nube, devolviendo el control absoluto de la telemetría y monitorización directamente al entorno local del usuario.",
+      "deep_summary_es": "En un ecosistema donde el software cerrado suele obligar al uso de servidores externos, priorizar la privacidad y el control local es un gran acierto para entornos industriales y domésticos.",
       "url": "https://hackaday.com/2026/11/18/local-prusa-connect-cuts-out-the-cloud/",
       "source": "Hackaday 3D Printing",
       "published_at": "2026-11-18T12:00:03+00:00",
@@ -267,17 +339,17 @@
       "importance": 8,
       "tags": [
         "Prusa Connect",
-        "Cloud",
+        "Redes",
         "Privacidad"
       ]
     },
     {
       "id": "news-d1dd49b4f8",
       "type": "news",
-      "title_es": "Una startup de olfato sintético afirma que su IA ha alcanzado la inteligencia olfativa humana",
+      "title_es": "Una startup de IA desarrolla una nariz artificial con inteligencia olfativa humana",
       "original_title": "This smell startup says its AI nose is as good as a human’s",
-      "summary_es": "La startup Osmo asegura que su modelo de IA ha igualado la capacidad humana para detectar y clasificar olores. Para lograrlo, han tenido que recopilar un dataset masivo de más de 10 millones de etiquetas usando espectrómetros y paneles humanos.",
-      "deep_summary_es": "Este desarrollo resuelve uno de los mayores cuellos de botella de la IA sensorial: la escasez de datos estructurados sobre el sentido del olfato. Su impacto comercial promete revolucionar la industria química, alimentaria y de perfumería.",
+      "summary_es": "La empresa emergente Osmo afirma haber entrenado un modelo de IA capaz de igualar la capacidad olfativa humana. Para lograrlo, crearon un conjunto de datos masivo con más de 10 millones de etiquetas basadas en descripciones químicas y de olores.",
+      "deep_summary_es": "Este avance abre aplicaciones prácticas en control de calidad industrial, alimentación y detección de gases, demostrando el potencial de las arquitecturas de aprendizaje profundo en dominios sensoriales no tradicionales.",
       "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
       "source": "MIT Technology Review AI",
       "published_at": "2026-11-18T10:20:30+00:00",
@@ -291,21 +363,21 @@
       "importance": 8,
       "tags": [
         "Startup",
-        "Machine Learning",
-        "Datos"
+        "Olfato IA",
+        "Machine Learning"
       ]
     },
     {
-      "id": "news-6881f127c6",
+      "id": "news-9df2d380e5",
       "type": "news",
-      "title_es": "Prusa lanza un hotend de alta temperatura de 400 °C para sus impresoras CORE One",
-      "original_title": "400°C HT Hotend is out! Plus: New Materials and HighTemp Sheets for CORE One+/L+.",
-      "summary_es": "Prusa ha anunciado un hotend capaz de alcanzar los 400 °C para las series CORE One+/L+, junto con nuevos materiales y láminas adaptadas. Esto permite imprimir polímeros técnicos avanzados sin incurrir en los costados prohibitivos de las máquinas industriales tradicionales.",
-      "deep_summary_es": "Esta actualización amplía significativamente el abanico de filamentos técnicos accesibles para usuarios avanzados y pequeñas oficinas de diseño que requieren prototipos funcionales resistentes.",
-      "url": "https://blog.prusa3d.com/ht-hotend-is-out-plus-we-offer-new-materials-and-hightemp-sheets-for-core-one-l_138625/",
+      "title_es": "Prusament Pellets: polímeros en bruto para impresión 3D de gran formato e I+D",
+      "original_title": "Prusament Pellets: Raw material batches for large-format 3D printing or small-scale polymer research & development",
+      "summary_es": "Prusa comercializa pequeños lotes de gránulos poliméricos puros, facilitando la investigación en laboratorios y el uso en extrusoras de pellets a gran escala sin necesidad de comprar toneladas.",
+      "deep_summary_es": "Este formato intermedio es crucial para el desarrollo de nuevas fórmulas de materiales y el avance de la extrusión basada en granza (FGF) en el sector profesional.",
+      "url": "https://blog.prusa3d.com/prusament-pellets-raw-material-batches-for-large-format-3d-printing-or-small-scale-polymer-research-development_138773/",
       "source": "Prusa Research Blog",
-      "published_at": "2026-10-21T10:00:25+00:00",
-      "image": "https://assets.prusa3d.com/cdn-cgi/image/width=1200,format=auto,quality=85,height=630,fit=cover/https%3A%2F%2Fstorage.googleapis.com%2Fprusa3d-content-prod-14e8-asset-manager-prod%2F1fe8c1fb-eb92-4a0d-bc3f-da6c93866a97.jpg",
+      "published_at": "2026-10-13T14:00:59+00:00",
+      "image": "https://assets.prusa3d.com/cdn-cgi/image/width=1200,format=auto,quality=85,height=630,fit=cover/https%3A%2F%2Fstorage.googleapis.com%2Fprusa3d-content-prod-14e8-asset-manager-prod%2F8829e61a-db21-4e01-903c-03ea86924906.jpg",
       "categories": [
         "fdm"
       ],
@@ -313,18 +385,42 @@
       "is_crossover": false,
       "importance": 8,
       "tags": [
-        "Hotend",
-        "Prusa",
-        "Alta Temperatura"
+        "Pellets",
+        "FGF",
+        "I+D"
+      ]
+    },
+    {
+      "id": "news-5a50d254e3",
+      "type": "news",
+      "title_es": "Sinto Advanced Ceramics inaugura nueva planta en Alemania para cerámica aditiva",
+      "original_title": "Sinto Advanced Ceramics Europe opens new Kempten site",
+      "summary_es": "Tras la adquisición de Bosch Advanced Ceramics por parte del Grupo Sinto, la compañía ha centralizado toda su producción e ingeniería de cerámica técnica impresa en 3D en Kempten, Alemania.",
+      "deep_summary_es": "La consolidación de centros especializados demuestra la madurez industrial de la fabricación aditiva de componentes cerámicos técnicos para sectores exigentes como automoción y electrónica.",
+      "url": "https://www.voxelmatters.com/sinto-advanced-ceramics-europe-opens-new-kempten-site/",
+      "source": "VoxelMatters",
+      "published_at": "2026-11-27T14:00:16+00:00",
+      "image": "https://www.voxelmatters.com/wp-content/uploads/2026/11/Sinto-facility-01.jpg",
+      "categories": [
+        "fdm",
+        "emprendimiento"
+      ],
+      "primary_category": "emprendimiento",
+      "is_crossover": true,
+      "importance": 7,
+      "tags": [
+        "Cerámica",
+        "Industria",
+        "Alemania"
       ]
     },
     {
       "id": "news-02a0884347",
       "type": "news",
-      "title_es": "Hugging Face estrena un panel de rendimiento de llama.cpp optimizado para hardware AMD Ryzen y Radeon",
+      "title_es": "Hugging Face presenta un panel de rendimiento de llama.cpp para hardware AMD",
       "original_title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-      "summary_es": "Se ha publicado un nuevo cuadro de mandos para evaluar el rendimiento de inferencia de modelos locales mediante llama.cpp sobre procesadores y gráficas de AMD.",
-      "deep_summary_es": "Facilitar benchmarks claros en arquitecturas que no sean de NVIDIA es crucial para democratizar la ejecución local de LLMs de código abierto y reducir costes operativos.",
+      "summary_es": "Se ha lanzado un nuevo panel de pruebas comparativas optimizado para evaluar la ejecución de modelos de lenguaje con llama.cpp en procesadores Ryzen y tarjetas gráficas Radeon de AMD.",
+      "deep_summary_es": "Facilitar benchmarks claros en arquitecturas de hardware diversas fomenta la adopción de la inferencia local de IA fuera del monopolio tradicional de Nvidia.",
       "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
       "source": "Hugging Face Blog",
       "published_at": "2026-11-26T11:37:17+00:00",
@@ -337,41 +433,17 @@
       "importance": 7,
       "tags": [
         "AMD",
-        "Inferencia",
-        "Open Source"
-      ]
-    },
-    {
-      "id": "news-0d63fb1e6c",
-      "type": "news",
-      "title_es": "Supertake consigue 20 millones para que los agentes de IA conviertan predicciones en carteras de inversión",
-      "original_title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
-      "summary_es": "La startup Supertake ha cerrado una ronda de financiación para desarrollar agentes autónomos capaces de traducir perspectivas de mercado en estrategias de inversión automatizadas sin requerir conocimientos bursátiles avanzados.",
-      "deep_summary_es": "Este movimiento ejemplifica la evolución de las aplicaciones financieras donde los agentes autónomos actúan como intermediarios ejecutivos basados en lenguaje natural.",
-      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
-      "source": "TechCrunch Startups",
-      "published_at": "2026-11-23T22:02:05+00:00",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/supertake-header.jpg?resize=1200,675",
-      "categories": [
-        "ia",
-        "emprendimiento"
-      ],
-      "primary_category": "emprendimiento",
-      "is_crossover": true,
-      "importance": 7,
-      "tags": [
-        "Fintech",
-        "Agentes",
-        "Inversión"
+        "LLM",
+        "Inferencia"
       ]
     },
     {
       "id": "news-621757b239",
       "type": "news",
-      "title_es": "Racks imprimibles para servidores caseros diseñados directamente desde el navegador",
+      "title_es": "Plataforma web para diseñar racks de servidores imprimibles en 3D para tu homelab",
       "original_title": "Printable Homelab Racks You Can Design In A Browser",
-      "summary_es": "Para los entusiastas del homelab que buscan organizar equipos pequeños y cableado, el proyecto 'Printable Racks' ofrece una solución accesible basada en la web para generar estructuras modulares a medida.",
-      "deep_summary_es": "Combina la parametrización web con la personalización en FDM, permitiendo escalar bastidores de 10 pulgadas optimizando el uso de filamento y el espacio de trabajo.",
+      "summary_es": "Una nueva herramienta web interactiva permite configurar y exportar diseños de armazones y organizadores de 10 pulgadas adaptados específicamente para equipos de red y servidores domésticos.",
+      "deep_summary_es": "Conectar el diseño paramétrico accesible en el navegador con la impresión FDM resuelve de forma elegante el desorden clásico de los laboratorios informáticos caseros.",
       "url": "https://hackaday.com/2026/11/20/printable-homelab-racks-you-can-design-in-a-browser/",
       "source": "Hackaday 3D Printing",
       "published_at": "2026-11-21T06:00:12+00:00",
@@ -391,10 +463,10 @@
     {
       "id": "news-47b7af270f",
       "type": "news",
-      "title_es": "Mural 2.0: Un trazador de pared controlado por una placa FluidNC basada en ESP32",
+      "title_es": "Mural 2.0: un plotter de pared basado en ESP32, FluidNC y drivers TMC2209",
       "original_title": "A Pen Plotter to Draw You Up (on) the Wall",
-      "summary_es": "Un nuevo proyecto maker demuestra el potencial de la electrónica de código abierto al actualizar un plotter mural de gran formato. Utiliza un microcontrolador ESP32 con drivers TMC2209 para lograr movimientos suaves y precisos directamente sobre superficies verticales.",
-      "deep_summary_es": "La combinación de firmware optimizado como FluidNC con hardware económico democratiza la construcción de herramientas CNC de gran escala para artistas y creadores independientes.",
+      "summary_es": "El proyecto Mural 2.0 actualiza el concepto de trazadores verticales de gran formato utilizando una placa basada en microcontrolador ESP32 y controladores de motor paso a paso silenciosos.",
+      "deep_summary_es": "La combinación de firmware de código abierto optimizado para CNC y electrónica económica demuestra cómo la comunidad maker impulsa la automatización de gran formato.",
       "url": "https://hackaday.com/2026/11/17/a-pen-plotter-to-draw-you-up-on-the-wall/",
       "source": "Hackaday 3D Printing",
       "published_at": "2026-11-18T00:00:35+00:00",
@@ -408,16 +480,16 @@
       "tags": [
         "ESP32",
         "CNC",
-        "Maker"
+        "Plotter"
       ]
     },
     {
       "id": "news-8b8cd8529e",
       "type": "news",
-      "title_es": "Evaluación del filamento PA reforzado con bigotes de TISMO para impresión FDM",
+      "title_es": "Pruebas con filamento de PA reforzado con bigotes de TISMO",
       "original_title": "Testing TISMO Whisker-Reinforced Poticon STD1 PA Filament",
-      "summary_es": "Se han puesto a prueba filamentos de poliamida (PA) reforzados con titanato de potasio (TISMO) en lugar de la clásica fibra de carbono o vidrio. Estos aditivos ofrecen un refuerzo estructural excelente siendo menos abrasivos y compatibles con boquillas de 0.2 mm.",
-      "deep_summary_es": "Este avance industrial permite fabricar piezas técnicas con detalles muy finos sin destruir los hotends rápidamente por abrasión. Abre nuevas puertas para el uso de polímeros técnicos cargados en impresoras de consumo avanzado.",
+      "summary_es": "Un análisis técnico evalúa el uso de titanato de potasio (TISMO) como refuerzo en filamentos de poliamida (PA) para FDM. A diferencia de las fibras de carbono o vidrio tradicionales, estos filamentos permiten trabajar con boquillas finas de 0.2 mm con menor abrasión.",
+      "deep_summary_es": "Este tipo de aditivos avanzados acerca las propiedades mecánicas de grado industrial a impresoras de escritorio, facilitando piezas con detalles sumamente complejos.",
       "url": "https://hackaday.com/2026/11/17/testing-tismo-whisker-reinforced-poticon-std1-pa-filament/",
       "source": "Hackaday 3D Printing",
       "published_at": "2026-11-17T19:30:20+00:00",
@@ -430,71 +502,24 @@
       "importance": 7,
       "tags": [
         "Nylon",
-        "Materiales",
-        "Boquillas"
-      ]
-    },
-    {
-      "id": "news-bfec30183e",
-      "type": "news",
-      "title_es": "De ingeniero remoto a empleado fundador en Adam, una startup de agentes de IA para software CAD",
-      "original_title": "How Dylan Anderson became founding engineer at Adam",
-      "summary_es": "A través de contactos en la comunidad técnica, un ingeniero de software fichó como primer empleado en Adam, una startup centrada en desarrollar agentes de IA orientados a herramientas de diseño asistido por ordenador (CAD).",
-      "deep_summary_es": "El cruce entre la IA generativa y el software de ingeniería mecánica representa un nicho de altísimo valor para la automatización de flujos de trabajo técnicos y de fabricación.",
-      "url": "https://www.ycombinator.com/blog/how-dylan-anderson-became-founding-engineer-at-adam/",
-      "source": "Y Combinator Blog",
-      "published_at": "2026-10-30T18:29:49+00:00",
-      "image": "https://www.ycombinator.com/blog/content/images/2026/10/image_large.jpg",
-      "categories": [
-        "emprendimiento",
-        "ia"
-      ],
-      "primary_category": "emprendimiento",
-      "is_crossover": true,
-      "importance": 7,
-      "tags": [
-        "CAD",
-        "Ingeniería",
-        "Startups"
-      ]
-    },
-    {
-      "id": "news-1d6f6d1e50",
-      "type": "news",
-      "title_es": "Cómo los bomberos de Praga utilizan la impresión 3D FDM para salvar vidas y reducir costes",
-      "original_title": "How Firefighters Use 3D Printing to Save Lives, Time and Money",
-      "summary_es": "El cuerpo de bomberos de Praga está empleando la impresora Prusa CORE One L para fabricar herramientas personalizadas, reparar equipos con rapidez y mantener su material operativo listo para cualquier emergencia.",
-      "deep_summary_es": "Este caso de uso real destaca la agilidad que aporta la fabricación aditiva a los servicios de emergencia, permitiendo reemplazar piezas descatalogadas o diseñar soportes específicos en cuestión de horas.",
-      "url": "https://blog.prusa3d.com/how-firefighters-use-3d-printing-to-save-lives-time-and-money_138620/",
-      "source": "Prusa Research Blog",
-      "published_at": "2026-10-30T12:32:02+00:00",
-      "image": "https://assets.prusa3d.com/cdn-cgi/image/width=1200,format=auto,quality=85,height=630,fit=cover/https%3A%2F%2Fstorage.googleapis.com%2Fprusa3d-content-prod-14e8-asset-manager-prod%2F8ef585bb-3782-4135-9ef7-e06c50d902e6.jpg",
-      "categories": [
-        "fdm"
-      ],
-      "primary_category": "fdm",
-      "is_crossover": false,
-      "importance": 7,
-      "tags": [
-        "Aplicaciones",
-        "Prusa",
-        "Mantenimiento"
+        "Boquilla 0.2",
+        "Materiales"
       ]
     },
     {
       "id": "news-0b76f66d61",
       "type": "news",
-      "title_es": "Cómo Prusament y la impresión 3D dan forma a la cámara CAIM1 para autenticar pruebas físicas",
+      "title_es": "Cómo Prusament y la impresión 3D dan forma a la cámara CAIM1 contra las deepfakes",
       "original_title": "Printing the Proof: How Prusament and 3D Printing Shape the CAIM1 Camera",
-      "summary_es": "Ante la proliferación de contenidos generados por IA y deepfakes, surge la necesidad de certificar la autenticidad visual mediante hardware fiable. Prusa analiza cómo la fabricación aditiva y sus materiales contribuyen al diseño estructural de la cámara CAIM1.",
-      "deep_summary_es": "El uso de componentes impresos en 3D permite iterar rápidamente en carcasas y soportes mecánicos seguros. Es un claro ejemplo de cómo el hardware abierto combate los retos de la era digital sintética.",
+      "summary_es": "Ante el auge de las falsificaciones hiperrealistas generadas por IA, la comunidad maker y Prusa exploran el hardware físico especializado. La cámara CAIM1 utiliza componentes impresos en 3D para asegurar la veracidad de las pruebas fotográficas.",
+      "deep_summary_es": "Un interesante cruce donde el hardware de código abierto y la extrusión FDM sirven para resolver un problema crítico de seguridad informática creado por los modelos generativos.",
       "url": "https://blog.prusa3d.com/printing-the-proof-how-prusament-and-3d-printing-shape-the-caim1-camera_139186/",
       "source": "Prusa Research Blog",
       "published_at": "2026-10-29T08:00:42+00:00",
       "image": "https://assets.prusa3d.com/cdn-cgi/image/width=1200,format=auto,quality=85,height=630,fit=cover/https%3A%2F%2Fstorage.googleapis.com%2Fprusa3d-content-prod-14e8-asset-manager-prod%2Fa6b79948-68bf-48e1-9f87-bf24395e02c7.png",
       "categories": [
-        "fdm",
-        "ia"
+        "ia",
+        "fdm"
       ],
       "primary_category": "fdm",
       "is_crossover": true,
@@ -502,20 +527,20 @@
       "tags": [
         "Prusa",
         "Seguridad",
-        "Hardware"
+        "Filamento"
       ]
     },
     {
-      "id": "news-9df2d380e5",
+      "id": "news-c168a58417",
       "type": "news",
-      "title_es": "Prusament Pellets: comercialización de lotes de polímero crudo para impresión de gran formato y I+D",
-      "original_title": "Prusament Pellets: Raw material batches for large-format 3D printing or small-scale polymer research & development",
-      "summary_es": "Prusa ha lanzado al mercado lotes pequeños de pellets poliméricos, facilitando la investigación y el desarrollo a pequeña escala o la alimentación de sistemas de extrusión directa de gran formato.",
-      "deep_summary_es": "Hasta ahora, conseguir materias primas vírgenes obligaba a comprar toneladas. Esta iniciativa impulsa la experimentación con nuevos compuestos en laboratorios y talleres independientes.",
-      "url": "https://blog.prusa3d.com/prusament-pellets-raw-material-batches-for-large-format-3d-printing-or-small-scale-polymer-research-development_138773/",
+      "title_es": "Guía rápida de Blender para edición de archivos STL orientada a impresión 3D",
+      "original_title": "Blender for 3D Printing: The 5-Minute Guide to STL Editing",
+      "summary_es": "Un tutorial detallado demuestra que modificar geometrías complejas y corregir mallas en Blender no requiere horas de trabajo, ofreciendo resultados listos para exportar en pocos minutos.",
+      "deep_summary_es": "Dominar herramientas de modelado poligonal como Blender es un recurso indispensable para cualquier entusiasta de la fabricación aditiva que necesite adaptar modelos antes de enviarlos al slicer.",
+      "url": "https://blog.prusa3d.com/blender-for-3d-printing-the-5-minute-guide-to-direct-mesh-editing_138255/",
       "source": "Prusa Research Blog",
-      "published_at": "2026-10-13T14:00:59+00:00",
-      "image": "https://assets.prusa3d.com/cdn-cgi/image/width=1200,format=auto,quality=85,height=630,fit=cover/https%3A%2F%2Fstorage.googleapis.com%2Fprusa3d-content-prod-14e8-asset-manager-prod%2F8829e61a-db21-4e01-903c-03ea86924906.jpg",
+      "published_at": "2026-10-20T11:00:56+00:00",
+      "image": "https://assets.prusa3d.com/cdn-cgi/image/width=1200,format=auto,quality=85,height=630,fit=cover/https%3A%2F%2Fstorage.googleapis.com%2Fprusa3d-content-prod-14e8-asset-manager-prod%2F24824adb-ad9f-4820-be3a-53ceec02da12.jpg",
       "categories": [
         "fdm"
       ],
@@ -523,18 +548,18 @@
       "is_crossover": false,
       "importance": 7,
       "tags": [
-        "Pellets",
-        "I+D",
-        "Materiales"
+        "Blender",
+        "STL",
+        "Modelado"
       ]
     },
     {
       "id": "news-7496aa1a34",
       "type": "news",
-      "title_es": "Llevando al límite las mejoras de cámaras y firmware abierto en la Prusa Core One",
+      "title_es": "Modificaciones extremas de cámaras en impresoras 3D open-source",
       "original_title": "Camera Upgrades for 3D Printers",
-      "summary_es": "La comunidad de creadores sigue exprimiendo la modularidad del hardware y el firmware de código abierto. Un usuario ha integrado modificaciones extremas de cámaras y control en una Prusa Core One, demostrando la versatilidad de la plataforma.",
-      "deep_summary_es": "La capacidad de auditar y modificar tanto el software como el hardware mantiene viva la filosofía maker frente a los ecosistemas cerrados del mercado actual de impresión 3D.",
+      "summary_es": "Un análisis sobre las capacidades de mejora en equipos como la Prusa Core One demuestra la versatilidad del hardware abierto. Los usuarios aprovechan la accesibilidad del firmware y diseño mecánico para integrar sistemas de supervisión avanzados.",
+      "deep_summary_es": "La modularidad sigue siendo el pilar de la comunidad maker, permitiendo alargar la vida útil de las impresoras mediante componentes periféricos personalizados.",
       "url": "https://hackaday.com/2026/11/25/camera-upgrades-for-3d-printers/",
       "source": "Hackaday 3D Printing",
       "published_at": "2026-11-26T00:00:27+00:00",
@@ -547,17 +572,17 @@
       "importance": 6,
       "tags": [
         "Prusa",
-        "Firmware",
-        "Modding"
+        "Hardware",
+        "Mod"
       ]
     },
     {
       "id": "news-8c96f62308",
       "type": "news",
-      "title_es": "El arte del cold-email: Cómo un estudiante se convirtió en el segundo empleado de una startup sanitaria",
+      "title_es": "Estrategias de networking: cómo conseguir un puesto clave en una startup a base de insistencia",
       "original_title": "How Daniel Zeltser cold-emailed his way to employee #2 at Beacon Health",
-      "summary_es": "A través de correos fríos y una persistencia calculada, un estudiante universitario logró captar la atención del CEO de una startup y asegurar un puesto clave tras un periodo de prueba.",
-      "deep_summary_es": "Una muestra práctica para indie makers y aspirantes a trabajar en el sector tecnológico sobre cómo la iniciativa directa sigue rompiendo barreras frente a los procesos de selección tradicionales.",
+      "summary_es": "Un repaso a cómo un estudiante universitario logró convertirse en el segundo empleado de una startup tecnológica mediante correos electrónicos en frío y un seguimiento constante.",
+      "deep_summary_es": "Una lectura inspiradora sobre emprendimiento y prospección laboral que destaca la importancia de la proactividad y el encaje cultural en equipos tecnológicos en fase temprana.",
       "url": "https://www.ycombinator.com/blog/how-daniel-zeltser-cold-emailed-his-way-to-employee-2-at-beacon-health/",
       "source": "Y Combinator Blog",
       "published_at": "2026-11-25T06:20:57+00:00",
@@ -571,110 +596,21 @@
       "importance": 6,
       "tags": [
         "Carrera",
-        "Startups",
-        "Networking"
-      ]
-    },
-    {
-      "id": "news-c168a58417",
-      "type": "news",
-      "title_es": "Guía exprés para editar archivos STL y preparar modelos para impresión 3D usando Blender",
-      "original_title": "Blender for 3D Printing: The 5-Minute Guide to STL Editing",
-      "summary_es": "Aunque Blender suele considerarse complejo, dominar unas pocas herramientas básicas permite modificar mallas 3D y reparar archivos STL en cuestión de minutos para su correcta extrusión.",
-      "deep_summary_es": "Conocer los modificadores de grosor y la corrección de normales evita fallos comunes en los slicers, agilizando el flujo de trabajo desde la conceptualización hasta la impresión física.",
-      "url": "https://blog.prusa3d.com/blender-for-3d-printing-the-5-minute-guide-to-direct-mesh-editing_138255/",
-      "source": "Prusa Research Blog",
-      "published_at": "2026-10-20T11:00:56+00:00",
-      "image": "https://assets.prusa3d.com/cdn-cgi/image/width=1200,format=auto,quality=85,height=630,fit=cover/https%3A%2F%2Fstorage.googleapis.com%2Fprusa3d-content-prod-14e8-asset-manager-prod%2F24824adb-ad9f-4820-be3a-53ceec02da12.jpg",
-      "categories": [
-        "fdm"
-      ],
-      "primary_category": "fdm",
-      "is_crossover": false,
-      "importance": 6,
-      "tags": [
-        "Blender",
-        "STL",
-        "Modelado"
+        "Networking",
+        "Startup"
       ]
     }
   ],
   "papers": [
     {
-      "id": "paper-b44ecf88a0",
-      "type": "paper",
-      "title_es": "Predicciones de geometría basadas en aprendizaje automático para depósitos de una y múltiples capas y su optimización multiobjetivo mediante NSGA-II",
-      "original_title": "Machine learning based geometry predictions for single and multi-layer depositions and their multi-objective optimization using NSGA-II",
-      "summary_es": "Este estudio emplea algoritmos de aprendizaje automático y profundo junto con análisis de video de alta definición para predecir la geometría de deposición en manufactura aditiva. Los modelos entrenados permiten optimizar los parámetros del proceso de manera simultánea para mejorar la calidad final de las piezas impresas. Demuestra el gran potencial de la visión artificial aplicada al control en procesos de adición capa por capa.",
-      "problem_es": "Las interacciones complejas entre los parámetros de proceso dificultan lograr una geometría de deposición consistente.",
-      "method_es": "Uso de cámaras de alto rango dinámico para generar conjuntos de datos y entrenamiento de algoritmos de Machine Learning y Deep Learning.",
-      "takeaway_es": "Permite mejorar la precisión geométrica y automatizar la optimización multiobjetivo en procesos de manufactura aditiva.",
-      "url": "https://doi.org/10.3389/fmech.2026.1976911",
-      "pdf_url": "https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2026.1976911/pdf",
-      "source": "Frontiers in Mechanical Engineering",
-      "paper_code": "DOI:10.3389/fmech.2026.1976911",
-      "authors": [
-        "Anubhav Vaishnav",
-        "Balbir Singh Negi",
-        "Neelesh Kumar Jain",
-        "Deepika Nikam"
-      ],
-      "published_at": "2026-11-25T12:00:00+00:00",
-      "categories": [
-        "fdm",
-        "ia"
-      ],
-      "primary_category": "fdm",
-      "is_crossover": true,
-      "importance": 9,
-      "tags": [
-        "FDM",
-        "Visión Artificial",
-        "Machine Learning",
-        "Optimización"
-      ]
-    },
-    {
-      "id": "paper-ea65dcc7d6",
-      "type": "paper",
-      "title_es": "Efecto del espesor de capa en la excentricidad radial y precisión dimensional de engranajes rectos de ácido poliláctico fabricados por modelado por deposición fundida: un estudio experimental Box–Behnken",
-      "original_title": "Effect of layer thickness on the radial runout and dimensional accuracy of fused deposition modelling -manufactured polylactic acid spur gears: a Box–Behnken experimental study.",
-      "summary_es": "Este trabajo cuantifica experimentalmente cómo el espesor de capa, la temperatura de la boquilla y la velocidad de impresión influyen en la precisión dimensional y la excentricidad radial de engranajes poliméricos impresos en 3D. Utilizando un diseño experimental Box–Behnken, determinaron que el espesor de capa es el factor dominante, explicando más del 85% de la variación en el comportamiento del engranaje. Los resultados ofrecen directrices claras de optimización de parámetros FDM para aplicaciones mecánicas ligeras.",
-      "problem_es": "Escasez de estudios funcionales sobre desviaciones geométricas en engranajes impresos por FDM para transmisiones.",
-      "method_es": "Diseño experimental Box-Behnken imprimiendo 45 engranajes de PLA bajo distintas combinaciones de velocidad, temperatura y capa.",
-      "takeaway_es": "Optimiza los parámetros críticos de impresión FDM para garantizar la viabilidad de piezas mecánicas funcionales.",
-      "url": "https://doi.org/10.21203/rs.3.rs-11745561/v1",
-      "pdf_url": "https://www.researchsquare.com/article/rs-11745561/latest.pdf",
-      "source": "Research Square",
-      "paper_code": "DOI:10.21203/rs.3.rs-11745561/v1",
-      "authors": [
-        "Fatiha Rabbaje",
-        "Abdelmajid Taleb",
-        "Larbi Lasri"
-      ],
-      "published_at": "2026-11-25T12:00:00+00:00",
-      "categories": [
-        "fdm"
-      ],
-      "primary_category": "fdm",
-      "is_crossover": false,
-      "importance": 9,
-      "tags": [
-        "FDM",
-        "Parámetros de Impresión",
-        "PLA",
-        "Optimización Geométrica"
-      ]
-    },
-    {
       "id": "paper-3adda7bd8c",
       "type": "paper",
-      "title_es": "DED-Agent: Un método de IA agéntica para el desarrollo y calibración autónoma de modelos de simulación térmica en deposición directa de energía por láser",
+      "title_es": "DED-Agent: Un método de IA agéntica para el desarrollo y calibración autónoma de simulaciones térmicas en deposición directa de energía por láser",
       "original_title": "DED-Agent: An agentic AI method for autonomous thermal simulation model development and calibration in laser directed energy deposition",
-      "summary_es": "Se presenta un sistema basado en agentes de IA que automatiza por completo la compleja configuración, mallado y calibración de modelos térmicos de elementos finitos en manufactura aditiva metálica. Un agente supervisor coordina subagentes especializados para traducir peticiones en lenguaje natural a simulaciones validadas. Esto reduce drásticamente el tiempo de ingeniería necesario para calibrar fuentes de calor y predecir defectos térmicos.",
-      "problem_es": "La calibración manual y la configuración de modelos térmicos de elementos finitos consumen semanas de trabajo experto.",
-      "method_es": "Un marco de IA agéntica estructurado con un supervisor y tres agentes especializados conectados a herramientas de código abierto.",
-      "takeaway_es": "Agiliza drásticamente la simulación térmica en fabricación avanzada, permitiendo una adopción industrial mucho más rápida.",
+      "summary_es": "En la fabricación aditiva de metales, configurar y calibrar modelos de elementos finitos requiere semanas de trabajo experto debido al enorme espacio de diseño. Este estudio presenta DED-Agent, un marco de inteligencia artificial donde un agente supervisor coordina agentes especializados para automatizar la simulación térmica. El sistema traduce peticiones en lenguaje natural a especificaciones validadas y ejecuta herramientas de código abierto.",
+      "problem_es": "La complejidad y el tiempo requerido por los expertos humanos para configurar y calibrar modelos térmicos en manufactura aditiva.",
+      "method_es": "Un marco de IA multi-agente que automatiza la especificación, ejecución y calibración de modelos de simulación mediante herramientas de código abierto.",
+      "takeaway_es": "Reduce drásticamente el tiempo de desarrollo de modelos térmicos y acelera la optimización de parámetros en la fabricación aditiva de metales.",
       "url": "https://arxiv.org/abs/2611.32822v1",
       "pdf_url": "https://arxiv.org/pdf/2611.32822v1.pdf",
       "source": "arXiv",
@@ -686,28 +622,195 @@
       ],
       "published_at": "2026-11-24T15:38:46+00:00",
       "categories": [
-        "fdm",
-        "ia"
+        "ia",
+        "fdm"
       ],
       "primary_category": "ia",
       "is_crossover": true,
+      "importance": 10,
+      "tags": [
+        "IA",
+        "Agentes",
+        "Simulación Térmica",
+        "Fabricación Aditiva"
+      ]
+    },
+    {
+      "id": "paper-0a026389a9",
+      "type": "paper",
+      "title_es": "AI Buckingham: Descubrimiento agéntico de leyes de escala adimensionales a través de regímenes físicos",
+      "original_title": "AI Buckingham: Agentic Discovery of Dimensionless Scaling Laws Across Physical Regimes",
+      "summary_es": "El análisis dimensional clásico define representaciones válidas pero no determina qué combinaciones capturan la física dominante en distintos regímenes. Presentan AI Buckingham, un marco agéntico que automatiza el descubrimiento de leyes adimensionales combinando grandes modelos de lenguaje con herramientas numéricas y simbólicas. El sistema identifica de forma autónoma grupos adimensionales clave en múltiples sistemas físicos.",
+      "problem_es": "La dificultad analítica para determinar de forma automática las combinaciones adimensionales dominantes en distintos regímenes físicos complejos.",
+      "method_es": "Un marco multi-agente que acopla el razonamiento de LLMs con herramientas de recuperación de literatura, agrupación por gradientes e información mutua.",
+      "takeaway_es": "Acelera la modelización física y el descubrimiento científico mediante razonamiento automatizado asistido por agentes de inteligencia artificial.",
+      "url": "https://arxiv.org/abs/2611.33961v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.33961v1.pdf",
+      "source": "arXiv",
+      "paper_code": "arXiv:2611.33961v1",
+      "authors": [
+        "Ao Cheng",
+        "Lei Zhang",
+        "Guowei He"
+      ],
+      "published_at": "2026-11-25T08:24:47+00:00",
+      "categories": [
+        "ia"
+      ],
+      "primary_category": "ia",
+      "is_crossover": false,
       "importance": 9,
       "tags": [
-        "IA Agéntica",
-        "Simulación Térmica",
-        "Manufactura Aditiva",
-        "Automatización"
+        "IA",
+        "Agentes",
+        "Razonamiento",
+        "Física Computacional"
+      ]
+    },
+    {
+      "id": "paper-0ea85c1890",
+      "type": "paper",
+      "title_es": "Arcadian: Ecosistema humanoide de código abierto para investigación y educación accesible y personalizable",
+      "original_title": "Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education",
+      "summary_es": "Construir robots humanoides sigue siendo un reto costoso y complejo para grupos con recursos limitados. Para resolverlo, se presenta Arcadian, un ecosistema de hardware y software de código abierto que utiliza impresión 3D con metal incrustado para lograr una alta relación resistencia-costo. Las pruebas validan que las políticas de aprendizaje por refuerzo entrenadas en simulación se transfieren eficazmente al hardware real.",
+      "problem_es": "El alto costo y la complejidad de fabricación necesarios para reproducir y modificar robots humanoides a escala de un metro.",
+      "method_es": "Uso de impresión 3D con inserción metálica y un diseño modular de código abierto para equilibrar durabilidad, costo y personalización.",
+      "takeaway_es": "Abate las barreras de entrada para la investigación en robótica mediante técnicas de fabricación aditiva accesibles y transferencia de IA.",
+      "url": "https://arxiv.org/abs/2611.29868v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.29868v1.pdf",
+      "source": "arXiv",
+      "paper_code": "arXiv:2611.29868v1",
+      "authors": [
+        "Zelin Shen",
+        "Gabriel Ramos Salinas",
+        "Qiyu Zhang",
+        "Yue Qin"
+      ],
+      "published_at": "2026-11-23T00:57:53+00:00",
+      "categories": [
+        "fdm",
+        "ia",
+        "emprendimiento"
+      ],
+      "primary_category": "fdm",
+      "is_crossover": true,
+      "importance": 9,
+      "tags": [
+        "FDM",
+        "Robótica",
+        "Hardware Abierto",
+        "Emprendimiento Tecnológi"
+      ]
+    },
+    {
+      "id": "paper-8fe03654d4",
+      "type": "paper",
+      "title_es": "Cree su propia pila de trabajo: Despliegue de IA autohospedada y herramientas en una startup tecnológica",
+      "original_title": "Create Your Own Work Stack: Deploying Self-hosted AI and Tooling in a Tech Startup",
+      "summary_es": "El uso intensivo de agentes de IA comerciales genera costos operativos elevados en empresas emergentes de software. Este artículo detalla la experiencia de desplegar una arquitectura híbrida combinando modelos locales de código abierto para tareas sencillas y agentes comerciales para tareas complejas. Demuestran que esta estrategia reduce significativamente la dependencia de APIs externas manteniendo la eficiencia operativa.",
+      "problem_es": "El alto costo mensual derivado del uso masivo de herramientas e inferencias de IA comerciales en startups con flujos de trabajo intensivos.",
+      "method_es": "Despliegue e implementación de una pila tecnológica híbrida basada en modelos de código abierto locales autohospedados y agentes comerciales.",
+      "takeaway_es": "Optimiza los costos operativos en startups tecnológicas mediante una arquitectura de IA híbrida y pragmática.",
+      "url": "https://arxiv.org/abs/2611.08116v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08116v1.pdf",
+      "source": "arXiv",
+      "paper_code": "arXiv:2611.08116v1",
+      "authors": [
+        "Saad Ahmed Bazaz",
+        "Talha Amjad",
+        "Abdurrehman Subhani",
+        "Sohaib Ahmed Bazaz"
+      ],
+      "published_at": "2026-11-05T14:49:11+00:00",
+      "categories": [
+        "ia",
+        "emprendimiento"
+      ],
+      "primary_category": "emprendimiento",
+      "is_crossover": true,
+      "importance": 9,
+      "tags": [
+        "IA",
+        "Emprendimiento Tecnológi",
+        "Eficiencia",
+        "Modelos Locales"
+      ]
+    },
+    {
+      "id": "paper-5de9cb55a7",
+      "type": "paper",
+      "title_es": "Estabilización de materiales con gradiente funcional impresos en 3D mediante procesamiento digital de luz en escala de grises y tratamiento de eliminación de radicales",
+      "original_title": "Stabilization of Grayscale Digital Light Processing 3D Printed Functionally Graded Materials via Radical‐Scavenging",
+      "summary_es": "El procesamiento digital de luz en escala de grises permite fabricar materiales con gradiente funcional a partir de una única resina, pero las regiones de baja conversión siguen siendo químicamente reactivas. Para solucionar esto, se introduce un tratamiento posterior con eliminadores de radicales mediante difusión asistida por disolvente. Los resultados muestran que las muestras tratadas conservan su módulo elástico inicial incluso tras una intensa exposición a luz UV.",
+      "problem_es": "Las regiones de baja conversión en la impresión 3D g-DLP continúan polimerizando tras la fabricación, eliminando el contraste de propiedades deseado.",
+      "method_es": "Proponen un tratamiento posterior basado en la difusión de eliminadores de radicales en las zonas parcialmente curadas.",
+      "takeaway_es": "Permite fijar las propiedades mecánicas deseadas en materiales con gradiente funcional sin modificar la formulación de la resina ni el proceso de impresión.",
+      "url": "https://doi.org/10.1002/admt.71487",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/admt.71487",
+      "source": "Advanced Materials Technologies",
+      "paper_code": "DOI:10.1002/admt.71487",
+      "authors": [
+        "Farzad Gholami",
+        "Jiaqi Nie",
+        "Jennifer Xiao",
+        "Yuyang Song"
+      ],
+      "published_at": "2026-11-26T12:00:00+00:00",
+      "categories": [
+        "fdm",
+        "ia"
+      ],
+      "primary_category": "fdm",
+      "is_crossover": true,
+      "importance": 8,
+      "tags": [
+        "Fabricación Aditiva",
+        "Polímeros",
+        "Optimización"
+      ]
+    },
+    {
+      "id": "paper-70f53296df",
+      "type": "paper",
+      "title_es": "Propiedades mecánicas, de absorción de agua y morfológicas de compuestos de acrilonitrilo butadieno estireno reforzados con fibra de carbono corta modificada con ácido nítrico",
+      "original_title": "Mechanical, Water Absorption and Morphological Properties of Nitric Acid-modified Short Carbon Fiber Reinforced Acrylonitrile Butadiene Styrene Composites",
+      "summary_es": "Los compuestos termoplásticos reforzados con fibra de carbono son excelentes para estructuras ligeras, pero su degradación en entornos húmedos limita su uso. Este estudio analizó el efecto de oxidar fibra de carbono corta con ácido nítrico antes de integrarla en matrices de ABS mediante extrusión y microinyección. Los resultados demuestran mejoras sustanciales tanto en la resistencia a la tracción como en el comportamiento frente al agua.",
+      "problem_es": "La pérdida de capacidad de carga y absorción de humedad en ambientes húmedos de los compuestos termoplásticos con fibra de carbono.",
+      "method_es": "Modificación química superficial de fibra de carbono corta mediante oxidación con ácido nítrico previa a la extrusión de los compuestos.",
+      "takeaway_es": "Optimiza las propiedades mecánicas de filamentos y materiales compuestos poliméricos avanzados para aplicaciones técnicas exigentes.",
+      "url": "https://doi.org/10.21203/rs.3.rs-11796758/v1",
+      "pdf_url": "https://www.researchsquare.com/article/rs-11796758/latest.pdf",
+      "source": "Research Square",
+      "paper_code": "DOI:10.21203/rs.3.rs-11796758/v1",
+      "authors": [
+        "Lixiang He",
+        "Quan Wang",
+        "Tuo Cheng",
+        "Qun Zhang"
+      ],
+      "published_at": "2026-11-26T12:00:00+00:00",
+      "categories": [
+        "fdm"
+      ],
+      "primary_category": "fdm",
+      "is_crossover": false,
+      "importance": 8,
+      "tags": [
+        "Polímeros",
+        "Extrusión",
+        "Propiedades Mecánicas",
+        "Optimización"
       ]
     },
     {
       "id": "paper-5c2d7cee03",
       "type": "paper",
-      "title_es": "Diversas trazas de razonamiento alternativo para problemas matemáticos complejos",
+      "title_es": "Trazas de razonamiento alternativo diverso para problemas matemáticos complejos",
       "original_title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
-      "summary_es": "El artículo propone DART, un método innovador de minería de trazas de razonamiento para mejorar el entrenamiento posterior de modelos de lenguaje en tareas matemáticas complejas. Partiendo de soluciones rechazadas y descomponiéndolas por incertidumbre, el sistema genera candidatos alternativos diversos que reducen drásticamente el coste computacional por muestra aceptada. Mejora sustancialmente la capacidad de resolución de problemas lógicos y numéricos en IAs.",
-      "problem_es": "Las trazas de razonamiento válidas para problemas matemáticos difíciles son extremadamente escasas bajo muestreo aleatorio.",
-      "method_es": "Técnica de minería (DART) que descompone trazas rechazadas, evalúa incertidumbre posicional y genera alternativas guiadas.",
-      "takeaway_es": "Optimiza el entrenamiento de modelos de lenguaje para tareas de razonamiento lógico y matemático avanzado.",
+      "summary_es": "El post-entrenamiento de modelos de lenguaje para el razonamiento matemático suele requerir trazas válidas que son muy escasas en problemas complejos mediante muestreo de Monte Carlo. Para superar esta limitación, proponen DART, un método de minería de trazas que descompone soluciones rechazadas y genera candidatos alternativos distintos guiados por incertidumbre. Esto incrementa notablemente la tasa de recuperación de problemas lógicos complejos.",
+      "problem_es": "La escasez de trazas de razonamiento correctas y diversas en el muestreo estándar para problemas matemáticos difíciles en LLMs.",
+      "method_es": "Un algoritmo de minería y descomposición de trazas guiado por incertidumbre ponderada por posición para generar alternativas de razonamiento.",
+      "takeaway_es": "Mejora la eficiencia computacional y la capacidad de razonamiento lógico en modelos de lenguaje avanzados para tareas técnicas.",
       "url": "https://arxiv.org/abs/2611.34928v1",
       "pdf_url": "https://arxiv.org/pdf/2611.34928v1.pdf",
       "source": "arXiv",
@@ -726,10 +829,42 @@
       "is_crossover": false,
       "importance": 8,
       "tags": [
-        "Razonamiento Lógico",
+        "IA",
+        "Razonamiento",
         "Modelos de Lenguaje",
-        "Optimización de Entrenam",
-        "IA"
+        "Eficiencia"
+      ]
+    },
+    {
+      "id": "paper-e7c17810ad",
+      "type": "paper",
+      "title_es": "¿Cuánto sobre-editan los agentes de programación y por qué? Un estudio empírico de ediciones innecesarias en parches generados a nivel de repositorio",
+      "original_title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
+      "summary_es": "Los parches de código generados por agentes de IA suelen ser más extensos que los escritos por humanos, lo que se interpreta habitualmente como un exceso de edición innecesaria. Este estudio introduce la atribución de residuos delta para analizar y rastrear cada bloque de código en miles de trayectorias de agentes. Concluyen que la gran mayoría de las ediciones adicionales corresponden a la adición útil de pruebas y documentación.",
+      "problem_es": "La incertidumbre sobre la necesidad real y la naturaleza de las modificaciones de código adicionales introducidas por agentes programadores de IA.",
+      "method_es": "Un método de análisis automatizado para reproducir trayectorias de agentes, revertir bloques de código y verificar el impacto funcional de cada edición.",
+      "takeaway_es": "Demuestra que el código adicional generado por agentes de IA suele ser funcionalmente necesario, mejorando la calidad del software en entornos de desarrollo.",
+      "url": "https://arxiv.org/abs/2611.34875v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34875v1.pdf",
+      "source": "arXiv",
+      "paper_code": "arXiv:2611.34875v1",
+      "authors": [
+        "Aakash Goel",
+        "Benjamin Steenhoek",
+        "Yu Hu"
+      ],
+      "published_at": "2026-11-25T18:37:06+00:00",
+      "categories": [
+        "ia"
+      ],
+      "primary_category": "ia",
+      "is_crossover": false,
+      "importance": 8,
+      "tags": [
+        "IA",
+        "Agentes",
+        "Desarrollo de Software",
+        "Eficiencia"
       ]
     },
     {
@@ -737,10 +872,10 @@
       "type": "paper",
       "title_es": "RePace: Razonamiento sobre la aceleración de demostraciones para políticas de visión-lenguaje-acción más rápidas",
       "original_title": "RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies",
-      "summary_es": "Este trabajo presenta RePace, un marco de razonamiento offline diseñado para acelerar dinámicamente demostraciones de movimiento humano antes de entrenar políticas de visión-lenguaje-acción (VLA). En lugar de aplicar un factor de velocidad fijo, el sistema analiza el contexto visual y la precisión requerida en cada segmento específico del movimiento. Permite que los robots controlados por IA ejecuten tareas de manera más fluida y rápida sin comprometer la precisión.",
-      "problem_es": "Las políticas VLA heredan la lentitud de las demostraciones humanas y los aceleradores globales fijos fallan en tareas precisas.",
-      "method_es": "Marco offline donde un modelo de lenguaje preentrenado evalúa el contexto visual para ajustar la velocidad por segmentos de movimiento.",
-      "takeaway_es": "Mejora la velocidad y eficiencia operativa de sistemas robóticos guiados por modelos multimodales.",
+      "summary_es": "Las políticas basadas en visión-lenguaje-acción suelen heredar la lentitud de las demostraciones humanas originales. Aplicar un factor de aceleración global puede fallar cuando se requieren movimientos precisos. Por ello, presentan RePace, un marco de razonamiento fuera de línea que determina dinámicamente qué segmentos de una demostración requieren mayor velocidad sin comprometer la precisión.",
+      "problem_es": "La ineficiencia de heredar velocidades humanas constantes en demostraciones robóticas y la falta de precisión al acelerarlas globalmente.",
+      "method_es": "Un marco de razonamiento con modelos de lenguaje preentrenados que evalúa y asigna factores de velocidad variables según el contexto visual.",
+      "takeaway_es": "Permite entrenar políticas de control robótico más rápidas y eficientes a partir de demostraciones humanas aceleradas de forma inteligente.",
       "url": "https://arxiv.org/abs/2611.34864v1",
       "pdf_url": "https://arxiv.org/pdf/2611.34864v1.pdf",
       "source": "arXiv",
@@ -759,97 +894,30 @@
       "is_crossover": false,
       "importance": 8,
       "tags": [
-        "Robótica",
-        "Visión-Lenguaje-Acción",
+        "IA",
+        "Visión Artificial",
         "Razonamiento",
-        "Eficiencia Operativa"
+        "Robótica"
       ]
     },
     {
-      "id": "paper-a28dbf674e",
+      "id": "paper-55651a29f6",
       "type": "paper",
-      "title_es": "Optimización de la influencia de los parámetros de proceso FDM en la rugosidad superficial interna de productos impresos en 3D de ABS",
-      "original_title": "Optimasi Pengaruh Parameter Proses FDM terhadap Kekasaran Permukaan Bagian Dalam Produk Cetakan 3D Berbahan ABS",
-      "summary_es": "La investigación analiza el impacto de la altura de capa, la velocidad de impresión y la temperatura de la boquilla sobre la rugosidad en superficies internas cilíndricas de piezas de ABS fabricadas mediante FDM. Aplicando la metodología Taguchi con una matriz ortogonal L9, los autores identificaron la combinación óptima para minimizar las imperfecciones internas. Esto resulta fundamental para piezas con conductos o cavidades complejas.",
-      "problem_es": "La extrusión por capas genera acabados superficiales deficientes especialmente en características internas como cilindros.",
-      "method_es": "Enfoque experimental Taguchi utilizando una matriz ortogonal L9 y un rugosímetro de precisión para evaluar componentes de ABS.",
-      "takeaway_es": "Permite mejorar el acabado superficial interno en piezas FDM complejas mediante la selección adecuada de parámetros.",
-      "url": "https://doi.org/10.24127/trb.v15i2.5682",
-      "pdf_url": "https://ojs.ummetro.ac.id/index.php/turbo/article/download/5682/3085",
-      "source": "Turbo Jurnal Program Studi Teknik Mesin",
-      "paper_code": "DOI:10.24127/trb.v15i2.5682",
+      "title_es": "Emprendimiento impulsado por IA: Una revisión crítica de evidencias y marco unificado de aprendizaje automático explicable para la predicción del crecimiento y la toma de decisiones estratégicas",
+      "original_title": "AI-Powered Entrepreneurship: A Critical Evidence Review and Unified Explainable Machine Learning Framework for Small Business Growth Prediction and Strategic Decision-Making",
+      "summary_es": "La inteligencia artificial y el análisis predictivo están transformando la gestión empresarial, pero la literatura previa se mantiene fragmentada. Este estudio examina 917 registros bibliográficos de los últimos años para proponer un marco unificado de aprendizaje automático explicable enfocado en pymes. El objetivo es tender puentes entre la predicción de crecimiento, la interpretabilidad y el soporte a decisiones estratégicas.",
+      "problem_es": "La fragmentación de la investigación previa en analítica predictiva y explicabilidad para la toma de decisiones en pequeñas y medianas empresas.",
+      "method_es": "Revisión crítica sistemática de literatura y propuesta de un marco analítico unificado basado en machine learning explicable.",
+      "takeaway_es": "Ofrece a los emprendedores tecnológicos una guía fundamentada para integrar modelos de IA transparentes en la estrategia de crecimiento empresarial.",
+      "url": "https://doi.org/10.47941/jbsm.4135",
+      "pdf_url": "https://carijournals.org/journals/JBSM/article/download/4135/4734",
+      "source": "Journal of Business and Strategic Manage",
+      "paper_code": "DOI:10.47941/jbsm.4135",
       "authors": [
-        "Pristiansyah",
-        "Gagah Pebriano",
-        "Muhammad Rizky Aulia",
-        "Boy Rollastin"
+        "Chandraditya Manukonda"
       ],
       "published_at": "2026-11-25T12:00:00+00:00",
       "categories": [
-        "fdm"
-      ],
-      "primary_category": "fdm",
-      "is_crossover": false,
-      "importance": 8,
-      "tags": [
-        "FDM",
-        "ABS",
-        "Rugosidad Superficial",
-        "Método Taguchi"
-      ]
-    },
-    {
-      "id": "paper-0a026389a9",
-      "type": "paper",
-      "title_es": "AI Buckingham: Descubrimiento agéntico de leyes de escala adimensionales a través de regímenes físicos",
-      "original_title": "AI Buckingham: Agentic Discovery of Dimensionless Scaling Laws Across Physical Regimes",
-      "summary_es": "Se introduce AI Buckingham, un marco basado en agentes autónomos asistidos por modelos de lenguaje grande y herramientas numéricas para descubrir leyes físicas adimensionales a partir de datos observacionales. El sistema identifica automáticamente regímenes físicos y grupos adimensionales clave sin intervención humana directa. Esto abre la puerta a la automatización del descubrimiento científico en física y modelado de ingeniería.",
-      "problem_es": "El análisis dimensional clásico requiere intervención experta intensiva para determinar combinaciones físicas dominantes.",
-      "method_es": "Marco agéntico que combina razonamiento de LLMs, agrupación basada en gradientes y herramientas simbólicas.",
-      "takeaway_es": "Acelera el modelado físico y la formulación analítica en proyectos avanzados de ingeniería y ciencia de materiales.",
-      "url": "https://arxiv.org/abs/2611.33961v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.33961v1.pdf",
-      "source": "arXiv",
-      "paper_code": "arXiv:2611.33961v1",
-      "authors": [
-        "Ao Cheng",
-        "Lei Zhang",
-        "Guowei He"
-      ],
-      "published_at": "2026-11-25T08:24:47+00:00",
-      "categories": [
-        "ia"
-      ],
-      "primary_category": "ia",
-      "is_crossover": false,
-      "importance": 8,
-      "tags": [
-        "IA Agéntica",
-        "Modelado Físico",
-        "Análisis Dimensional",
-        "Razonamiento Automático"
-      ]
-    },
-    {
-      "id": "paper-eed16b0718",
-      "type": "paper",
-      "title_es": "Inteligencia artificial, desarrollo de nuevos productos y diseño: Hacia un marco para la adopción de la inteligencia artificial en la investigación de la innovación",
-      "original_title": "Artificial intelligence, new product development, and design: Towards a framework for artificial intelligence adoption in innovation research",
-      "summary_es": "A través de una revisión sistemática de más de mil artículos, este trabajo analiza cómo la inteligencia artificial está rediseñando los procesos de desarrollo de nuevos productos y las actividades de diseño. Se evidencia que la IA actúa como un facilitador clave para gestionar la complejidad y superar limitaciones metodológicas tradicionales en entornos de innovación. El estudio establece bases teóricas sólidas para entender el impacto transformador de las máquinas autónomas en la I+D.",
-      "problem_es": "Falta de claridad teórica sobre cómo la IA se integra y transforma los procesos tradicionales de innovación y diseño.",
-      "method_es": "Revisión sistemática de literatura combinando 67 artículos clave sobre IA, desarrollo de productos y diseño industrial.",
-      "takeaway_es": "Proporciona un marco conceptual para directivos y emprendedores que buscan integrar la IA en sus ciclos de innovación.",
-      "url": "https://doi.org/10.1111/ijmr.70044",
-      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ijmr.70044",
-      "source": "International Journal of Management Revi",
-      "paper_code": "DOI:10.1111/ijmr.70044",
-      "authors": [
-        "Beatrice D’Ippolito",
-        "Cristian Mejia",
-        "Yuya Kajikawa"
-      ],
-      "published_at": "2026-11-24T12:00:00+00:00",
-      "categories": [
         "ia",
         "emprendimiento"
       ],
@@ -857,122 +925,21 @@
       "is_crossover": true,
       "importance": 8,
       "tags": [
-        "Innovación",
-        "Desarrollo de Productos",
-        "Inteligencia Artificial",
-        "Gestión Tecnológica"
-      ]
-    },
-    {
-      "id": "paper-46e11fdab7",
-      "type": "paper",
-      "title_es": "Investigación de las propiedades mecánicas y el comportamiento de flujo de fusión de biocompuestos de PLA reciclado y agave impresos en 3D",
-      "original_title": "Investigating the mechanical properties and melt flow behavior of 3D-printed recycled PLA-agave biocomposites",
-      "summary_es": "El estudio aborda el reciclaje de residuos de ácido poliláctico (PLA) reforzándolos con concentraciones bajas de fibras naturales de Agave americana para mejorar sus propiedades de extrusión e impresión. Los biocompuestos fabricados demostraron una notable recuperación y mejora de la resistencia a la tracción y a la flexión con solo un 1% de carga de fibra. Representa una solución sostenible y técnica para la economía circular en la extrusión de filamentos poliméricos.",
-      "problem_es": "Los materiales plásticos reciclados para impresión 3D sufren degradación mecánica y peores propiedades de flujo.",
-      "method_es": "Fabricación de biocompuestos mediante extrusión añadiendo fibras de agave y caracterización mecánica, térmica y morfológica.",
-      "takeaway_es": "Facilita el uso de filamentos reciclados de altas prestaciones ecológicas y mecánicas para fabricación aditiva.",
-      "url": "https://doi.org/10.1007/s00289-026-06801-y",
-      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00289-026-06801-y.pdf",
-      "source": "Polymer Bulletin",
-      "paper_code": "DOI:10.1007/s00289-026-06801-y",
-      "authors": [
-        "Ferenc Palásti",
-        "Pál Hansághy",
-        "Péter Gerse",
-        "Erika Varga"
-      ],
-      "published_at": "2026-11-24T12:00:00+00:00",
-      "categories": [
-        "fdm"
-      ],
-      "primary_category": "fdm",
-      "is_crossover": false,
-      "importance": 8,
-      "tags": [
-        "Filamento Reciclado",
-        "Biocompuestos",
-        "PLA",
-        "Extrusión"
-      ]
-    },
-    {
-      "id": "paper-0ea85c1890",
-      "type": "paper",
-      "title_es": "Arcadian: Ecosistema humanoide de código abierto para investigación y educación accesible y personalizable",
-      "original_title": "Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education",
-      "summary_es": "Se propone el desarrollo de un robot humanoide a escala de un metro utilizando técnicas de impresión 3D con metal embebido para maximizar la durabilidad sin necesidad de costosos mecanizados CNC. El hardware se valida mediante políticas de aprendizaje por refuerzo entrenadas en simulación y transferidas con éxito al mundo real. Destaca por reducir la barrera de entrada económica y técnica en robótica educativa y de investigación.",
-      "problem_es": "Los humanoides de escala real son costosos y difíciles de fabricar para grupos con recursos limitados.",
-      "method_es": "Uso de impresión 3D avanzada con inserciones metálicas y validación mediante aprendizaje por refuerzo.",
-      "takeaway_es": "Demuestra cómo la fabricación aditiva democratiza el hardware robótico complejo y acelera el desarrollo de prototipos.",
-      "url": "https://arxiv.org/abs/2611.29868v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.29868v1.pdf",
-      "source": "arXiv",
-      "paper_code": "arXiv:2611.29868v1",
-      "authors": [
-        "Zelin Shen",
-        "Gabriel Ramos Salinas",
-        "Qiyu Zhang",
-        "Yue Qin"
-      ],
-      "published_at": "2026-11-23T00:57:53+00:00",
-      "categories": [
-        "fdm",
-        "ia"
-      ],
-      "primary_category": "fdm",
-      "is_crossover": true,
-      "importance": 8,
-      "tags": [
-        "FDM",
-        "Robótica",
-        "Impresión 3D de Metal",
-        "Hardware Abierto"
-      ]
-    },
-    {
-      "id": "paper-8fe03654d4",
-      "type": "paper",
-      "title_es": "Crea tu propia pila de trabajo: Despliegue de IA autohospedada y herramientas en una startup tecnológica",
-      "original_title": "Create Your Own Work Stack: Deploying Self-hosted AI and Tooling in a Tech Startup",
-      "summary_es": "Este artículo analiza la experiencia real de una startup de software al implementar una infraestructura de IA híbrida y autohospedada para reducir los elevados costes de las APIs comerciales. Los autores descubrieron que, aunque los modelos locales pequeños no reemplazan por completo a los agentes comerciales complejos, son muy eficaces para tareas rutinarias y recuperación de información. La estrategia híbrida logra optimizar el presupuesto tecnológico sin sacrificar la productividad.",
-      "problem_es": "El uso intensivo de agentes comerciales de IA genera costes mensuales insostenibles para una pequeña empresa.",
-      "method_es": "Despliegue de una arquitectura híbrida combinando agentes comerciales para tareas complejas y modelos locales de código abierto.",
-      "takeaway_es": "Ofrece una guía práctica de optimización de costes y soberanía de datos para startups tecnológicas que integran IA.",
-      "url": "https://arxiv.org/abs/2611.08116v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.08116v1.pdf",
-      "source": "arXiv",
-      "paper_code": "arXiv:2611.08116v1",
-      "authors": [
-        "Saad Ahmed Bazaz",
-        "Talha Amjad",
-        "Abdurrehman Subhani",
-        "Sohaib Ahmed Bazaz"
-      ],
-      "published_at": "2026-11-05T14:49:11+00:00",
-      "categories": [
-        "ia",
-        "emprendimiento"
-      ],
-      "primary_category": "emprendimiento",
-      "is_crossover": true,
-      "importance": 8,
-      "tags": [
+        "IA",
         "Emprendimiento Tecnológi",
-        "IA Autohospedada",
-        "Optimización de Costes",
-        "Startups"
+        "Machine Learning",
+        "Estrategia"
       ]
     },
     {
       "id": "paper-c0f83bb911",
       "type": "paper",
-      "title_es": "¿De qué startup se fía la IA? Una auditoría algorítmica de las señales de reputación y demografía en el micromecenazgo asistido por LLM",
+      "title_es": "¿De qué startup se fía la IA? Una auditoría algorítmica de señales de reputación y demografía en el micromecenazgo asistido por LLM",
       "original_title": "Whose startup does the AI back? An algorithm audit of reputation and demographic signals in LLM-assisted crowdfunding",
-      "summary_es": "Mediante un experimento a gran escala, este estudio examina si los modelos de lenguaje grande (LLMs) que asesoran a inversores reproducen o mitigan sesgos de género y etnia al evaluar campañas de micromecenazgo. Los resultados muestran que por defecto los modelos priorizan la calidad del proyecto, pero tienden a favorecer positivamente a creadores subrepresentados cuando se les indica explícitamente apoyar la diversidad. Aporta luz crítica sobre el uso de la IA en la toma de decisiones financieras para emprendedores.",
-      "problem_es": "Existe incertidumbre sobre si los asistentes de IA reproducen sesgos discriminatorios en la financiación de startups.",
-      "method_es": "Experimento conjunto basado en opciones con 40,248 respuestas utilizando múltiples modelos de lenguaje bajo diferentes perfiles.",
-      "takeaway_es": "Vital para entender la equidad algorítmica en plataformas de financiación de proyectos tecnológicos y emprendedores.",
+      "summary_es": "Los asistentes basados en grandes modelos de lenguaje aconsejan cada vez más a los inversores en campañas de micromecenazgo. Dado que los LLM arrastran sesgos históricos, este trabajo analiza experimentalmente si reproducen o mitigan la discriminación por género y origen étnico de los fundadores. Los resultados muestran que los sesgos varían según las directrices y las personas de los inversores simulados.",
+      "problem_es": "La posible presencia e impacto de sesgos algorítmicos basados en género y etnia en las recomendaciones de financiación para startups asistidas por IA.",
+      "method_es": "Un experimento de elección controlada con más de 40,000 respuestas evaluando múltiples LLM bajo diferentes perfiles de inversores.",
+      "takeaway_es": "Alerta a los fundadores y desarrolladores sobre los sesgos implícitos en las herramientas de IA utilizadas para la evaluación de financiación empresarial.",
       "url": "https://arxiv.org/abs/2611.03993v1",
       "pdf_url": "https://arxiv.org/pdf/2611.03993v1.pdf",
       "source": "arXiv",
@@ -990,31 +957,63 @@
       "is_crossover": true,
       "importance": 8,
       "tags": [
-        "Financiación",
-        "Sesgo Algorítmico",
-        "LLMs",
-        "Emprendimiento"
+        "IA",
+        "Emprendimiento Tecnológi",
+        "Ética",
+        "Modelos de Lenguaje"
       ]
     },
     {
-      "id": "paper-e7c17810ad",
+      "id": "paper-6ae1b8e87a",
       "type": "paper",
-      "title_es": "¿Cuánto sobre-editan los agentes de programación y por qué? Un estudio empírico de ediciones innecesarias en parches de agentes a nivel de repositorio",
-      "original_title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
-      "summary_es": "Se analiza exhaustivamente si los parches de código generados por agentes de inteligencia artificial contienen modificaciones redundantes en comparación con los desarrolladores humanos. Mediante una técnica de atribución de residuos, el estudio demuestra que, aunque los agentes modifican más líneas, la gran mayoría de estas ediciones corresponden a pruebas y documentación necesaria. Aporta claridad sobre la verdadera eficiencia y precisión de los asistentes de software autónomos.",
-      "problem_es": "Existe la percepción de que los agentes de programación generan parches sobredimensionados e innecesarios.",
-      "method_es": "Aplicación de atribución de residuos en miles de trayectorias de agentes y comparación directa con parches de desarrolladores humanos.",
-      "takeaway_es": "Valida la fiabilidad de los agentes de IA en desarrollo de software de nivel empresarial.",
-      "url": "https://arxiv.org/abs/2611.34875v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.34875v1.pdf",
-      "source": "arXiv",
-      "paper_code": "arXiv:2611.34875v1",
+      "title_es": "Una plataforma de medición de empuje y par para sistemas de propulsión de UAV de bajo costo",
+      "original_title": "A low-cost UAV propulsion thrust and torque measurement rig",
+      "summary_es": "Evaluar combinaciones de motores y hélices requiere bancos de prueba comerciales que suelen ser prohibitivos para la investigación. Este trabajo documenta el desarrollo iterativo de un banco de pruebas de bajo costo fabricado mediante prototipado rápido. Utiliza extrusión de aluminio e impresión 3D FFF para componentes de interfaz personalizados junto con celdas de carga y una interfaz gráfica propia.",
+      "problem_es": "El elevado costo de los equipos comerciales para medir coeficientes de empuje y par en motores de vehículos aéreos no tripulados.",
+      "method_es": "Diseño iterativo combinando perfiles de aluminio, celdas de carga y piezas impresas en 3D mediante fabricación por filamento fundido (FFF).",
+      "takeaway_es": "Proporciona una solución económica, replicable y de código abierto para laboratorios que desarrollan sistemas de propulsión para drones.",
+      "url": "https://doi.org/10.1051/matecconf/202642707002",
+      "pdf_url": "https://www.matec-conferences.org/articles/matecconf/pdf/2026/09/matecconf_rapdasa2026_07002.pdf",
+      "source": "MATEC Web of Conferences",
+      "paper_code": "DOI:10.1051/matecconf/202642707002",
       "authors": [
-        "Aakash Goel",
-        "Benjamin Steenhoek",
-        "Yu Hu"
+        "Michael Thomson",
+        "Arnold Pretorius"
       ],
-      "published_at": "2026-11-25T18:37:06+00:00",
+      "published_at": "2026-11-26T12:00:00+00:00",
+      "categories": [
+        "fdm"
+      ],
+      "primary_category": "fdm",
+      "is_crossover": false,
+      "importance": 7,
+      "tags": [
+        "FDM",
+        "Prototipado Rápido",
+        "Optimización",
+        "Hardware"
+      ]
+    },
+    {
+      "id": "paper-73b692961d",
+      "type": "paper",
+      "title_es": "μ-Bench: Evaluación del cumplimiento de tareas multiusuario en agentes de voz de interacción compartida",
+      "original_title": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
+      "summary_es": "Los agentes de voz ubicados en espacios compartidos deben atender peticiones simultáneas respetando la privacidad y las restricciones de múltiples usuarios. Para evaluar estas dinámicas complejas, introducen un banco de pruebas basado en interacciones dúplex completas con perfiles simulados. Permite medir con precisión el éxito conjunto de las tareas y aislar fallos de coordinación y uso de herramientas.",
+      "problem_es": "La falta de herramientas de evaluación rigurosas para medir el rendimiento de agentes de voz frente a solicitudes simultáneas y conflictivas de varios usuarios.",
+      "method_es": "Un banco de pruebas cerrado con participantes simulados distribuidos en escenarios dinámicos que evalúa límites de privacidad y éxito en la ejecución.",
+      "takeaway_es": "Proporciona métricas avanzadas para optimizar la interacción conversacional multiusuario en asistentes de voz inteligentes.",
+      "url": "https://arxiv.org/abs/2611.34920v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34920v1.pdf",
+      "source": "arXiv",
+      "paper_code": "arXiv:2611.34920v1",
+      "authors": [
+        "Qihao Lin",
+        "Guanxu Chen",
+        "Shuhang Zheng",
+        "Xiaoya Lu"
+      ],
+      "published_at": "2026-11-25T18:58:42+00:00",
       "categories": [
         "ia"
       ],
@@ -1022,43 +1021,43 @@
       "is_crossover": false,
       "importance": 7,
       "tags": [
-        "Agentes de Programación",
-        "Ingeniería de Software",
-        "Evaluación de IA",
-        "Desarrollo de Código"
+        "IA",
+        "Agentes de Voz",
+        "Evaluación",
+        "Interacción"
       ]
     },
     {
-      "id": "paper-3d0134571d",
+      "id": "paper-12c9bcf4e3",
       "type": "paper",
-      "title_es": "El giro hacia la forma: Rediseño de la pedagogía emprendedora en la era digital",
-      "original_title": "The shift to shape: re-designing entrepreneurial pedagogy in the digital age",
-      "summary_es": "Esta investigación cualitativa explora cómo la inteligencia artificial generativa y las herramientas digitales están transformando el rol de los docentes y la enseñanza del emprendimiento en la educación superior. Los hallazgos indican que la figura del profesor se desplaza hacia un facilitador del equilibrio humano-digital, acelerando la progresión de los estudiantes hacia la creación real de empresas. El estudio redefine los métodos pedagógicos para preparar mejor a los fundadores del futuro.",
-      "problem_es": "Las metodologías educativas tradicionales en emprendimiento no están adaptadas al impacto de la IA generativa.",
-      "method_es": "Estudio exploratorio con entrevistas semiestructuradas a profesores experimentados de Europa y Sudáfrica analizadas mediante temáticas.",
-      "takeaway_es": "Ayuda a repassar los programas de formación en emprendimiento para aprovechar al máximo las herramientas de IA.",
-      "url": "https://doi.org/10.1108/et-07-2026-1013",
-      "pdf_url": "https://www.emerald.com/et/article-pdf/68/10/327/12001915/et-07-2026-1013en.pdf",
-      "source": "Education + Training",
-      "paper_code": "DOI:10.1108/et-07-2026-1013",
+      "title_es": "DRBench Pro: Un banco de pruebas centrado en el conocimiento para agentes de investigación profunda profesional",
+      "original_title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+      "summary_es": "Los agentes de investigación profunda recopilan información de múltiples fuentes para sintetizar informes sobre temas complejos y abiertos. Sin embargo, carecían de evaluaciones rigurosas enfocadas en la profundidad y amplitud de la cobertura del conocimiento. Este trabajo introduce DRBench Pro, que utiliza árboles de conocimiento locales de Wikipedia para generar consultas estructuradas y rúbricas de evaluación basadas en evidencias.",
+      "problem_es": "La ausencia de métricas estandarizadas para evaluar la profundidad y cobertura de conocimiento en agentes autónomos de investigación.",
+      "method_es": "Construcción automatizada de árboles de conocimiento locales y subgrafos de prueba para evaluar la amplitud y profundidad de los informes generados.",
+      "takeaway_es": "Establece un estándar metodológico para evaluar y mejorar el razonamiento y la síntesis de información en agentes autónomos complejos.",
+      "url": "https://arxiv.org/abs/2611.34852v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34852v1.pdf",
+      "source": "arXiv",
+      "paper_code": "arXiv:2611.34852v1",
       "authors": [
-        "Thea Judith Tselepis",
-        "Chris Schachtebeck",
-        "Natanya Meyer"
+        "Han Huang",
+        "Yuchen Yan",
+        "Xingyu Wu",
+        "Yijun Li"
       ],
-      "published_at": "2026-11-24T12:00:00+00:00",
+      "published_at": "2026-11-25T18:25:30+00:00",
       "categories": [
-        "ia",
-        "emprendimiento"
+        "ia"
       ],
-      "primary_category": "emprendimiento",
-      "is_crossover": true,
+      "primary_category": "ia",
+      "is_crossover": false,
       "importance": 7,
       "tags": [
-        "Emprendimiento",
-        "Educación",
-        "IA Generativa",
-        "Pedagogía Digital"
+        "IA",
+        "Agentes",
+        "Evaluación",
+        "Razonamiento"
       ]
     }
   ],
