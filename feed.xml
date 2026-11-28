@@ -5,126 +5,126 @@
     <link>https://antoniojose81.github.io/vector-84/</link>
     <description>Noticias curadas en español y papers científicos descargables sobre Inteligencia Artificial, Impresión 3D por extrusión de filamento (FDM/FFF) y Emprendimiento.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 27 Nov 2026 22:54:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 02:02:38 +0000</lastBuildDate>
     <item>
-      <title>[FDM] Lanzamiento del escáner 3D portátil MIRACO 2 en Kickstarter</title>
-      <link>https://www.voxelmatters.com/miraco-2-portable-3d-scanner-launches-on-kickstarter/</link>
-      <guid isPermaLink="false">news-90eff8b716</guid>
-      <description>Revopoint ha lanzado en Kickstarter su nuevo escáner 3D todo en uno, el MIRACO 2, diseñado para capturas de alta precisión. Incorpora los nuevos agentes Revo Agents impulsados por IA, posicionándose como la primera solución de realidad tridimensional asistida por agentes.</description>
-    </item>
-    <item>
-      <title>[FDM] SINTX finaliza su planta de impresión 3D para implantes médicos personalizados de PEEK y nitruro de silicio</title>
+      <title>[FDM] SINTX inaugura una planta de impresión 3D para implantes médicos personalizados de nitruro de silicio y PEEK</title>
       <link>https://3dprintingindustry.com/news/sintx-completes-3d-printing-facility-for-patient-specific-silicon-nitride-peek-implants-257435/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sintx-completes-3d-printing-facility-for-patient-specific-silicon-nitride-peek-implants</link>
       <guid isPermaLink="false">news-70d7162d0f</guid>
-      <description>SINTX Technologies ha completado sus nuevas instalaciones de fabricación aditiva tras recibir impresoras EXT-220 MED. La empresa fabricará implantes ortopédicos personalizados combinando nitruro de silicio y PEEK.</description>
+      <description>SINTX Technologies ha completado sus nuevas instalaciones de fabricación aditiva dotadas de impresoras médicas EXT-220 MED para producir prótesis ortopédicas a medida.</description>
     </item>
     <item>
-      <title>[FDM] Snapmaker U1: Impresión multicolor CoreXY con cambio de cabezal sin purgas por menos de 900 dólares</title>
+      <title>[FDM] Eplus3D lanza la impresora 3D metálica EP-M550L con 16 láseres y automatización completa</title>
+      <link>https://3dprintingindustry.com/news/eplus3d-launches-16-laser-ep-m550l-metal-3d-printer-technical-specifications-and-pricing-257445/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=eplus3d-launches-16-laser-ep-m550l-metal-3d-printer-technical-specifications-and-pricing</link>
+      <guid isPermaLink="false">news-43534ed67d</guid>
+      <description>El fabricante Eplus3D ha presentado un sistema de fusión de lecho de polvo con 16 láseres simultáneos sobre un volumen de 550 x 550 mm orientado a la producción industrial en masa.</description>
+    </item>
+    <item>
+      <title>[FDM] Horizon Microtechnologies busca componentes espaciales para su tecnología de impresión 3D metalizada</title>
+      <link>https://3dprintingindustry.com/news/horizon-microtechnologies-seeks-satellite-parts-for-metallized-3d-printing-257453/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=horizon-microtechnologies-seeks-satellite-parts-for-metallized-3d-printing</link>
+      <guid isPermaLink="false">news-08fdebae4c</guid>
+      <description>La compañía impulsa el proyecto IP-MASS junto a la ESA para fabricar piezas poliméricas impresas en 3D con revestimiento metálico destinadas a constelaciones de satélites.</description>
+    </item>
+    <item>
+      <title>[FDM] Un robot blando y ultrarrápido que funciona sin electrónica y se imprime de una sola pieza</title>
+      <link>https://www.3dnatives.com/en/3d-printed-robot-uc-san-diego-27112026/</link>
+      <guid isPermaLink="false">news-aab55a11c2</guid>
+      <description>Investigadores de la Universidad de California en San Diego han publicado un proyecto en Science Robotics sobre un robot blando impreso en 3D que funciona totalmente mediante aire comprimido sin necesidad de componentes electrónicos.</description>
+    </item>
+    <item>
+      <title>[FDM] Snapmaker U1: impresión multiextrusión con cambio de cabezal sin purgas por menos de 900 dólares</title>
       <link>https://3dprintingindustry.com/news/snapmaker-u1-brings-purge-free-four-toolhead-printing-to-the-desktop-for-under-900-257284/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=snapmaker-u1-brings-purge-free-four-toolhead-printing-to-the-desktop-for-under-900</link>
       <guid isPermaLink="false">news-2e7d4a516c</guid>
-      <description>Analizamos la Snapmaker U1, una impresora FFF con arquitectura CoreXY que cambia de hotend completo en lugar de purgar filamento por una única boquilla. Su precio democratiza tecnologías de cambio de herramienta antes reservadas a entornos profesionales.</description>
+      <description>Se ha analizado la Snapmaker U1, una impresora CoreXY FFF de cuatro cabezales intercambiables que evita el desperdicio de filamento al cambiar de hotend en lugar de purgar por una sola boquilla.</description>
     </item>
     <item>
-      <title>[FDM] WAAM3D actualiza su sistema MiniWAAM incorporando alimentación de doble hilo de serie</title>
-      <link>https://3dprintingindustry.com/news/waam3d-upgrades-miniwaam-with-dual-wire-feeding-as-standard-for-multi-material-metal-parts-257404/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=waam3d-upgrades-miniwaam-with-dual-wire-feeding-as-standard-for-multi-material-metal-parts</link>
-      <guid isPermaLink="false">news-028462410a</guid>
-      <description>WAAM3D ha actualizado su plataforma MiniWAAM de fabricación aditiva por arco de alambre (WAAM), haciendo que la doble alimentación de hilo sea un estándar para aleaciones metálicas complejas.</description>
-    </item>
-    <item>
-      <title>[FDM] Estabilización de materiales con gradiente funcional impresos en 3D mediante procesamiento digital de luz en escala de grises mediante depuración de radicales</title>
+      <title>[FDM] Estabilización de materiales con gradiente funcional impresos en 3D mediante procesamiento digital de luz en escala de grises y tratamiento de eliminación de radicales</title>
       <link>https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/admt.71487</link>
       <guid isPermaLink="false">paper-5de9cb55a7</guid>
-      <description>El procesamiento digital de luz en escala de grises permite fabricar materiales funcionalmente graduados, pero las regiones de baja conversión siguen siendo químicamente reactivas. Se introduce un tratamiento posterior con depuradores de radicales para suprimir la polimerización indeseada sin alterar la formulación de la resina.</description>
-    </item>
-    <item>
-      <title>[FDM] Una plataforma de bajo coste para la medición de empuje y par en propulsores de vehículos aéreos no tripulados</title>
-      <link>https://www.matec-conferences.org/articles/matecconf/pdf/2026/09/matecconf_rapdasa2026_07002.pdf</link>
-      <guid isPermaLink="false">paper-6ae1b8e87a</guid>
-      <description>Las plataformas comerciales de prueba de propulsión para drones suelen ser prohibitivas para la investigación académica. Este trabajo documenta el desarrollo iterativo de una bancada de pruebas de doble canal fabricada mediante extrusión de aluminio y piezas impresas en 3D.</description>
+      <description>El procesamiento digital de luz en escala de grises (g-DLP) permite fabricar materiales con gradiente funcional a partir de una única resina. Sin embargo, las regiones de baja conversión siguen siendo reactivas y propensas a polimerizarse tras la impresión. Para solucionar esto, se introduce un tratamiento posterior con eliminadores de radicales mediante difusión asistida por disolvente, logrando estabilizar las propiedades mecánicas sin modificar la formulación inicial.</description>
     </item>
     <item>
       <title>[FDM] Propiedades mecánicas, de absorción de agua y morfológicas de compuestos de acrilonitrilo butadieno estireno reforzados con fibra de carbono corta modificada con ácido nítrico</title>
       <link>https://www.researchsquare.com/article/rs-11796758/latest.pdf</link>
       <guid isPermaLink="false">paper-70f53296df</guid>
-      <description>Los compuestos termoplásticos reforzados con fibra de carbono son atractivos para estructuras ligeras, pero sufren degradación en ambientes húmedos. Se evalúa el efecto de modificar la fibra con ácido nítrico antes de su procesamiento por extrusión y moldeo.</description>
+      <description>Los compuestos termoplásticos reforzados con fibra de carbono son atractivos para estructuras ligeras, pero su rendimiento decae en ambientes húmedos. Al oxidar la fibra de carbono corta en ácido nítrico e integrarla en matrices de ABS mediante extrusión y micromoldeo, se mejoran notablemente la resistencia a la tracción y al impacto sin comprometer gravemente la ductilidad en proporciones óptimas.</description>
     </item>
     <item>
-      <title>[IA] Arquitecturas de enjambre: cómo construir, entrenar y evaluar sistemas multi-agente de IA</title>
+      <title>[IA] Cómo construir, entrenar y evaluar sistemas multiagente de inteligencia artificial</title>
       <link>https://huggingface.co/blog/training-swarms</link>
       <guid isPermaLink="false">news-c01600d416</guid>
-      <description>Hugging Face ha publicado una guía exhaustiva sobre el diseño y despliegue de arquitecturas de múltiples agentes de IA. El artículo detalla metodologías para coordinar modelos y evaluar su rendimiento conjunto.</description>
+      <description>Un análisis profundo publicado en Hugging Face detalla las arquitecturas actuales para coordinar redes de agentes autónomos cooperativos en entornos complejos.</description>
     </item>
     <item>
-      <title>[EMPRENDIMIENTO] SnowX expande su impresora 3D de metal de escritorio con alianzas en Autodesk y Meshy AI</title>
+      <title>[FDM] SnowX presenta la impresora SnowPod y se alía con Autodesk y Meshy AI para llevar el metal más allá de la fábrica</title>
       <link>https://www.3dnatives.com/en/snowpod-formnext-2026-23112026/</link>
       <guid isPermaLink="false">news-d7f50b55b9</guid>
-      <description>La startup SnowX ha presentado en Formnext 2026 los avances de su impresora SnowPod de metal para escritorio. Además, ha anunciado colaboraciones estratégicas con Autodesk y Meshy AI para simplificar el flujo de diseño.</description>
+      <description>En la feria Formnext 2026, la startup SnowX ha mostrado su impresora 3D metálica de escritorio SnowPod, anunciando colaboraciones estratégicas con Autodesk y Meshy AI.</description>
     </item>
     <item>
-      <title>[IA] Diversas trazas de razonamiento alternativo para problemas matemáticos complejos</title>
-      <link>https://arxiv.org/pdf/2611.34928v1.pdf</link>
-      <guid isPermaLink="false">paper-5c2d7cee03</guid>
-      <description>El entrenamiento posterior de modelos de lenguaje para razonamiento matemático depende de trazas exitosas que son extremadamente raras en problemas difíciles. Se propone DART, un método de minería de trazas que descompone soluciones rechazadas para generar alternativas guiadas altamente eficientes.</description>
-    </item>
-    <item>
-      <title>[IA] Límites éticos y técnicos: dónde trazan los científicos la raya en el uso de agentes de IA</title>
-      <link>https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents</link>
-      <guid isPermaLink="false">news-37b5c9ba93</guid>
-      <description>Un análisis profundo sobre las limitaciones actuales de los agentes autónomos de inteligencia artificial en entornos de investigación científica y toma de decisiones críticas.</description>
+      <title>[IA] ¿Cuánto sobre-editan los agentes de programación y por qué? Un estudio empírico de ediciones innecesarias en parches de agentes a nivel de repositorio</title>
+      <link>https://arxiv.org/pdf/2611.34875v1.pdf</link>
+      <guid isPermaLink="false">paper-e7c17810ad</guid>
+      <description>Se suele asumir que los parches de código generados por agentes de IA son excesivos en comparación con los de humanos. Aplicando un método de atribución de residuos delta a miles de trayectorias, este estudio demuestra que la mayoría de los cambios adicionales introducidos por los agentes corresponden a documentación y pruebas necesarias.</description>
     </item>
     <item>
       <title>[IA] RePace: Razonamiento sobre la aceleración de demostraciones para políticas de visión-lenguaje-acción más rápidas</title>
       <link>https://arxiv.org/pdf/2611.34864v1.pdf</link>
       <guid isPermaLink="false">paper-3f52ae9fc3</guid>
-      <description>Las políticas de visión-lenguaje-acción suelen heredar la lentitud de las demostraciones humanas originales. Este trabajo presenta RePace, un marco de razonamiento offline que determina dinámicamente el factor de velocidad óptimo para cada segmento de una demostración sin requerir módulos extra en despliegue.</description>
+      <description>Las políticas de visión-lenguaje-acción (VLA) heredan la lentitud propia de las demostraciones humanas. Para solucionar esto sin añadir módulos complejos de control en tiempo de ejecución, RePace emplea un modelo de lenguaje preentrenado para razonar y determinar de forma offline qué tramos de una demostración pueden acelerarse según el nivel de precisión requerido.</description>
     </item>
     <item>
-      <title>[EMPRENDIMIENTO] Fiscales generales de EE. UU. desafían la subasta de chats privados de usuarios en la bancarrota de Character.AI</title>
+      <title>[EMPRENDIMIENTO] Fiscales estatales cuestionan la subasta de chats privados de usuarios tras la quiebra de Character.AI</title>
       <link>https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/</link>
       <guid isPermaLink="false">news-16ddaf7683</guid>
-      <description>Varios estados han presentado objeciones legales contra el plan de liquidación por bancarrota de Character.ai, el cual incluía la venta de historiales de chat privados de millones de usuarios, incluidos menores.</description>
+      <description>Varios fiscales generales de EE. UU. han intervenido para bloquear la venta de datos personales de más de 21 millones de cuentas derivada del proceso de bancarrota de Character.AI.</description>
     </item>
     <item>
-      <title>[EMPRENDIMIENTO] Los centros de datos de IA se enfrentan a crecientes problemas de construcción y financiación</title>
+      <title>[EMPRENDIMIENTO] La construcción de centros de datos para IA se encarece ante la escasez de energía y suelo</title>
       <link>https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/</link>
       <guid isPermaLink="false">news-b47f021e12</guid>
-      <description>NVIDIA ha endurecido sus condiciones de respaldo para nuevos centros de datos de IA, coincidiendo con retrasos en obras y costes de deuda más elevados para los operadores de nubes alternativas.</description>
+      <description>Nvidia y los proveedores de infraestructura en la nube (&#x27;neoclouds&#x27;) se enfrentan a retrasos y costes de financiación más elevados debido a la dificultad de asegurar energía y terrenos.</description>
     </item>
     <item>
-      <title>[EMPRENDIMIENTO] Emprendimiento impulsado por IA: Revisión crítica de evidencia y marco unificado de aprendizaje automático explicable para la predicción de crecimiento en pequeñas empresas</title>
+      <title>[EMPRENDIMIENTO] Emprendimiento impulsado por IA: Revisión crítica de evidencias y marco unificado de aprendizaje automático explicable para la predicción del crecimiento de pequeñas empresas</title>
       <link>https://carijournals.org/journals/JBSM/article/download/4135/4734</link>
       <guid isPermaLink="false">paper-55651a29f6</guid>
-      <description>La analítica predictiva y la inteligencia artificial transforman la evaluación del rendimiento empresarial, pero la literatura está fragmentada. Este estudio sintetiza la investigación previa y propone un marco explicable unificado para apoyar la toma de decisiones estratégicas en PYMEs.</description>
+      <description>La inteligencia artificial está transformando la evaluación del rendimiento empresarial, aunque la literatura previa se mantiene fragmentada. Este estudio sintetiza más de 900 registros bibliográficos y propone un marco unificado de machine learning explicable orientado a la predicción del crecimiento y la toma de decisiones estratégicas en pymes.</description>
     </item>
     <item>
-      <title>[FDM] INTAMSYS presenta la Funmat Pro 610HT Neo para agilizar la impresión industrial de PEEK</title>
-      <link>https://www.3dnatives.com/en/intamsys-neo-peek-formnext-25112026/</link>
-      <guid isPermaLink="false">news-c59025245f</guid>
-      <description>INTAMSYS ha mostrado su nueva impresora enfocada en polímeros de altas prestaciones como el PEEK. Incorpora extrusores capaces de alcanzar los 500°C y cámara calefactada para simplificar la producción de piezas técnicas complejas.</description>
-    </item>
-    <item>
-      <title>[IA] AI Buckingham: Descubrimiento agéntico de leyes de escala adimensionales a través de regímenes físicos</title>
+      <title>[IA] AI Buckingham: Descubrimiento agéntico de leyes de escala adimensionales en todos los regímenes físicos</title>
       <link>https://arxiv.org/pdf/2611.33961v1.pdf</link>
       <guid isPermaLink="false">paper-0a026389a9</guid>
-      <description>El análisis dimensional clásico no determina qué combinaciones capturan la física dominante en distintos regímenes. Se presenta AI Buckingham, un marco agéntico que automatiza el descubrimiento de leyes de escala adimensionales a partir de descripciones en lenguaje natural y datos.</description>
+      <description>El análisis dimensional clásico carece de métodos automatizados para determinar qué combinaciones de variables capturan la física dominante en distintos regímenes. Se presenta AI Buckingham, un marco basado en agentes que combina modelos de lenguaje grande con herramientas simbólicas y numéricas para descubrir autónomamente grupos adimensionales a partir de datos observacionales.</description>
     </item>
     <item>
       <title>[EMPRENDIMIENTO] Maple levanta 5,3 millones de dólares para desarrollar IA con arquitectura cifrada de extremo a extremo</title>
       <link>https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/</link>
       <guid isPermaLink="false">news-724878a26e</guid>
-      <description>La startup Maple ha cerrado una ronda de financiación para impulsar su infraestructura de inteligencia artificial con cifrado avanzado, diseñada para impedir que incluso la propia empresa acceda a los datos del usuario.</description>
+      <description>La startup ha asegurado financiación para crear productos de inteligencia artificial diseñados mediante cifrado avanzado para que ni siquiera la propia empresa pueda acceder a los datos del usuario.</description>
     </item>
     <item>
-      <title>[IA] DED-Agent: Un método de IA agéntica para el desarrollo y calibración autónoma de simulaciones térmicas en deposición energética dirigida por láser</title>
+      <title>[EMPRENDIMIENTO] Las acciones de Anthropic caen por debajo del precio de salida a bolsa, un aviso para las valoraciones de IA</title>
+      <link>https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/</link>
+      <guid isPermaLink="false">news-754f867302</guid>
+      <description>El descenso bursátil de Anthropic tras su salida a bolsa refleja la presión del mercado y las dudas sobre la rentabilidad a corto plazo de los gigantes de la inteligencia artificial.</description>
+    </item>
+    <item>
+      <title>[IA] DED-Agent: Un método de IA agéntica para el desarrollo y calibración autónoma de modelos de simulación térmica en fabricación aditiva por energía dirigida por láser</title>
       <link>https://arxiv.org/pdf/2611.32822v1.pdf</link>
       <guid isPermaLink="false">paper-3adda7bd8c</guid>
-      <description>La configuración y calibración manual de modelos de elementos finitos térmicos en fabricación aditiva metálica requiere semanas de esfuerzo experto. Se presenta DED-Agent, un sistema multiagente que automatiza la especificación, ejecución y calibración de simulaciones térmicas complejas.</description>
+      <description>En la fabricación aditiva de metales, configurar y calibrar modelos de elementos finitos térmicos requiere una intensa intervención experta. Este estudio presenta DED-Agent, un marco multi-agente autónomo capaz de interpretar solicitudes en lenguaje natural, construir especificaciones de simulación y ejecutar herramientas de código abierto para automatizar este proceso crítico.</description>
+    </item>
+    <item>
+      <title>[EMPRENDIMIENTO] Supertake recauda 20 millones para que agentes de IA conviertan predicciones de mercado en carteras de inversión</title>
+      <link>https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/</link>
+      <guid isPermaLink="false">news-0d63fb1e6c</guid>
+      <description>La startup Supertake utiliza agentes autónomos para traducir perspectivas económicas de los usuarios en carteras de valores gestionadas de forma automatizada.</description>
     </item>
     <item>
       <title>[FDM] Arcadian: Ecosistema humanoide de código abierto para investigación y educación accesible y personalizable</title>
       <link>https://arxiv.org/pdf/2611.29868v1.pdf</link>
       <guid isPermaLink="false">paper-0ea85c1890</guid>
-      <description>Reproducir robots humanoides de escala métrica es costoso y complejo debido a las limitaciones de fabricación. Arcadian propone un diseño accesible que integra impresión 3D reforzada con metal para lograr alta durabilidad sin requerir mecanizado CNC tradicional.</description>
+      <description>Desarrollar robots humanoides de escala métrica suele ser prohibitivo debido a los elevados costos de fabricación y mecanizado. Arcadian propone un ecosistema de hardware y software basado en impresión 3D con inserción metálica, logrando un excelente equilibrio entre durabilidad, bajo costo y flexibilidad de diseño para entornos educativos y de investigación.</description>
     </item>
   </channel>
 </rss>
